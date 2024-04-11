@@ -119,19 +119,23 @@ The "HBISS Seminar Series" link leads to the Horizons in Biosciences & Informati
 
 ####
 
-### [Analysis Working Groups (AWG)](https://osdr.nasa.gov/bio/awg/about.html)
+### [Working Groups ](https://osdr.nasa.gov/bio/awg/about.html)
 
-The AWG dropdown menu in GeneLab serves as a comprehensive resource for users to explore and engage with the organization's Applied Working Groups (AWGs). Through this menu, users can access various pages that provide information related to the AWGs.
+The Working Group dropdown menu in OSDR serve as a comprehensive resource for users to explore and engage with the organization's Applied Working Groups (AWGs). Through this menu, users can access various pages that provide information related to the AWGs.
 
 <figure><img src=".gitbook/assets/11.png" alt="The image displays the NASA logo, which is a red, white, and blue meatball design. Below the logo is the text &#x22;Open Science for Life in Space&#x22;. To the right of the text is the website&#x27;s navigation menu the &#x22;Working Groups&#x22; option has been selected revealing subpages “AWG”, “About”, “Charter”, “How to join” and “Current AWG Members”, “SOLSTICE” the “SOLSTICE members”"><figcaption><p>Come join one of our analysis working groups.</p></figcaption></figure>
 
-[**About AWG(s)**](https://osdr.nasa.gov/bio/awg/about.html)**:** This page offers an overview of GeneLab's AWGs, explaining their purpose, goals, and activities. It highlights how AWGs bring together experts, researchers, and community members to collaborate on specific scientific projects and initiatives.
+[**AWG(s)**](https://osdr.nasa.gov/bio/awg/about.html)**:  Analysis Working Group(s)**
+
+[**About**](https://osdr.nasa.gov/bio/awg/about.html)**:** This page offers an overview of GeneLab's AWGs, explaining their purpose, goals, and activities. It highlights how AWGs bring together experts, researchers, and community members to collaborate on specific scientific projects and initiatives.
 
 [**Charter:**](https://osdr.nasa.gov/bio/awg/charter.html) Here, users can access the formal charter documents for each AWG. The charters outline the AWG's mission, objectives, scope of work, and governance structure. They provide a framework for the AWG's activities and ensure alignment with GeneLab's overall strategic goals.
 
 [**How to Join:**](https://osdr.nasa.gov/bio/awg/join.html) This section guides how individuals can become members of an AWG. It outlines the eligibility criteria, application process, and selection procedures. Interested individuals can learn about the requirements and steps involved in joining an AWG.
 
 [**Current AWG Members:**](https://osdr.nasa.gov/bio/awg/awg-members.html) This page lists the current members of each AWG. It includes the names, affiliations, and brief bios of the individuals involved. Users can explore the expertise and backgrounds of the AWG members, providing insights into the diversity and strength of GeneLab's collaborative network.
+
+Citizen science:
 
 [**SOLSTICE Project Goals:**](https://osdr.nasa.gov/bio/awg/solstice.html) Under the citizen science dropdown menu, users can find a description of the SOLSTICE project goals. SOLSTICE (Space Open Life Science Team for International Collaborative Exploration) is a citizen science project that engages the public in scientific research. This page outlines the project's objectives, research questions, and anticipated outcomes.
 
