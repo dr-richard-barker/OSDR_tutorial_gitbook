@@ -39,7 +39,7 @@ Welcome to our homepage! Here's what you'll find:
 
 #### &#x20;<a href="#shydp3pnfubk" id="shydp3pnfubk"></a>
 
-### [About](https://genelab.nasa.gov/about)
+## [About](https://genelab.nasa.gov/about)
 
 **About:** The "About" drop-down menu from the OSDR home page provides information about OSDR groups and resources. Here's a detailed overview of what you can explore:
 
@@ -61,7 +61,7 @@ Welcome to our homepage! Here's what you'll find:
 
 ### &#x20;<a href="#c1rmyihewqk5" id="c1rmyihewqk5"></a>
 
-### Data & Tools <a href="#c1rmyihewqk5" id="c1rmyihewqk5"></a>
+## Data & Tools <a href="#c1rmyihewqk5" id="c1rmyihewqk5"></a>
 
 **Data & Tools:** The "data & tools" drop-down menu provides information about OSDR data and tools. Here's a detailed overview of what you can explore:
 
@@ -85,7 +85,7 @@ Welcome to our homepage! Here's what you'll find:
 
 ### &#x20;<a href="#th7npdw6jr01" id="th7npdw6jr01"></a>
 
-### Research & Resources <a href="#th7npdw6jr01" id="th7npdw6jr01"></a>
+## Research & Resources <a href="#th7npdw6jr01" id="th7npdw6jr01"></a>
 
 The "Research & Resources" section provides access to information on open science, artificial intelligence, and life in space. Here's an expanded elaboration of each subsection:
 
@@ -119,7 +119,7 @@ The "HBISS Seminar Series" link leads to the Horizons in Biosciences & Informati
 
 ####
 
-### [Working Groups ](https://osdr.nasa.gov/bio/awg/about.html)
+## [Working Groups ](https://osdr.nasa.gov/bio/awg/about.html)
 
 The Working Group dropdown menu in OSDR serve as a comprehensive resource for users to explore and engage with the organization's Applied Working Groups (AWGs). Through this menu, users can access various pages that provide information related to the AWGs.
 
@@ -143,7 +143,7 @@ Citizen science:
 
 #### &#x20;<a href="#id-564cno4mscup" id="id-564cno4mscup"></a>
 
-### Help <a href="#lp2etw388rfz" id="lp2etw388rfz"></a>
+## Help <a href="#lp2etw388rfz" id="lp2etw388rfz"></a>
 
 **Open Science Data Repository (OSDR) offers a comprehensive collection of resources to assist users with various inquiries, policies, learning materials, and communication channels.**&#x20;
 
