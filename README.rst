@@ -1,9 +1,7 @@
-Template for the Read the Docs tutorial
+Open Science Data Repository tutorial 
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This github repo contains a tutorial about how to use the OSDR cyber infrastructure. 
 
-Read the tutorial here:
+Read the tutorial here.
 
-https://docs.readthedocs.io/en/stable/tutorial/
