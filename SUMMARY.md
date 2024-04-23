@@ -14,3 +14,6 @@
 * [OSDR Public API](osdr-public-api.md)
 * [Metadata visualisation tool example made using API](metadata-visualisation-tool-example-made-using-api.md)
 * [NASA Biological Institutional Scientific Collection (NBISC)](nasa-biological-institutional-scientific-collection-nbisc.md)
+* [OSDR Metadata Curation Guidelines Summary](osdr-metadata-curation-guidelines-summary.md)
+* [Plant metadata guide 2](plant-metadata-guide-2.md)
+* [Plant metadata guide 3](plant-metadata-guide-3.md)
