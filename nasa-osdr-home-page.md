@@ -19,7 +19,7 @@ Welcome to our homepage! Here's what you'll find:
 * **Research Opportunities**: Get involved in ongoing research.
 * **Open-Access Projects**: Access our recent projects freely.
 
-<figure><img src=".gitbook/assets/image (1).png" alt="" width="563"><figcaption><p>The OSDR home page content. A - Navigation menu. B - Data Repository. C - Submission Portal. D - Latest News.  E - Latest Datasets. F - Open Science Projects.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt="" width="563"><figcaption><p>The OSDR home page content. A - Navigation menu. B - Data Repository. C - Submission Portal. D - Latest News.  E - Latest Datasets. F - Open Science Projects.</p></figcaption></figure>
 
 
 
