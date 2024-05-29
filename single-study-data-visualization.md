@@ -14,7 +14,15 @@ Alternatively, if you’ve identified a study of interest in the OSDA and it has
 
 <figure><img src=".gitbook/assets/Slide21.png" alt="Example showing the OSD page for accession # 37. The page presents a description of the experiment and related metadata. https://osdr.nasa.gov/bio/repo/data/studies/OSD-37."><figcaption><p><em>Example showing the OSD page for accession # 37. The page presents a description of the experiment and related metadata.</em> <a href="https://osdr.nasa.gov/bio/repo/data/studies/OSD-37">https://osdr.nasa.gov/bio/repo/data/studies/OSD-37</a>.</p></figcaption></figure>
 
-### &#x20;<a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
+
+
+
+
+
+
+
+
+
 
 ### Single Study Visualization Navigation bar <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
 
