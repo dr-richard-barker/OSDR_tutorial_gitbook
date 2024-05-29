@@ -18,4 +18,4 @@
 * [Metadata visualisation tool example made using API](metadata-visualisation-tool-example-made-using-api.md)
 * [NASA Biological Institutional Scientific Collection (NBISC)](nasa-biological-institutional-scientific-collection-nbisc.md)
 * [OSDR Metadata Curation Guidelines Summary](osdr-metadata-curation-guidelines-summary.md)
-* [AWG.osdr.space tutorial](awg.osdr.space-tutorial.md)
+* [AWG OSDR space tutorial](awg-osdr-space-tutorial.md)
