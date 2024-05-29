@@ -1,32 +1,122 @@
----
-description: Launching the single-study data visualization
----
-
-# Single Study Data Visualization
+# Navigating a Single Study In the OSDR
 
 Alternatively, if you’ve identified a study of interest in the OSDA and it has processed data available then you can view it with the OSDR single study data Visualization either by launching it from the OSDR accession’s ”Visualization” button or by replacing the \* wildcards in this website URL ([https://visualization.genelab.nasa.gov/data/OSD-\*\*\*](https://visualization.genelab.nasa.gov/data/OSD-\*\*\*)) with the accession number of interest.
 
 *   After assessing the title, study descriptions and any related research paper you can use the data visualization application to learn more about some of the quantitative patterns within the data.
 
-    * **Single study** [**example OSD-37:**](https://visualization.genelab.nasa.gov/data/OSD-37) If you’ve already navigated to a study of interest by searching through the study metadata you can launch the visualization menu using the visualization tab on the left menu.&#x20;
+    * **Single study:** Navigate to a study of interest by searching through the study metadata you can launch the visualization menu using the visualization tab on the left menu.&#x20;
 
 
 
-<figure><img src=".gitbook/assets/Slide21.png" alt="Example showing the OSD page for accession # 37. The page presents a description of the experiment and related metadata. https://osdr.nasa.gov/bio/repo/data/studies/OSD-37."><figcaption><p><em>Example showing the OSD page for accession # 37. The page presents a description of the experiment and related metadata.</em> <a href="https://osdr.nasa.gov/bio/repo/data/studies/OSD-37">https://osdr.nasa.gov/bio/repo/data/studies/OSD-37</a>.</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (40).png" alt=""><figcaption><p>Screenshot showing an example study from the OSDR.</p></figcaption></figure>
+
+### **Navigation panel** <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
+
+To the left of the screen is the navigation panel, this allows users to assess all the different sections of the repository and then go directly to the information they are looking for.
+
+<figure><img src=".gitbook/assets/image (39).png" alt="" width="226"><figcaption><p>The navigation panel on the left a;llows you to move to sections of interst. </p></figcaption></figure>
+
+### Study Overview: Title, icon, GeneLab ID, ALDSA ID and DOI  <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
+
+The top of the page contains the title of the study, the unique GeneLab ID, and if applicable, an ALSDA ID for other non-omics data such as photography or microscopy. The DOI provides a unique identifier for the entire study.
+
+<figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+
+### Description: Factors, organism, assay(s), project and contact information. <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
+
+### This section provides a description of the experiment, a summary of the factors, organism used, assays performed and project information. <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
+
+<figure><img src=".gitbook/assets/image (27).png" alt=""><figcaption><p>Screenshot showing the project description infcluding the factors, organism, assay(s), project and contact information. </p></figcaption></figure>
+
+### Experiments <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
+
+Some studies provide descriptions of experiments, while others use the primary publication for this purpose. The OSDR now encourages all users to add a description of their experiment in the "Experiments" field.
+
+<figure><img src=".gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+
+### Payloads <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
+
+Flight mission are sent to space flight environments as payloads on vehicles. These payloads are reif given operation identifiers to assist with flight operations.&#x20;
+
+In this example the payload identifier is CARA, this comes from its mission name "Characterizing Arabidopsis Root Attractions (CARA)", along with a description of the experiment. &#x20;
+
+<figure><img src=".gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+
+### Missions <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
+
+Experimental payloads are loaded in specific space flight "Missions", these determine the launch vehicle, launch date and "end date". &#x20;
 
 
 
+In this example, SpaceX-3 was the launch vehicle and the dragon then facilitated transit to the ISS and then back to Earth.&#x20;
+
+<figure><img src=".gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+
+### Protocols <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
+
+The protocol section contains all the information related to how the samples were processed. This information variest depending on the study, but can include basic image acquisition protocols used by astronauts to more complex multi-stage sample processing and automated analysis that occurs with popular technology such as RNAseq.  &#x20;
+
+<figure><img src=".gitbook/assets/image (32).png" alt=""><figcaption><p>Screenshot showing the protocol section, this study contains example photography acquisition and analysis descriptions. </p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image (33).png" alt=""><figcaption><p>Screenshot showing the protocol section, this study contains examples of nucleic acid extraction and library construction for RNAseq analysis. </p></figcaption></figure>
+
+### Samples <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
+
+Each experiment includes a samples table detailing metadata about the experimental replicates. Information provided includes species, tissue type, genetic background, age at experiment completion, and treatment group (e.g., Flight or Ground). The bottom right-hand corner displays the total number of samples and the number currently being shown.
+
+<figure><img src=".gitbook/assets/Slide21 (1).png" alt=""><figcaption><p>Screenshot with highlighted samples data and a organe dotted arroce highlight the "select export columns" button</p></figcaption></figure>
+
+### Downloading sample metadata tables for further analysis <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
+
+Clicking on the "Select export columns" button open a menu that allows users toggle on or off any of the samples metadata fields and can then choose to down the data as a table. This give the users the choice to select the factors they believe are important or download them.&#x20;
+
+<figure><img src=".gitbook/assets/Slide22 (2).png" alt=""><figcaption></figcaption></figure>
+
+### Assays <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
+
+Several studies contain multiple assays. At the top right corner of the assay section, a toggle switch allows users to switch between assays. A scroll bar at the bottom of the screen facilitates navigation across the assay table. Many table entries are data products available for direct download and further inspection. There is a "select export columns" that opens the download menu.&#x20;
+
+<figure><img src=".gitbook/assets/Slide23 (2).png" alt=""><figcaption></figcaption></figure>
+
+### Downloading assay metadata tables for further analysis <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
+
+Clicking on the "Select export columns" button open a menu that allows users toggle on or off any of the assay metadata fields and can then choose to down the data as a table. This give the users the choice to select the factors they believe are important or download them.&#x20;
+
+<figure><img src=".gitbook/assets/Slide24.png" alt=""><figcaption></figcaption></figure>
+
+### Publications <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
+
+The publication section includes links to related papers in the OSD repository, along with their titles, author lists, PubMed IDs, and DOIs.
+
+<figure><img src=".gitbook/assets/image (35).png" alt=""><figcaption><p>Link to papers associated with the repostroy that is selected</p></figcaption></figure>
+
+### Files <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
+
+#### Files Section Overview
+
+Access raw, intermediate, and high-order data products generated by the OSDR and GeneLab systems. Download data for further analysis by exploring the directory and clicking on the desired boxes.
+
+<figure><img src=".gitbook/assets/image (38).png" alt=""><figcaption><p>Screenshot showing the folders of data in the repostory.  </p></figcaption></figure>
 
 
 
+<figure><img src=".gitbook/assets/image (41).png" alt=""><figcaption><p>Screenshot showing the RNAseq subdirectory and some of the higher order data products that are avaliable. </p></figcaption></figure>
 
+### Version History <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
 
+The OSDR keeps a record of all previous analysis, users are advised to record the data Version they use and record it in any related metanalysis publications.&#x20;
 
+<figure><img src=".gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
+### Visualisation <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
+
+Most RNAseq and microarray data processed by the OSDR team can be viewed via the data visualization portal, accessible from the navigation on the studies repository page.
+
+<figure><img src=".gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
 
 ### Single Study Visualization Navigation bar <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
 
-**The OSDR Visualization Navigation bar can allow you to navigate to a graph of interest.**
+#### **The OSDR Visualization Navigation bar can allow you to navigate to a graph of interest.**
 
 * After launching the OSDR visualization application on the lefthand side of the screen you’ll see a navigation window that will allow you to select to go to the "Home," "PCA," "Volcano,", “Pair plots”, “Heat maps”, “DGE”, “GSEA”, and Group Selection.
   * [**Single study navigation example**](https://visualization.genelab.nasa.gov/data/OSD-37)**:** In this example, we see Group 1 of Col-0\&FLT ( FLT is the flight group) and Group 2 is Col-0\&GC (GC is the ground control group). [https://visualization.genelab.nasa.gov/data/OSD-37](https://visualization.genelab.nasa.gov/data/OSD-37)
