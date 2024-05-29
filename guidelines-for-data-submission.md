@@ -2,7 +2,7 @@
 
 ### [Summary of guidelines for Data Submission to OSDR](https://genelab.nasa.gov/guidelines-data-submission-osdr)
 
-**Note:** If you have a NASA-funded study, and you have not yet filled out a Research Data Submission Agreement (RDSA), please contact the OSDR Curation team at arc-dl-osdr-data@mail.nasa.gov. Your RDSA will be used to help create your study. If you already have an RDSA, your experiment record will have a study associated. You can create more studies as needed.
+**Note:** If you have a NASA-funded study, and you have not yet filled out a Research Data Submission Agreement (RDSA), please contact the OSDR data curation team at **arc-dl-osdr-data@mail.nasa.gov** . Your RDSA will be used to help create your study. If you already have an RDSA, your experiment record will have a study associated. You can create more studies as needed.
 
 **Below you will find guidelines for submitting space biology data.**
 
@@ -16,19 +16,19 @@
 
 **Step 4: Log into** [BDME ](https://osdr.nasa.gov/bio/submission/console) **and create study**
 
-**Step 5: Upload Data Files and Enter Metadata to describe experimental deisng.**&#x20;
+**Step 5: Upload Data Files and Enter Metadata to describe the experimental design.**&#x20;
 
 OSDR organizes metadata into sample-level information and assay-level information. Data files are uploaded into the workspace and can be associated with each study.
 
 * **Option 1:** Enter your metadata and upload files directly to [BDME User Interface](https://osdr.nasa.gov/bio/submission/console). Once completed, follow the instructions in the tutorial to submit your study to OSDR Curation for review.
-* **Option 2:** Use the templates below to enter your metadata and submit the completed sample-level and assay-level metadata files to OSDR Curation at [arc-dl-osdr-data@mail.nasa.gov](mailto:arc-dl-osdr-data@mail.nasa.gov). Make sure you upload all data files to your [workspace](https://osdr.nasa.gov/bio/workspace-sso-login.html) so it can be associated with your metadata's expeirmental factors.
+* **Option 2:** Use the templates below to enter your metadata and submit the completed sample-level and assay-level metadata files to OSDR Curation at [arc-dl-osdr-data@mail.nasa.gov](mailto:arc-dl-osdr-data@mail.nasa.gov). Make sure you upload all data files to your [workspace](https://osdr.nasa.gov/bio/workspace-sso-login.html) so it can be associated with your metadata's experimental factors.
 
-Below you will find a sample-level metadata template and assay-level metadata templates for the most common assay types. Use these to properly format your data prior to submission. If you don't see your experimental assay in the folder, please contact us so we can add it.
+Below you will find links to a "sample-level" metadata template and assay-level metadata templates for the most common assay types. Use these to properly format your data prior to submission. If you don't see your experimental assay in the folder, please contact us so we can add it.
 
 * [General Study and Sample-Level Metadata Templates](https://drive.google.com/drive/folders/1fbv9EI58PGRDByqZTNMsS-92850VbxKE)
 * [Assay Specific Metadata Templates](https://drive.google.com/drive/folders/1wETFFf4MVoyGToAdmDh1nP7laNTKZvtt)
 
-When possible, please use common acronyms as defined on the [OSDR Abbreviations Page](open-science-abbreviations.md). If your data has acronyms, scientific terms, or column names that need to be defined, please include a data dictionary. An example data dictionary can be found in dataset [OSD-618](https://osdr.nasa.gov/bio/repo/data/studies/OSD-618) (Files > Novel Object Recognition > Data Dictionary Files).
+When possible, please use common acronyms as defined on the [OSDR Abbreviations Page](open-science-abbreviations.md). If your data has acronyms, scientific terms, or column names that need to be defined, please include a data dictionary. An example data dictionary can be found in dataset [OSD-618](https://osdr.nasa.gov/bio/repo/data/studies/OSD-618), which contains many data files, that contain novel abbreviations that when recognised as OSDR acronyms their full meaning can be deduced using the  [OSDR Abbreviations Page](open-science-abbreviations.md) as a dictionary of meaning.
 
 ### [Data Submission Portal](https://osdr.nasa.gov/bio/submission-sso-login.html)
 
@@ -36,7 +36,7 @@ The Biological Data Management Environment (BDME) is a web-based system that acc
 
 ### Instruction on how to create a NASA Guest account to access the BDME <a href="#mis9z834yiru" id="mis9z834yiru"></a>
 
-**Logging into BDME:**
+#### **Logging into BDME:**
 
 1. Go to Biological Data Management Environment ([BDME](https://osdr.nasa.gov/bio/submission-sso-login.html)), (or [Workspace](https://osdr.nasa.gov/bio/workspace-sso-login.html)).
 2. Create a new account./ If you already have an account login.
@@ -50,7 +50,7 @@ The Biological Data Management Environment (BDME) is a web-based system that acc
 
 <figure><img src=".gitbook/assets/Slide68.png" alt="Screenshot showing the login or register account options that provide access to the OSDR submission portal. A yellow arrow highlights the sign up window that will open to help you create a new account. This will then launch the Guest Account Services window that will prompt the user to provide a password before creating an account."><figcaption><p><em>Screenshot showing the login or register account options that provide access to the OSDR submission portal. A yellow arrow highlights the sign-up window that will open to help you create a new account. This will then launch the Guest Account Services window that will prompt the user to provide a password before creating an account.</em></p></figcaption></figure>
 
-### INSTRUCTIONS ON CREATING A NASA GUEST ACCOUNT TO ACCESS BDME/Workspace
+### How to create a NASA guest account to access the BDME/workspace
 
 1. **Go to " https://guest.nasa.gov/ " and sign up to create a new account with your email address.**
 
@@ -63,7 +63,7 @@ The Biological Data Management Environment (BDME) is a web-based system that acc
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-3. The subject of the email is \[NASA Guest] Complete your Guest account registration. Follow the link in the email to set up account password.
+3. The subject of the email is \[NASA Guest] Complete your Guest account registration. Follow the link in the email to set up an account password.
 
 <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -86,7 +86,7 @@ The Biological Data Management Environment (BDME) is a web-based system that acc
 
 <figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-8. When you see My Studies page, you have logged into BDME successfully. Troubleshooting Steps.
+8. When you see My Studies page, you have logged into BDME successfully.&#x20;
 
 <figure><img src=".gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
@@ -101,7 +101,7 @@ The Biological Data Management Environment (BDME) is a web-based system that acc
 
 The OSDR homepage, data repository, workspace, tutorials, and support resources are all accessible through the OSDR interface. The workspace allows users to manage files, while the tutorials guide on using OSDR. The FAQs, troubleshooting tips, and contact information assist with resolving any issues or inquiries.
 
-1. The top bar menu shows links to the “OSDR home page”, “data\&tools”, “Research\&Resurces”, “Working Groups” and “Help” menus.
+1. The top bar menu shows links to the “OSDR home page”, “data & tools”, “Research & Resources”, “Working Groups” and “Help” menus.
 2. BDME my dashboard button can be used to refresh the results page.
 3. "Create new study" – link that allows users to create a new study while incorporating experimental factors. You can find a tutorial on how to submit data through [BDME](https://genelab.nasa.gov/help/tutorials/GEODE).
 4. My studies – allows users to view current studies submitted via [BDM](https://genelab.nasa.gov/help/tutorials/GEODE)[E](https://genelab.nasa.gov/help/tutorials/GEODE), users can exit using the “logout” link or by closing the browser tab.
@@ -140,7 +140,7 @@ The OSDR homepage, data repository, workspace, tutorials, and support resources 
 
 #### **4.** There is nothing to do at this stage of the guided submission.
 
-* At this stage click “Let’s get started”
+* At this stage click “Let’s get started”, the green bar at the bottom.
 
 <figure><img src=".gitbook/assets/image (17).png" alt=""><figcaption><p><em>Screenshot showing the welcome page lets get started.</em></p></figcaption></figure>
 
@@ -185,11 +185,11 @@ Guided submission offers step-by-step guidance for new users or complex studies 
 
 <figure><img src=".gitbook/assets/Slide77 (1).png" alt=""><figcaption><p><em>Screenshot showing the study description creation page, at this stage the user can decide to import study description from a DOI or PubMed ID or can choose to enter the information and metadata manually.</em></p></figcaption></figure>
 
-### Guided Submission (Option 1) <a href="#zfgxamnggn4b" id="zfgxamnggn4b"></a>
+### Local configuration file or Graphical User Interface Guided Submission  <a href="#zfgxamnggn4b" id="zfgxamnggn4b"></a>
 
-#### **7.2.**  \*\*Guided submissions allow users to directly enter their data into meta-data fields with the help of ontology databases. While this process requires a substantial amount of information, it can be simplified if you have already published a peer-reviewed paper.
+#### **7.2.** (Option 1) Project PI's and Data submitters can reach out to the OSDR data curation team will provide template assay meta-configuration files to assist researchers with recording the meta-data required to integrate data into the OSDR for sharing with collaborators and peer review systems.&#x20;
 
-Enter the following information, this can be done at a time that is convenient and by clicking on the “Next” button you can navigate through the process so you can familiarize yourself with each stage.
+#### &#x20;(Option 2) Graphical user interface (GUI) guided submissions allow users to directly enter their data into meta-data fields with the help of ontology databases. Enter the following information, this can be done at a time that is convenient and by clicking on the “Next” button you can navigate through the process so you can familiarize yourself with each stage.
 
 * **Study Design Description:** use an ontology if available.
 * **Study Title:** Use the primary paper title or a related phrase.
@@ -201,17 +201,15 @@ Enter the following information, this can be done at a time that is convenient a
 
 
 
-#### **7.3 Guided Submission adding assays: Click and add study design information related to your study.**
+#### **7.3 Adding assays with the GUI Guided Submission: Click and add study design information related to your study.**
 
-You’ll be able to select the "Measurement", "Technology type" and "Platform" applicable to your data and experiment.
-
-Click “Next" to go to the next step and populate assay info later.
+You’ll be able to select the "Measurement", "Technology type" and "Platform" applicable to your data and experiment. Click “Next" to go to the next step and populate assay info later.
 
 * In this example the assay type measurement type was transcriptional profiling, the technology type is still to be selected in the drop-down menu.
 
 <figure><img src=".gitbook/assets/Slide79.png" alt="Screenshot showing that the guided submission process allows you to add metadata related to your assay type. The red dotted line shows the first set of ontology-defined options the user is presented with, the yellow dashed boxes highlight how a highly curated “nested” ontology database can be used to assist your definition of assay type."><figcaption><p><em>Screenshot showing that the guided submission process allows you to add metadata related to your assay type. The red dotted line shows the first set of ontology-defined options the user is presented with, the yellow dashed boxes highlight how a highly curated “nested” ontology database can be used to assist your definition of assay type.</em></p></figcaption></figure>
 
-**8. Unguided Submission (Option 2):** **´Enter your study title, and description and click to list people who participated in the study if you have not done so in the previous steps and then request access to assay configuration files that have been designed for your methodology of choice.**
+**8. Enter your study title, and description and click to list people who participated in the study if you have not done so in the previous steps and then request access to assay configuration files that have been designed for your methodology of choice.**
 
 As the configuration files are being finalized, the team can enter essential data about the experiment. This includes the names of the principal investigator (PI) and the data submitter, along with other primary research team members. Additional metadata such as project type, flight program, and NASA center can also be included. Fields like “Funding source(s)”, “Experimental platforms”, “Sponsoring agency”, and “Acknowledgements” allow submitters to provide free text entries, including links to previous project IDs and data management plans.
 
@@ -243,12 +241,9 @@ If you have added an assay in the previous steps, you will find a list of defaul
 
 #### **8.3.** **You will need to provide descriptions of your samples and the metadata that was collected during your study.**
 
-To provide detailed information about samples up to the point of collection, create one row per sample and select an applicable ontology term, if available. To initiate this process, select the sample's characteristic column and add pertinent metadata such as organism, tissue type, age at harvest, preservation method or other relevant options.
+To provide detailed information about samples up to the point of collection, create one row per sample and select an applicable ontology term, if available. To initiate this process, select the sample's characteristic column and add pertinent metadata such as organism, tissue type, age at harvest, preservation method or other relevant options. Please note that we recormend separating your sample into different OSDR repositories as this improves the statically analysis and differnetial expression calculation performed by the GeneLab RNAseq pipeline.&#x20;
 
-* The screenshot below illustrates how users can add characteristics to their sample metadata sheet.
-* Currently, there are no samples loaded.
-* In this example the samples have been highlighted, it shows it currently doesn’t have any sample field associated.
-* In the second panel, we can see that the “Characteristic” tab has been selected to highlight some of the category options such as organism, organism part, and variant or allows you to provide free text.
+* The screenshot below illustrates how users can add characteristics to their sample metadata sheet. Currently, there are no samples loaded. In this example the samples have been highlighted, it shows it currently doesn’t have any sample field associated. In the second panel, we can see that the “Characteristic” tab has been selected to highlight some of the category options such as organism, organism part, and variant or allows you to provide free text.
 
 <figure><img src=".gitbook/assets/Slide93.png" alt="Screenshot showing the user interface that allows users to add information about the samples that were used. The add characteristics button has been highlighted, the image shows that there is an ontology database to help guide the addition of known factors. It also allows the user to enter a parameter value that no ontology as free text."><figcaption></figcaption></figure>
 
@@ -264,11 +259,11 @@ To populate assay level information, beginning with extraction, with one row per
 
 <figure><img src=".gitbook/assets/Slide89.png" alt="Screenshot showing the user interface that allows users to add information about the Assay that was used to analyze the samples. The “add Assay” button has been highlighted, the image shows that there is an ontology database to help guide the addition of known technologies and platforms. Red arrows show how a nested series of ontology databases assist the user in defining their experimental setup."><figcaption><p><em>Screenshot showing the user interface that allows users to add information about the Assay that was used to analyze the samples. The “add Assay” button has been highlighted, the image shows that there is an ontology database to help guide the addition of known technologies and platforms. Red arrows show how a nested series of ontology databases assist the user in defining their experimental setup.</em></p></figcaption></figure>
 
-#### Files in the BDME <a href="#veb8eegkhy1h" id="veb8eegkhy1h"></a>
+### Files in the BDME <a href="#veb8eegkhy1h" id="veb8eegkhy1h"></a>
 
 #### **8.5 You can save your data files in your BDME account which is also connected to your Workspace account.**
 
-You can upload files by dragging and dropping them onto your “home folder” and then associate them with your studies in the OSDR at a later date after they have been uploaded (This time varies depending on your interest connection speed). Please provide compressed individual raw data files (e.g. .fastq.gz or .CEL.gz etc.) and do not archive multiple files as zipped archives. See this [“Frequently Asked Questions](https://genelab.nasa.gov/faq#5,)” page, for accepted file types. After uploading files, click and open unfold the folder.
+You can upload files by dragging and dropping them onto your “home folder” and then associate them with your studies in the OSDR at a later date after they have been uploaded (This time varies depending on your interest connection speed). Please provide compressed individual raw data files (e.g. .fastq.gz or .CEL.gz etc.) and do not archive multiple files as zipped archives. See this [“Frequently Asked Questions](https://genelab.nasa.gov/faq#5,)” page, for accepted file types. After uploading files, click and open the folder.
 
 * In this example, we can see that the user's home folder contains their username “Mark Watney” and data folders nested inside that. This workspace contains the original raw data files and their processed results and some important intermediate file formats produced during the analysis. The yellow arrow highlights how users can drag and drop their data into their workspace from their desktop computer.
 

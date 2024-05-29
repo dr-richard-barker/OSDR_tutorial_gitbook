@@ -6,14 +6,9 @@ description: >-
 
 # Access data in the OSDR
 
-1. Go to the **NASA OSDR** [home page](https://osdr.nasa.gov/bio/index.html).
-2. Click on the **"Data & Tools"** tab at the top of the page
+1.  If you are on the **NASA OSDR** [home page](https://osdr.nasa.gov/bio/index.html) click on the **"Data & Tools"** tab at the top of the page and then click on the [_Data Repository_](https://osdr.nasa.gov/bio/repo/search?q=\&data\_source=cgene,alsda\&data\_type=study) link. Or click on the _"_[_Data Repository Explore_](https://osdr.nasa.gov/bio/repo/search?q=\&data\_source=cgene,alsda\&data\_type=study)_" button._&#x20;
 
-_or click on the_ [_Data Repository Explo_](https://osdr.nasa.gov/bio/repo/search?q=\&data\_source=cgene,alsda\&data\_type=study)_re Image_&#x20;
-
-<figure><img src=".gitbook/assets/Slide3 (2).png" alt="image showing what the button for the Data Repository Explorer looks like" width="375"><figcaption><p><a href="https://osdr.nasa.gov/bio/repo/search?q=&#x26;data_source=cgene,alsda&#x26;data_type=study"><em>or click on the Data Repository Explore Image</em></a> </p></figcaption></figure>
-
-1. Select [**“Data Repository”**](https://osdr.nasa.gov/bio/repo/search?q=\&data\_source=cgene,alsda\&data\_type=study) to navigate to the list of studies ([Or use this link](https://osdr.nasa.gov/bio/repo/search?q=\&data\_source=cgene,alsda\&data\_type=study)).
+    <figure><img src=".gitbook/assets/Slide3 (2).png" alt="image showing what the button for the Data Repository Explorer looks like" width="375"><figcaption><p><a href="https://osdr.nasa.gov/bio/repo/search?q=&#x26;data_source=cgene,alsda&#x26;data_type=study"><em>or click on the Data Repository Explore Image</em></a> </p></figcaption></figure>
 2. Search for studies by entering text into the **“Search Datasets”** box.
 3. On the right you’ll see the number of items per page, the default is 25, but this number can be increased to 50 or 100.
 4. These lists are sorted based on **“Release Date”** as default, but can be adjusted to reflect **“Relevance”,** **“study accession ID”** # or the **“Study title”**.
@@ -25,19 +20,23 @@ _or click on the_ [_Data Repository Explo_](https://osdr.nasa.gov/bio/repo/searc
 
 <figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption><p><em>The Open Science Data Repository search interface allows users to search, filter, and view search results, including titles, organisms, factors, descriptions, and experiment details. (1) This interface can be launched from the "Data &#x26; tools" search. (2) Search datasets, (3) select the number of studies on the page, (4). The Sort by options are set to release date and are highlighted red.  (5)  The General search Filter table . (6) The icon depicting the model organism is a link to more data about the study. (7) The title is a link to more data about the study.</em> </p></figcaption></figure>
 
-<figure><img src=".gitbook/assets/Slide6.png" alt="The input text describes two sections of a search interface. Section A, titled &#x22;General Search Filters,&#x22; provides options for filtering data sources (GeneLab, ALSDA, NIH GEO, EBI PRIDE, and ANL MG-RAST) and data types (Study, Experiment, Subject, Biospecimen, and Payload). It also includes a &#x22;Show more&#x22; button. Section B, titled &#x22;Study Search Filters,&#x22; offers project-type options for filtering studies, including Ground, Spaceflight, and High Altitude. The GeneLab, ASLSDA and Study data options have been selected and the boxes next to them are orange" width="176"><figcaption><p><em>Section A, titled "General Search Filters," provides options for filtering data sources (GeneLab, ALSDA, NIH GEO, EBI PRIDE, and ANL MG-RAST) and data types (Study, Experiment, Subject, Biospecimen, and Payload). It also includes a "Show more" button. Section B, titled "Study Search Filters," offers project-type options for filtering studies, including Ground, Spaceflight, and High Altitude. The GeneLab, ASLSDA and Study data options have been selected and the boxes next to them are orange.</em></p></figcaption></figure>
-
-1. **“General Search Filters”**
-   1. Data Source
-   2. Data Type
-2. **“Study Search Filters”**
-   1. Project Type
-   2. Assay type
-   3. Organism
-   4. Tissue
-   5. Factor
-
 #### Metadata User Interface <a href="#i4jh5wczhr02" id="i4jh5wczhr02"></a>
+
+**(A)“General Search Filters”**
+
+1. Data Source
+2. Data Type
+
+**(B)“Study Search Filters”**
+
+1. Project Type
+2. Assay type
+3. Organism
+4. Tissue
+5. Factor
+6.
+
+    <figure><img src=".gitbook/assets/Slide6.png" alt="The input text describes two sections of a search interface. Section A, titled &#x22;General Search Filters,&#x22; provides options for filtering data sources (GeneLab, ALSDA, NIH GEO, EBI PRIDE, and ANL MG-RAST) and data types (Study, Experiment, Subject, Biospecimen, and Payload). It also includes a &#x22;Show more&#x22; button. Section B, titled &#x22;Study Search Filters,&#x22; offers project-type options for filtering studies, including Ground, Spaceflight, and High Altitude. The GeneLab, ASLSDA and Study data options have been selected and the boxes next to them are orange" width="176"><figcaption><p><em>Section A, titled "General Search Filters," provides options for filtering data sources (GeneLab, ALSDA, NIH GEO, EBI PRIDE, and ANL MG-RAST) and data types (Study, Experiment, Subject, Biospecimen, and Payload). It also includes a "Show more" button. Section B, titled "Study Search Filters," offers project-type options for filtering studies, including Ground, Spaceflight, and High Altitude. The GeneLab, ASLSDA and Study data options have been selected and the boxes next to them are orange.</em></p></figcaption></figure>
 
 **There is a lot of information available through the OSDR so it is important to read the description of each experiment carefully.**
 
