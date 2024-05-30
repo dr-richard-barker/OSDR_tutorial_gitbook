@@ -6,9 +6,11 @@ description: >-
 
 # Access data in the OSDR
 
+<figure><img src=".gitbook/assets/Slide3 (2).png" alt="image showing what the button for the Data Repository Explorer looks like" width="375"><figcaption><p><a href="https://osdr.nasa.gov/bio/repo/search?q=&#x26;data_source=cgene,alsda&#x26;data_type=study"><em>or click on the Data Repository Explore Image</em></a> </p></figcaption></figure>
+
 1.  If you are on the **NASA OSDR** [home page](https://osdr.nasa.gov/bio/index.html) click on the **"Data & Tools"** tab at the top of the page and then click on the [_Data Repository_](https://osdr.nasa.gov/bio/repo/search?q=\&data\_source=cgene,alsda\&data\_type=study) link. Or click on the _"_[_Data Repository Explore_](https://osdr.nasa.gov/bio/repo/search?q=\&data\_source=cgene,alsda\&data\_type=study)_" button._&#x20;
 
-    <figure><img src=".gitbook/assets/Slide3 (2).png" alt="image showing what the button for the Data Repository Explorer looks like" width="375"><figcaption><p><a href="https://osdr.nasa.gov/bio/repo/search?q=&#x26;data_source=cgene,alsda&#x26;data_type=study"><em>or click on the Data Repository Explore Image</em></a> </p></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption><p><em>The Open Science Data Repository search interface allows users to search, filter, and view search results, including titles, organisms, factors, descriptions, and experiment details. (1) This interface can be launched from the "Data &#x26; tools" search. (2) Search datasets, (3) select the number of studies on the page, (4). The Sort by options are set to release date and are highlighted red.  (5)  The General search Filter table . (6) The icon depicting the model organism is a link to more data about the study. (7) The title is a link to more data about the study.</em> </p></figcaption></figure>
 2. Search for studies by entering text into the **“Search Datasets”** box.
 3. On the right you’ll see the number of items per page, the default is 25, but this number can be increased to 50 or 100.
 4. These lists are sorted based on **“Release Date”** as default, but can be adjusted to reflect **“Relevance”,** **“study accession ID”** # or the **“Study title”**.
@@ -16,11 +18,9 @@ description: >-
 6. Each study is summarized by an image representing the model organism being investigated, the study title, organism, factors being investigated, assay types, release date, a description and a “Highlights”/ summary.
 7. Clicking on either the image of the model organism or the title will open that study database and present the related metadata, primary data and if available processed data.
 
-
-
-<figure><img src=".gitbook/assets/image (7).png" alt=""><figcaption><p><em>The Open Science Data Repository search interface allows users to search, filter, and view search results, including titles, organisms, factors, descriptions, and experiment details. (1) This interface can be launched from the "Data &#x26; tools" search. (2) Search datasets, (3) select the number of studies on the page, (4). The Sort by options are set to release date and are highlighted red.  (5)  The General search Filter table . (6) The icon depicting the model organism is a link to more data about the study. (7) The title is a link to more data about the study.</em> </p></figcaption></figure>
-
 #### Metadata User Interface <a href="#i4jh5wczhr02" id="i4jh5wczhr02"></a>
+
+<figure><img src=".gitbook/assets/Slide6.png" alt="The input text describes two sections of a search interface. Section A, titled &#x22;General Search Filters,&#x22; provides options for filtering data sources (GeneLab, ALSDA, NIH GEO, EBI PRIDE, and ANL MG-RAST) and data types (Study, Experiment, Subject, Biospecimen, and Payload). It also includes a &#x22;Show more&#x22; button. Section B, titled &#x22;Study Search Filters,&#x22; offers project-type options for filtering studies, including Ground, Spaceflight, and High Altitude. The GeneLab, ASLSDA and Study data options have been selected and the boxes next to them are orange" width="176"><figcaption><p><em>Section A, titled "General Search Filters," provides options for filtering data sources (GeneLab, ALSDA, NIH GEO, EBI PRIDE, and ANL MG-RAST) and data types (Study, Experiment, Subject, Biospecimen, and Payload). It also includes a "Show more" button. Section B, titled "Study Search Filters," offers project-type options for filtering studies, including Ground, Spaceflight, and High Altitude. The GeneLab, ASLSDA and Study data options have been selected and the boxes next to them are orange.</em></p></figcaption></figure>
 
 **(A)“General Search Filters”**
 
@@ -34,9 +34,6 @@ description: >-
 3. Organism
 4. Tissue
 5. Factor
-6.
-
-    <figure><img src=".gitbook/assets/Slide6.png" alt="The input text describes two sections of a search interface. Section A, titled &#x22;General Search Filters,&#x22; provides options for filtering data sources (GeneLab, ALSDA, NIH GEO, EBI PRIDE, and ANL MG-RAST) and data types (Study, Experiment, Subject, Biospecimen, and Payload). It also includes a &#x22;Show more&#x22; button. Section B, titled &#x22;Study Search Filters,&#x22; offers project-type options for filtering studies, including Ground, Spaceflight, and High Altitude. The GeneLab, ASLSDA and Study data options have been selected and the boxes next to them are orange" width="176"><figcaption><p><em>Section A, titled "General Search Filters," provides options for filtering data sources (GeneLab, ALSDA, NIH GEO, EBI PRIDE, and ANL MG-RAST) and data types (Study, Experiment, Subject, Biospecimen, and Payload). It also includes a "Show more" button. Section B, titled "Study Search Filters," offers project-type options for filtering studies, including Ground, Spaceflight, and High Altitude. The GeneLab, ASLSDA and Study data options have been selected and the boxes next to them are orange.</em></p></figcaption></figure>
 
 **There is a lot of information available through the OSDR so it is important to read the description of each experiment carefully.**
 
@@ -47,7 +44,7 @@ Study metadata are viewable through a tabbed user interface for each study (see 
 
 <figure><img src=".gitbook/assets/Slide22 (1).png" alt=""><figcaption><p><em>The left-hand side of the webpage contains shortcut buttons that take you to additional information, such as a brief description of the experiment, the submission date of the experiment, the size of the data, the GeneLab ID associated with the data, the Digital Object Identifier (DOI), information about the source of the samples, and the assays, publications, files, and version history. The description box has been highlighted with a red dashed line. All the options on the menu on the left have been highlighted with red letters (A-K).</em></p></figcaption></figure>
 
-#### Single study data visualization <a href="#id-882uty7gnw36" id="id-882uty7gnw36"></a>
+### Single study data visualization <a href="#id-882uty7gnw36" id="id-882uty7gnw36"></a>
 
 1. Go to a study you are interested in within the OSDR or use [this link](https://osdr.nasa.gov/bio/repo/data/studies/OSD-37) to observe OSD-37.
 
@@ -73,7 +70,7 @@ Study metadata are viewable through a tabbed user interface for each study (see 
 3. Scrolling down will allow you to a description of the study, the factor(s), organism(s), assay(s), and descriptions of the related project metadata.
 4. There are a lot of different types of data that can be downloaded and used for further analysis and publication.
 
-#### Selecting sample(s) data for export <a href="#fjmk1199na87" id="fjmk1199na87"></a>
+### Selecting sample(s) data for export <a href="#fjmk1199na87" id="fjmk1199na87"></a>
 
 **The samples tab contains data that can be downloaded for new statistical analysis.**
 
@@ -83,7 +80,7 @@ Study metadata are viewable through a tabbed user interface for each study (see 
 
     <figure><img src=".gitbook/assets/Slide23 (1).png" alt="The image shows the “Samples” tab selection which includes the name of the samples. There are scroll bars on the right side and the bottom. The table contains multiple fields of data describing the characteristics of the samples and providing links to some ontology terms that can be used to define experimental factors. The Select Export Columns button has been highlighted with a red box and a red dotted arrow."><figcaption><p><em>The image shows the “Samples” tab selection which includes the name of the samples. The table contains data describing the characteristics of the samples and providing links to some ontology terms that can be used to define experimental factors. The Select Export Columns button has been highlighted with a red box and a red dotted arrow.</em></p></figcaption></figure>
 
-#### Selecting assay data for export <a href="#glrbshh7awz9" id="glrbshh7awz9"></a>
+### Selecting assay data for export <a href="#glrbshh7awz9" id="glrbshh7awz9"></a>
 
 **The Assay(s) tab contains data that can be saved or used to develop new statistical tests.**
 
@@ -92,14 +89,14 @@ Study metadata are viewable through a tabbed user interface for each study (see 
 
 <figure><img src=".gitbook/assets/Slide25.png" alt="The image shows the “Assays” tab selection which includes the name of the assay (which in some cases is a drop-down menu that presents the option of multi-assay that can be selected). There are scroll bars on the right side and the bottom. There is a table that contains multiple fields of data describing the characteristics of the assays and providing links to some of the data products. The scroll bar at the bottom of the page is highlighted with a red box and a yellow arrow shows where the grey bar can be moved to scroll the meta-data stable to the left or right. The “Select Export Columns” button has been highlighted with a red box and an orange dotted line."><figcaption><p>Please remember that you change between different types of assay and can scroll lef and right to observe more metadata information. </p></figcaption></figure>
 
-#### Exporting tables to csv, txt, or .xls <a href="#f2351776owgq" id="f2351776owgq"></a>
+### Exporting tables to csv, txt, or .xls <a href="#f2351776owgq" id="f2351776owgq"></a>
 
 **Assay data tables can be exported from OSDR and saved or used on local or cloud-based computers.**
 
 * Users can download selected columns from the Samples and/or Assays table. Click on the Select Export Columns button. Select the desired columns and click Export CSV or desired format.
   * **Assay example:** The OSDR dataset, OSD-37, the “select export columns” has been selected. The Export CSV can be seen at the center top of the table. The user can select which columns or “Fields” they’d like to download by selecting boxes next to the options. The button left corner has “select all”, “unselect all” and close buttons.
 
-#### The File(s) tab provides raw and processed data <a href="#m4rj3iwtu9j" id="m4rj3iwtu9j"></a>
+### The File(s) tab provides raw and processed data <a href="#m4rj3iwtu9j" id="m4rj3iwtu9j"></a>
 
 **This resource allows you to access and download the raw and processed data.**
 
@@ -124,14 +121,14 @@ Full-text search terms can be a single word or multiple words with either Boolea
 
 <figure><img src=".gitbook/assets/Slide9.png" alt="The NASA logo, website navigation menu, and page title are displayed in the header section. The left-hand side of the webpage contains the filters mentioned previously. In the center of the page, the “Search Datasets” box has been highlighted."><figcaption><p><em>The NASA logo, website navigation menu, and page title are displayed in the header section. The left-hand side of the webpage contains the filters mentioned previously. In the center of the page, the “Search Datasets” box has been highlighted.</em></p></figcaption></figure>
 
-#### Single-word search <a href="#f4y457hcuqrc" id="f4y457hcuqrc"></a>
+### Single-word search <a href="#f4y457hcuqrc" id="f4y457hcuqrc"></a>
 
 **Below are some examples of searches.**
 
 * **Single-term search:** These are quick and easy and usually create long lists of loosely connected studies.
   * **Single-term example:** Search results from searching the single term ‘genome’
 
-#### Multi-word search <a href="#u3geep5fcd5d" id="u3geep5fcd5d"></a>
+### Multi-word search <a href="#u3geep5fcd5d" id="u3geep5fcd5d"></a>
 
 **Choosing two or more keywords can quickly identify studies related to your area of interest.**
 
@@ -140,9 +137,7 @@ Full-text search terms can be a single word or multiple words with either Boolea
 
 <figure><img src=".gitbook/assets/Slide13 (2).png" alt="The NASA logo, website navigation menu, and page title are displayed in the header section. The left-hand side of the webpage contains the filters mentioned previously. In the center of the page the “Search Datasets” box has been highlighted, and the term “genome ecotype” has been entered. This search identifies 14 studies that use these terms in their metadata."><figcaption><p>The NASA logo, website navigation menu, and page title are displayed in the header section. The left-hand side of the webpage contains the filters mentioned previously. In the center of the page the “Search Datasets” box has been highlighted, and the term “genome ecotype” has been entered. This search identifies 14 studies that use these terms in their metadata.</p></figcaption></figure>
 
-#### &#x20;<a href="#yo5jgk217hqz" id="yo5jgk217hqz"></a>
-
-#### Multiple-field searches <a href="#yo5jgk217hqz" id="yo5jgk217hqz"></a>
+### Multiple-field searches <a href="#yo5jgk217hqz" id="yo5jgk217hqz"></a>
 
 **How to create efficient searches by searching multiple fields.**
 
@@ -173,7 +168,7 @@ The resulting set is the same as searching for the terms ‘genome’ and ‘eco
 
 <figure><img src=".gitbook/assets/Slide14 (1).png" alt="The NASA logo, website navigation menu, and page title are displayed in the header section. The left-hand side of the webpage contains the filters mentioned previously. In the center of the page the “Search Datasets” box has been highlighted, and the term “genome ecotype” has been entered, this time in quotation marks. This search resulted in no matches being found.  "><figcaption><p><em>The left-hand side of the webpage contains the "genotype ecotype" search results. In the center of the page the “Search Datasets” box has been highlighted, and the term “genome ecotype” has been entered, this time in quotation marks. This search resulted in no matches being found.</em> </p></figcaption></figure>
 
-#### Boolean NOT operator. <a href="#w4aeta4y960m" id="w4aeta4y960m"></a>
+### Boolean NOT operator. <a href="#w4aeta4y960m" id="w4aeta4y960m"></a>
 
 **Refining search techniques to identify related studies.**
 
@@ -182,7 +177,7 @@ The resulting set is the same as searching for the terms ‘genome’ and ‘eco
 
 <figure><img src=".gitbook/assets/Slide16 (1).png" alt="The NASA logo, website navigation menu, and page title are displayed in the header section. The left-hand side of the webpage contains the filters mentioned previously. In the center of the page the “Search Datasets” box has been highlighted, and the terms “genome ecotype - genotypes” are highlighted to show how Not operators can be used to adjust the search results."><figcaption><p><em>The left-hand side of the webpage contains the "genoe ecotype - genotypes" search results. In the center of the page the “Search Datasets” box has been highlighted, and the terms “genome ecotype - genotypes” are highlighted to show how Not operators can be used to adjust the search results.</em></p></figcaption></figure>
 
-#### Boolean AND operator. <a href="#c7u6se40fjeh" id="c7u6se40fjeh"></a>
+### Boolean AND operator. <a href="#c7u6se40fjeh" id="c7u6se40fjeh"></a>
 
 **How to use AND operators to make your search more precise.**
 
@@ -191,7 +186,7 @@ The resulting set is the same as searching for the terms ‘genome’ and ‘eco
 
 <figure><img src=".gitbook/assets/Slide17 (1).png" alt="The left-hand side of the webpage contains the filters mentioned previously. In the center of the page the “Search Datasets” box has been highlighted, and the terms “genome ecotype + WS ecotype” are highlighted to show how AND operators can be used to adjust the search results."><figcaption><p><em>The left-hand side of the webpage contains the filters mentioned previously. In the center of the page the “Search Datasets” box has been highlighted, and the terms “genome ecotype + WS ecotype” are highlighted to show how AND operators can be used to adjust the search results.</em></p></figcaption></figure>
 
-#### Boolean \* wild card operator. <a href="#v28y5ignyqya" id="v28y5ignyqya"></a>
+### Boolean \* wild card operator. <a href="#v28y5ignyqya" id="v28y5ignyqya"></a>
 
 **How to use a \* wild card to find closely related studies.**
 
@@ -201,8 +196,6 @@ The resulting set is the same as searching for the terms ‘genome’ and ‘eco
 
 
 <figure><img src=".gitbook/assets/Slide18 (1).png" alt="The NASA logo, website navigation menu, and page title are displayed in the header section. The left-hand side of the webpage contains the filters mentioned previously. In the center of the page the “Search Datasets” box has been highlighted, and the terms “genome ecotype + * Gravity” is highlighted to show how unspecified “wild card” operators can be used to adjust the search result."><figcaption><p><em>The left-hand side of the webpage contains filters with a Booealn wild card operator being used to define the gravity level. In the center of the page the “Search Datasets” box has been highlighted, and the terms “genome ecotype + * Gravity” is highlighted to show how unspecified “wild card” operators can be used to adjust the search result.</em></p></figcaption></figure>
-
-### &#x20;<a href="#alw6ircy431n" id="alw6ircy431n"></a>
 
 ### Federating data sources <a href="#id-86tmuz33uzle" id="id-86tmuz33uzle"></a>
 
@@ -238,4 +231,3 @@ In addition, OSDR offers filters that facilitate the search process for related 
 
 <figure><img src=".gitbook/assets/Slide20.png" alt="The Image shows a series of Filters grouped by Assay type, Organism, Tissue and Factor. Spaceflight, RNAseq, Plant and Seedling were selected."><figcaption><p><em>The Image shows a series of Filters grouped by Assay type, Organism, Tissue and Factor. Spaceflight, RNAseq, Plant and Seedling were selected.</em></p></figcaption></figure>
 
-### &#x20;<a href="#n2cdxvmjoiy1" id="n2cdxvmjoiy1"></a>
