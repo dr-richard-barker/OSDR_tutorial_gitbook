@@ -18,7 +18,7 @@ description: >-
 6. Each study is summarized by an image representing the model organism being investigated, the study title, organism, factors being investigated, assay types, release date, a description and a “Highlights”/ summary.
 7. Clicking on either the image of the model organism or the title will open that study database and present the related metadata, primary data and if available processed data.
 
-#### Metadata User Interface <a href="#i4jh5wczhr02" id="i4jh5wczhr02"></a>
+#### Filtering through studies using the metadata user interface <a href="#i4jh5wczhr02" id="i4jh5wczhr02"></a>
 
 <figure><img src=".gitbook/assets/Slide6.png" alt="The input text describes two sections of a search interface. Section A, titled &#x22;General Search Filters,&#x22; provides options for filtering data sources (GeneLab, ALSDA, NIH GEO, EBI PRIDE, and ANL MG-RAST) and data types (Study, Experiment, Subject, Biospecimen, and Payload). It also includes a &#x22;Show more&#x22; button. Section B, titled &#x22;Study Search Filters,&#x22; offers project-type options for filtering studies, including Ground, Spaceflight, and High Altitude. The GeneLab, ASLSDA and Study data options have been selected and the boxes next to them are orange" width="176"><figcaption><p><em>Section A, titled "General Search Filters," provides options for filtering data sources (GeneLab, ALSDA, NIH GEO, EBI PRIDE, and ANL MG-RAST) and data types (Study, Experiment, Subject, Biospecimen, and Payload). It also includes a "Show more" button. Section B, titled "Study Search Filters," offers project-type options for filtering studies, including Ground, Spaceflight, and High Altitude. The GeneLab, ASLSDA and Study data options have been selected and the boxes next to them are orange.</em></p></figcaption></figure>
 
@@ -46,27 +46,38 @@ Study metadata are viewable through a tabbed user interface for each study (see 
 
 ### Single study data visualization <a href="#id-882uty7gnw36" id="id-882uty7gnw36"></a>
 
-1. Go to a study you are interested in within the OSDR or use [this link](https://osdr.nasa.gov/bio/repo/data/studies/OSD-37) to observe OSD-37.
+1. Go to a study you are interested in within the OSDR or use [this link](https://osdr.nasa.gov/bio/repo/data/studies/OSD-37) to observe an example such as OSD-37.
 
-**Note:** When examining the Uniform Resource Locator (URL) in your web browser, one can swiftly navigate between various studies by simply modifying the numeric value after the web link. This capability enables the user to swiftly transition between distinct studies.
+**Note:** When examining the Uniform Resource Locator (URL) in your web browser, users can swiftly navigate between various studies by simply modifying the numeric value after the web link. This capability enables the user to transition between distinct studies swiftly.
 
 [https://osdr.nasa.gov/bio/repo/data/studies/OSD-37](https://osdr.nasa.gov/bio/repo/data/studies/OSD-37)
 
 [https://osdr.nasa.gov/bio/repo/data/studies/OSD-###](https://osdr.nasa.gov/bio/repo/data/studies/OSD-37)
 
 1. At the top of the page, you should be able to see an icon picture summarizing the model organism next to the study ID number and data release version #.
-2. On the left of the screen, you’ll see a series of buttons that can quickly navigate you down to different sections.
-   1. Description - An abstract summary of the experiment
-   2. Experiment(s) - “No associated Experiments” is not uncommon
-   3. Payload(s) - “No associated Payloads” is not uncommon
-   4. Mission(s) - “No associated Mission” is not uncommon
-   5. Protocol(s) - provides the names and detailed descriptions of the sample collection, library construction, assay, treatment and any other protocol(s).
-   6. Samples - Table of metadata describing the sample's names including quantitive and qualitative metadata values describing how they were treated. Users can select which fields they wish to export and export them as .csv files for use as factors in new subsequent models.
-   7. Assay(s) - Table of metadata linking the samples to quantitive and qualitative metadata about how they were processed. Users can select which fields they wish to export as .csv files that can be used as factors in downstream statistical models.
-   8. Publication(s) - Title, Authors, PubMedID, DOI## and web link to papers associated with this study. These provide a first-hand account of the study from the researchers who conducted the primary study.
-   9. File(s) - A directory showing the OSD archive data folders that contain the study metadata, the raw or processed data provided by the research team and any extra processed data created by the GeneLab team.
-   10. Version History - Date of the release of the current version and any associated files that were updated.
-   11. Visualization - Launches into a new tab in the browser and provides insights into the GeneLab studies with processed data. “No processed data” is not uncommon.
+2.  On the left of the screen, you’ll see a series of buttons that can quickly navigate you down to different sections.
+
+    (A). **Description** - An abstract summary of the experiment
+
+    (B). **Experiment(s)** - “No associated Experiments” is not uncommon
+
+    (C). **Payload(s)** - “No associated Payloads” is not uncommon
+
+    (D). **Mission(s)** - “No associated Mission” is not uncommon
+
+    (E). **Protocol(s)** - provides the names and detailed descriptions of the sample collection, library construction, assay, treatment and any other protocol(s).
+
+    (F). **Samples** - Table of metadata describing the sample's names including quantitive and qualitative metadata values describing how they were treated. Users can select which fields they wish to export and export them as .csv files for use as factors in new subsequent models.
+
+    (G).  **Assay(s)** - Table of metadata linking the samples to quantitive and qualitative metadata about how they were processed. Users can select which fields they wish to export as .csv files that can be used as factors in downstream statistical models.
+
+    (H).  **Publication(s) -** Title, Authors, PubMedID, DOI## and web link to papers associated with this study. These provide a first-hand account of the study from the researchers who conducted the primary study.
+
+    (I).  **File(s)** - A directory showing the OSD archive data folders that contain the study metadata, the raw or processed data provided by the research team and any extra processed data created by the GeneLab team.
+
+    (J). **Version History** - Date of the release of the current version and any associated files that were updated.
+
+    (K).  **Visualization** - Launches into a new tab in the browser and provides insights into the GeneLab studies with processed data. “No processed data” is not uncommon.
 3. Scrolling down will allow you to a description of the study, the factor(s), organism(s), assay(s), and descriptions of the related project metadata.
 4. There are a lot of different types of data that can be downloaded and used for further analysis and publication.
 
