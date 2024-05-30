@@ -2,11 +2,9 @@
 
 ### [Summary of guidelines for Data Submission to OSDR](https://genelab.nasa.gov/guidelines-data-submission-osdr)
 
-**Note:** If you have a NASA-funded study, and you have not yet filled out a Research Data Submission Agreement (RDSA), please contact the OSDR data curation team at **arc-dl-osdr-data@mail.nasa.gov** . Your RDSA will be used to help create your study. If you already have an RDSA, your experiment record will have a study associated. You can create more studies as needed.
+**Note:** If your study is funded by NASA and you haven't completed a Research Data Submission Agreement (RDSA) yet. The RDSA will help you create your study. If you already have an RDSA, your experiment record will have an associated study, and you can create additional studies as needed. Please contact the OSDR data curation team afor more information **arc-dl-osdr-data@mail.nasa.gov**.&#x20;
 
 **Below you will find guidelines for submitting space biology data.**
-
-
 
 **Step 1: Review a Dataset**&#x20;
 
@@ -118,9 +116,7 @@ The OSDR homepage, data repository, workspace, tutorials, and support resources 
 
 ### Biological Data Management Environment (BDME) Tutorial <a href="#r4e59dp88icz" id="r4e59dp88icz"></a>
 
-**To create a study use the following instructions**
-
-### How to create a new OSDR repository <a href="#ltsxld960tlt" id="ltsxld960tlt"></a>
+**To create a study use the following instructions on how to create a new OSDR repository.**
 
 **1**. Click on the “Create New” button&#x20;
 

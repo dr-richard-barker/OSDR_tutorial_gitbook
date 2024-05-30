@@ -70,7 +70,7 @@ Each experiment includes a samples table detailing metadata about the experiment
 
 Clicking on the "Select export columns" button open a menu that allows users toggle on or off any of the samples metadata fields and can then choose to down the data as a table. This give the users the choice to select the factors they believe are important or download them.&#x20;
 
-<figure><img src=".gitbook/assets/Slide22 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Slide22 (2).png" alt=""><figcaption><p>Screen shot showing the samples data </p></figcaption></figure>
 
 ### Assays <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
 
@@ -124,8 +124,6 @@ Most RNAseq and microarray data processed by the OSDR team can be viewed via the
 
 <figure><img src=".gitbook/assets/Slide33.png" alt="The OSDR Visualization interface includes the text &#x22;OSDR Visualization&#x22; and &#x22;OSD-37,&#x22; and a “Study details” search bar. Below is a horizontal navigation menu with various options like &#x22;Home,&#x22; &#x22;PCA,&#x22; &#x22;Volcano,&#x22;, “Pair plots”, “Heat maps”, “DGE”, “GSEA”, and “Group Selection”. In this example, it shows that Group 1 of Col-0&#x26;FLT (which is the flight group) and Group 2 is Col-0&#x26;GC (which is the ground control group). There is a “Modify groups” button in the bottom left corner that can be used to change the groups of samples used to generate the data in the plots" width="140"><figcaption><p><em>The OSDR Visualization interface includes the text "GeneLab Visualization" and "OSD-37," and a “Study details” search bar. Below is a horizontal navigation menu with various options like "Home," "PCA," "Volcano,", “Pair plots”, “Heat maps”, “DGE”, “GSEA”, and “Group Selection”. In this example, it shows that Group 1 of Col-0&#x26;FLT (which is the flight group) and Group 2 is Col-0&#x26;GC (which is the ground control group). There is a “Modify groups” button in the bottom left corner that can be used to change the groups of samples used to generate the data in the plots</em></p></figcaption></figure>
 
-### &#x20;<a href="#hmtojdhstykw" id="hmtojdhstykw"></a>
-
 ### Select Group(s) <a href="#hmtojdhstykw" id="hmtojdhstykw"></a>
 
 **Select Groups can be compared statically using the GeneLab data visualisation application.**
@@ -134,8 +132,6 @@ Most RNAseq and microarray data processed by the OSDR team can be viewed via the
   * **Single study grouping example:** Select the sample group 1 and group 2 for differential comparison. You can deselect these groups by clicking on the blue check box or select them by clicking on the empty boxes. In this example, the user can compare the ecotype and treatment groups.
 
 <figure><img src=".gitbook/assets/Slide49.png" alt="The images show the Group Selection screen. The screen is divided into two sections, each labelled with a group name and containing descriptions of the selected factors. In this example, it shows the &#x22;Ecotypes” and &#x22;treatments&#x22;. A red dashed line highlights that when 2 groups are assigned a pop-up window shows the groups that are being compared."><figcaption><p><em>The images show the Group Selection screen. The screen is divided into two sections, each labelled with a group name and containing descriptions of the selected factors. In this example, it shows the "Ecotypes” and "treatments". A red dashed line highlights that when 2 groups are assigned a pop-up window shows the groups that are being compared.</em></p></figcaption></figure>
-
-### &#x20;<a href="#we9brgzii034" id="we9brgzii034"></a>
 
 ### Principal component analysis <a href="#we9brgzii034" id="we9brgzii034"></a>
 
@@ -148,8 +144,6 @@ Most RNAseq and microarray data processed by the OSDR team can be viewed via the
 
 <figure><img src=".gitbook/assets/Slide34.png" alt="The scatter plot exemplifies the clustering of samples via Principal Component Analysis (PCA), a method that transforms correlated variables into uncorrelated ones called principal components. The plot presents the projection of samples onto the first two or 3 principal components, showcasing the majority of the variance in the original data. The clustering suggests the presence of distinct groups, indicating different characteristics captured by the principal components."><figcaption><p><em>The scatter plot exemplifies the clustering of samples via Principal Component Analysis (PCA), a method that transforms correlated variables into uncorrelated ones called principal components. The plot presents the projection of samples onto the first two or 3 principal components, showcasing the majority of the variance in the original data. The clustering suggests the presence of distinct groups, indicating different characteristics captured by the principal components.</em></p></figcaption></figure>
 
-#### &#x20;<a href="#eewgwyi97mqc" id="eewgwyi97mqc"></a>
-
 ### Pair plots  <a href="#eewgwyi97mqc" id="eewgwyi97mqc"></a>
 
 **The “Pair plots” can be used to compare 2 samples from group 1 or group 2 respectively.**
@@ -159,8 +153,6 @@ Most RNAseq and microarray data processed by the OSDR team can be viewed via the
 
 <figure><img src=".gitbook/assets/Slide35 (1).png" alt="Pair plots comparing 2 samples from Atha_Col-0_s1-pool_FLT_Rep4_R1-FL-B4 on the X axis and with Atha_Col-0_s1-pool_FLT_Rep4_R1-FL-B4 on the Y-axis. Loci are represented by red and blue dots. In the top right-hand corner, there is a menu of options, including snapshot, zoom, lasso, full screen, and the “update” button is highlighted in blue."><figcaption><p><em>Pair plots comparing 2 samples from Atha_Col-0_s1-pool_FLT_Rep4_R1-FL-B4 on the X axis and with Atha_Col-0_s1-pool_FLT_Rep4_R1-FL-B4 on the Y-axis. Loci are represented by red and blue dots. In the top right-hand corner, there is a menu of options, including snapshot, zoom, lasso, full screen, and the “update” button is highlighted in blue.</em></p></figcaption></figure>
 
-### &#x20;<a href="#id-3cb9r7if7di1" id="id-3cb9r7if7di1"></a>
-
 ### Volcano Plots <a href="#id-3cb9r7if7di1" id="id-3cb9r7if7di1"></a>
 
 **Volcano plots show statistical significance vs magnitude of change.**
@@ -169,8 +161,6 @@ Most RNAseq and microarray data processed by the OSDR team can be viewed via the
   * **Volcano plot example:** This graph generated by OSD-37 shows the adjusted P-value on the y-axis after it has experienced a -log10 transformation compared to the Log10 fold change (FC). In this example, _SCPL50_ appears to have a dramatic suppression during flight.
 
 <figure><img src=".gitbook/assets/Slide36.png" alt="Image showing a volcano plot, with red dots representing genes with a significant increase in expression in orbit and blue dots representing genes that expression that was potentially suppressed by spaceflight-related factors. Drop-down menu allows for the selection of parameters, samples for comparison and maximum adjusted p-value. Some tabs also enable the transformation of the Y axis, the threshold of the adjusted P-value and the threshold of the Log2 FC can be adjusted using the menu bar at the top."><figcaption><p><em>Image showing a volcano plot, with red dots representing genes with a significant increase in expression in orbit and blue dots representing genes that expression that was potentially suppressed by spaceflight-related factors. Drop-down menu allows for the selection of parameters, samples for comparison and maximum adjusted p-value. Some tabs also enable the transformation of the Y axis, the threshold of the adjusted P-value and the threshold of the Log2 FC can be adjusted using the menu bar at the top.</em></p></figcaption></figure>
-
-#### &#x20;<a href="#t7933tpb5wrd" id="t7933tpb5wrd"></a>
 
 ### Table of gene expression data <a href="#t7933tpb5wrd" id="t7933tpb5wrd"></a>
 
@@ -192,8 +182,6 @@ Most RNAseq and microarray data processed by the OSDR team can be viewed via the
 
 <figure><img src=".gitbook/assets/Slide39.png" alt="Image displaying a table of graphing options. The selection of options has created a red NES plot showing 4 terms (Ribosome, Endocytosis, RNA degradation and cell cycle) identified by GSEA analysis of the KEGG_2019 database. The permutation and gene list min and maximum parameters are highlighted with an orange dashed box. The plot-type menu has been highlighted with an orange dotted box."><figcaption><p><em>Image displaying a table of graphing options. The selection of options has created a red NES plot showing 4 terms (Ribosome, Endocytosis, RNA degradation and cell cycle) identified by GSEA analysis of the KEGG_2019 database. The permutation and gene list min and maximum parameters are highlighted with an orange dashed box. The plot-type menu has been highlighted with an orange dotted box.</em></p></figcaption></figure>
 
-#### &#x20;<a href="#o9we3slvz8rf" id="o9we3slvz8rf"></a>
-
 ### Ontology databases and statistical methods used for analysis. <a href="#o9we3slvz8rf" id="o9we3slvz8rf"></a>
 
 **Selecting different databases for statistical analysis can identify different responses and provide alternative perspectives and insights from the results.**
@@ -202,8 +190,6 @@ Most RNAseq and microarray data processed by the OSDR team can be viewed via the
   * **Ontology database example description:** A menu of pop-up menu databases can be opened and one selected based on your model organism and question of choice. 5 different statical methods can be used by GSEA, signal to noise, T test, Fold change, Difference of class and Log2 Fold change.
 
 <figure><img src=".gitbook/assets/Slide40.png" alt="Image of half of the OSDR visualization page, the “Gene Set” menu has KEGG_2019 selected and a red dotted line links the list of accessible databases that can be selected from the connected drop-down menu that is highlighted by a yellow dotted line. The image also shows a red dashed line listing the different analysis “Methods” that can be used and the “Fold change” option is highlighted in blue to show it is selected." width="563"><figcaption><p><em>Image of half of the OSDR visualization page, the “Gene Set” menu has KEGG_2019 selected and a red dotted line links the list of accessible databases that can be selected from the connected drop-down menu that is highlighted by a yellow dotted line. The image also shows a red dashed line listing the different analysis “Methods” that can be used and the “Fold change” option is highlighted in blue to show it is selected.</em></p></figcaption></figure>
-
-#### &#x20;<a href="#bj3385d7e61m" id="bj3385d7e61m"></a>
 
 ### Dot plots <a href="#bj3385d7e61m" id="bj3385d7e61m"></a>
 
@@ -216,10 +202,6 @@ The OSDR facilitates the visualization of the normalized enrichment score, false
 
 <figure><img src=".gitbook/assets/Slide41.png" alt="A screenshot of an Open Science Data Repository (OSDR) webpage. The page displays a Dotplot graph titled &#x22;OSD-37 GSEA.&#x22; The x-axis label is &#x22;Normalized /enrichment Score&#x22; and the y-axis shows the name of the enriched KEGG pathway. The graph used two colors, red and blue to emphasize the variation in the FDR values for this data series. Data points size displays the Gene ratio value which is connected by lines to the pathway name on the Y-axis. Red dotted lines highlight where the Dot ploy options can be found and that in this example the “Phenotype” permutation has been selected."><figcaption><p><em>A screenshot of  a Dotplot graph titled "OSD-37 GSEA." The x-axis label is "Normalized /enrichment Score" and the y-axis shows the name of the enriched KEGG pathway. The graph used two colors, red and blue to emphasize the variation in the FDR values for this data series. Data points size displays the Gene ratio value which is connected by lines to the pathway name on the Y-axis. Red dotted lines highlight where the Dot ploy options can be found and the “Phenotype” permutation has been selected.</em></p></figcaption></figure>
 
-
-
-
-
 ### Ridge plots <a href="#zc2ql3hfusf9" id="zc2ql3hfusf9"></a>
 
 **A ridge plot combines a density plot and a histogram to show how data, like Fold Change (FC), is distributed.**
@@ -231,8 +213,6 @@ The OSDR facilitates the visualization of the false discovery rate (FDR), and Fo
 
 <figure><img src=".gitbook/assets/Slide42.png" alt="A screenshot of an Open Science Data Repository (OSDR) ridge plot page displays a ridge plot entitled &#x22;OSD-37 GSEA”. The Y-axis label shows the names of the terms detected by enrichment analysis of the selected gene sets eg Endocytosis and Cell cycle. The x-axis label is &#x22;Gene Fold Change”. Red dotted line highlights where the “Ridge Plot&#x22; option was engaged."><figcaption><p><em>A screenshot of an Open Science Data Repository (OSDR) ridge plot page displays a ridge plot entitled "OSD-37 GSEA”. The Y-axis label shows the names of the terms detected by enrichment analysis of the selected gene sets eg Endocytosis and Cell cycle. The x-axis label is "Gene Fold Change”. Red dotted line highlights where the “Ridge Plot" option was engaged.</em></p></figcaption></figure>
 
-### &#x20;<a href="#v5vfnpxc0gtj" id="v5vfnpxc0gtj"></a>
-
 ### Network Plot <a href="#v5vfnpxc0gtj" id="v5vfnpxc0gtj"></a>
 
 **A network plot uses dots that represent nodes of data points that describe the response detected in the analysis.**
@@ -242,8 +222,6 @@ The OSDR facilitates the visualization of the false discovery rate (FDR), and Fo
 
 <figure><img src=".gitbook/assets/Slide43.png" alt="A screenshot of an Open Science Data Repository (OSDR) network plot page with the title OSD-37 GSEA. In the center a plot shows 4 circles, representing enriched terms from the KEGG_2019 database. The size of the dots indicates the number of genes detected in that GO group and the red-to-blue color gradient shows the significance of their enrichment. A red dotted line highlights where the network plot was selected"><figcaption><p><em>A screenshot of an Open Science Data Repository (OSDR) network plot page with the title OSD-37 GSEA. In the center a plot shows 4 circles, representing enriched terms from the KEGG_2019 database. The size of the dots indicates the number of genes detected in that GO group and the red-to-blue color gradient shows the significance of their enrichment. A red dotted line highlights where the network plot was selected</em></p></figcaption></figure>
 
-####
-
 ### Network Plot used in conjunction with pathway illustration
 
 **A network plot uses dots that represent nodes of data points that describe the response detected in the analysis.**
@@ -251,8 +229,6 @@ The OSDR facilitates the visualization of the false discovery rate (FDR), and Fo
 * Network plots can be merged with pathway diagrams to help illustrate connections between enriched terms and concepts like cellular function. Figures can then be shared with other OSDR AWG collaborators on platforms like GitHub as staging for eventual publication in Zenodo and peer-reviewed journals.
 
 <figure><img src=".gitbook/assets/Slide44.png" alt="The previous network dots and plot information have been incorporated into the endocytosis diagram to illustrate how these KEGG pathway terms related to cellular biology. The use of pop-out boxes and dotted or dashed lines is used to show connections based on knowledge from the literature."><figcaption><p><em>The previous network dots and plot information have been incorporated into the endocytosis diagram to illustrate how these KEGG pathway terms related to cellular biology. The use of pop-out boxes and dotted or dashed lines is used to show connections based on knowledge from the literature.</em></p></figcaption></figure>
-
-### &#x20;<a href="#j5wz6ra5953b" id="j5wz6ra5953b"></a>
 
 ### NES plots <a href="#j5wz6ra5953b" id="j5wz6ra5953b"></a>
 
@@ -262,8 +238,6 @@ The OSDR facilitates the visualization of the false discovery rate (FDR), and Fo
   * **Example NES plot:** The data from OSD-37 provides the normalized enrichment score adjacent to terms that possess enrichment in the selected database. KEGG\_2019 was used as the “geneset” for enrichment analysis. However, in this instance, we show it is possible to change the database analyzed. The bar plot then displays GO terms identified during the analysis when the GO\_cellular\_Componet\_AutoRIF gene set database was queried.
 
 <figure><img src=".gitbook/assets/Slide45 (1).png" alt=""><figcaption><p><em>This image shows a NES plot and the options used to generate it. Situated at the top of the webpage is a search bar that facilitates the exploration of specific terms within the datasets and other “geneset" for analysis. Immediately beneath the search mechanism is a tabular structure providing alternative plot types and graph parameters. The bar plot structure summarizes distinct gene groups that are known to function in a similar location based on the GO-Cellular_Component_AutoRIF enrichment analysis. The Red dotted lines highlight the “number of “geneset”s” and the method values have been adjusted from their default values.</em></p></figcaption></figure>
-
-
 
 
 
@@ -299,5 +273,3 @@ GSEA calculates enrichment scores by comparing the data to a random null distrib
   * **Example Finetuning Permutations:** Altering the default premonition from 300 to 500 in the example description resulted in a significant change in the FDR of the "cytoskeleton" Gene Ontology term.
 
 <figure><img src=".gitbook/assets/Slide48.png" alt="This image displays a screenshot of the GeneLab Visualization software, which includes an NES plot graph and the parameters used to create it. The NES bar plot structure summarizes distinct gene groups known to function in a similar cellular location based on GO-Cellular_Component_AutoRIF_zscore enrichment analysis. The method is currently set to 1, and the number of “geneset”s included was set to 15, with coloring determined by a 0.25 False Discovery Rate (FDR) cutoff threshold. The permutations number has been increased to 500 and the cytoskeleton GO term has increased its NES score and changed from the Red FDR>0.25 to the Blue FDR<0.25 group. Red arrows highlight the Permutations value has been increased and that moving the mouse over a bar creates a popup that provides its name and value."><figcaption><p><em>This image displays NES plot graph and the parameters used to create it. The NES bar plot structure summarizes distinct gene groups known to function in a similar cellular location based on GO-Cellular_Component_AutoRIF_zscore enrichment analysis. The method is currently set to 1, and the number of “genesets” included was set to 15, with coloring determined by a 0.25 False Discovery Rate (FDR) cutoff threshold. The permutations number has been increased to 500 and the cytoskeleton GO term has increased its NES score and changed from the Red FDR>0.25 to the Blue FDR&#x3C;0.25 group. Red arrows highlight the permutation value has been increased and that moving the mouse over a bar creates a popup that provides its name and value.</em></p></figcaption></figure>
-
-### &#x20;<a href="#xez5bpa6ns59" id="xez5bpa6ns59"></a>
