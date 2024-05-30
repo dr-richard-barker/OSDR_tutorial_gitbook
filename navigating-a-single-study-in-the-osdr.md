@@ -124,6 +124,8 @@ Most RNAseq and microarray data processed by the OSDR team can be viewed via the
 
 <figure><img src=".gitbook/assets/Slide33.png" alt="The OSDR Visualization interface includes the text &#x22;OSDR Visualization&#x22; and &#x22;OSD-37,&#x22; and a “Study details” search bar. Below is a horizontal navigation menu with various options like &#x22;Home,&#x22; &#x22;PCA,&#x22; &#x22;Volcano,&#x22;, “Pair plots”, “Heat maps”, “DGE”, “GSEA”, and “Group Selection”. In this example, it shows that Group 1 of Col-0&#x26;FLT (which is the flight group) and Group 2 is Col-0&#x26;GC (which is the ground control group). There is a “Modify groups” button in the bottom left corner that can be used to change the groups of samples used to generate the data in the plots" width="140"><figcaption><p><em>The OSDR Visualization interface includes the text "GeneLab Visualization" and "OSD-37," and a “Study details” search bar. Below is a horizontal navigation menu with various options like "Home," "PCA," "Volcano,", “Pair plots”, “Heat maps”, “DGE”, “GSEA”, and “Group Selection”. In this example, it shows that Group 1 of Col-0&#x26;FLT (which is the flight group) and Group 2 is Col-0&#x26;GC (which is the ground control group). There is a “Modify groups” button in the bottom left corner that can be used to change the groups of samples used to generate the data in the plots</em></p></figcaption></figure>
 
+### For more information go to the [multi-study data visualization page](osdr-data-visualization-portal.md).  <a href="#hmtojdhstykw" id="hmtojdhstykw"></a>
+
 ### Select Group(s) <a href="#hmtojdhstykw" id="hmtojdhstykw"></a>
 
 **Select Groups can be compared statically using the GeneLab data visualisation application.**
