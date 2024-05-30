@@ -24,16 +24,16 @@ description: >-
 
 **(A)“General Search Filters”**
 
-1. Data Source
-2. Data Type
+1. Data Source such as GeneLab, ASLSDA, NHI, EBI PRIDE or MG-RAST
+2. Data Type such as Study, Experiment, Subject, Payload or Biospecimen.&#x20;
 
 **(B)“Study Search Filters”**
 
-1. Project Type
-2. Assay type
-3. Organism
-4. Tissue
-5. Factor
+1. Project Type such as spaceflight or ground
+2. Assay type such as RNAseq or Proteoimics.&#x20;
+3. Organism such as human or mouse.&#x20;
+4. Tissue such as muscle or leaves
+5. Factor such as space flight or ionizing radiation.&#x20;
 
 **There is a lot of information available through the OSDR so it is important to read the description of each experiment carefully.**
 
