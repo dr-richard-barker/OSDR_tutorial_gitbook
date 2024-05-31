@@ -37,15 +37,11 @@ Welcome to our homepage! Here's what you'll find:
 
 
 
-#### &#x20;<a href="#shydp3pnfubk" id="shydp3pnfubk"></a>
-
 ## [About](https://genelab.nasa.gov/about)
 
 **About:** The "About" drop-down menu from the OSDR home page provides information about OSDR groups and resources. Here's a detailed overview of what you can explore:
 
 <figure><img src=".gitbook/assets/8.png" alt="The image displays the NASA logo, which is a red, white, and blue meatball design. Below the logo is the text &#x22;Open Science for Life in Space&#x22;. To the right of the text is the website&#x27;s navigation menu the &#x22;About,&#x22; option has been selected revealing subpages “Open Science”, “ALSDA”, “GeneLab”, “BPS”, and “Latest News”"><figcaption><p><em>"Open Science for Life in Space". To the right of the text is the website's navigation menu the "About," option has been selected revealing subpages “Open Science”, “ALSDA”, “GeneLab”, “BPS”, and “Latest News”</em></p></figcaption></figure>
-
-#### &#x20;<a href="#divah0gosyi5" id="divah0gosyi5"></a>
 
 [**Open Science:** ](https://osdr.nasa.gov/bio/about/opensci.html)The NASA Open Science Data Repository (OSDR) enables access to space-related data from experiments and missions that investigate biological and health responses of terrestrial life to spaceflight. The goal of OSDR is to enable multi-modal and multi-hierarchical fundamental space life science data, including 'omics, phenotypic, physiological, behavioral, hardware, and environmental data, to be reused toward basic science, applied science, and operational outcomes for space exploration and knowledge discovery.
 
@@ -58,8 +54,6 @@ Welcome to our homepage! Here's what you'll find:
 [**NBISC**](https://osdr.nasa.gov/bio/about/nbisc.html): [NASA Biological Institutional Scientific Collection ](https://osdr.nasa.gov/bio/about/nbisc.html)(NBISC), is a biorepository contains tens of thousands of unused non-human samples collected from NASA-funded spaceflight investigations and correlative ground/analogue studies. The purpose of NBISC is to receive, store, document, preserve, and make the collection available to the scientific community. This program facilitates the sharing of biological samples collected during spaceflight experiments. Gain insights into the importance of biospecimen sharing for advancing space biology research and understanding the effects of space flight-related environments and stimuli on living organisms.&#x20;
 
 [Latest News:](https://genelab.nasa.gov/newsarchive) Stay up-to-date with the latest news and developments in NASA's space biology research. Read about recent scientific discoveries, upcoming missions, and other exciting initiatives in space biology.
-
-### &#x20;<a href="#c1rmyihewqk5" id="c1rmyihewqk5"></a>
 
 ## Data & Tools <a href="#c1rmyihewqk5" id="c1rmyihewqk5"></a>
 
@@ -83,8 +77,6 @@ Welcome to our homepage! Here's what you'll find:
 
 [OSDR API:](https://genelab.nasa.gov/genelabAPIs) A webpage presenting the automated programming interface for OSDR. Provides documentation and examples for programmatic access to the OSDR data and tools. This page enables researchers to integrate OSDR data and tools into their applications and workflows.
 
-### &#x20;<a href="#th7npdw6jr01" id="th7npdw6jr01"></a>
-
 ## Research & Resources <a href="#th7npdw6jr01" id="th7npdw6jr01"></a>
 
 The "Research & Resources" section provides access to information on open science, artificial intelligence, and life in space. Here's an expanded elaboration of each subsection:
@@ -96,8 +88,6 @@ The "Research & Resources" section provides access to information on open scienc
 **AI/ML:** The "AI/ML" drop-down menu offers a link to the "AI4LS" (Artificial Intelligence for Life in Space Working Group) page. This working group brings together experts from NASA, academia, and industry to explore the potential of AI and machine learning for advancing life in space.
 
 [**AI4LS:**](https://osdr.nasa.gov/bio/data/ai4ls.html) The AI4LS working group focuses on utilizing artificial intelligence (AI) and machine learning (ML) methods to analyze complex, heterogeneous, multi-modal biological datasets. ML approaches have shown promise for deriving meaningful patterns from these datasets and creating mathematical models to fit patterns and minimize errors. The group aims to build ML models to predict the physiological effects of spaceflight hazards using multi-modal biological and environmental data. Focus areas include causal inference, foundation models, and "self-driving" labs. Causal inference aims to elucidate causal relationships in complex biological data by combining invariance theory and ML methodology. Foundation models are trained on large, broad datasets and then refined on smaller datasets, which is relevant to space biology research due to limited sample size and restricted problem space. Self-driving labs are cutting-edge technology designed for space exploration. They employ automation and cloud-based systems to collect data points in a consistent and reproducible manner, leading to enhanced data acquisition and analysis.
-
-#### &#x20;<a href="#gibzvugs02ne" id="gibzvugs02ne"></a>
 
 [**HBISS Seminar Series:**](https://osdr.nasa.gov/bio/data/hbiss.html)
 
@@ -117,8 +107,6 @@ The "HBISS Seminar Series" link leads to the Horizons in Biosciences & Informati
 
 [NASA Science Mission Directorate: Open-Source Science Guidance](https://github.com/nasa/smd-open-science-guidelines#nasa-science-mission-directorate-open-source-science-guidance)
 
-####
-
 ## [Working Groups ](https://osdr.nasa.gov/bio/awg/about.html)
 
 The Working Group dropdown menu in OSDR serve as a comprehensive resource for users to explore and engage with the organization's Applied Working Groups (AWGs). Through this menu, users can access various pages that provide information related to the AWGs.
@@ -135,13 +123,11 @@ The Working Group dropdown menu in OSDR serve as a comprehensive resource for us
 
 [**Current AWG Members:**](https://osdr.nasa.gov/bio/awg/awg-members.html) This page lists the current members of each AWG. It includes the names, affiliations, and brief bios of the individuals involved. Users can explore the expertise and backgrounds of the AWG members, providing insights into the diversity and strength of GeneLab's collaborative network.
 
-Citizen science:
+**Citizen science:**
 
 [**SOLSTICE Project Goals:**](https://osdr.nasa.gov/bio/awg/solstice.html) Under the citizen science dropdown menu, users can find a description of the SOLSTICE project goals. SOLSTICE (Space Open Life Science Team for International Collaborative Exploration) is a citizen science project that engages the public in scientific research. This page outlines the project's objectives, research questions, and anticipated outcomes.
 
 [**SOLSTICE Members and Affiliations:**](https://osdr.nasa.gov/bio/awg/solstice-members.html) This page lists the SOLSTICE members and their affiliations. Similar to the AWG members page, it provides information on the individuals involved in the SOLSTICE project, showcasing the diverse backgrounds and expertise of the participants.
-
-#### &#x20;<a href="#id-564cno4mscup" id="id-564cno4mscup"></a>
 
 ## Help <a href="#lp2etw388rfz" id="lp2etw388rfz"></a>
 

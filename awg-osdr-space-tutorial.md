@@ -17,11 +17,12 @@ The AWG OSDR Space is an online community for space biology researchers using th
 
 **Using the AWG OSDR Space:**
 
-1. **Interface:** Upon logging in, you'll find a user-friendly interface with categories, topics (discussions), and posts. Categories  are organized by research areas, missions, or project-specific discussions.
+1. **Interface:** Upon logging in, you'll find a user-friendly interface with categories, topics (discussions), and posts. Categories are organized by research areas, missions, or project-specific discussions.
 2. **Browsing Topics:** Explore existing topics by browsing categories or using the search bar. You can find ongoing discussions relevant to your research interests.
 3. **Reading and Participating:** Read through existing discussions to learn about current research, ongoing projects, and questions from fellow space biology researchers.
-4. **Posting and Replies:** If you have a question, want to share your research findings, or participate in ongoing discussions, you can create a new topic or reply to existing posts. Be sure to choose the appropriate category for your topic.
-5. **Search Functionality:** Utilize the search bar to find specific topics, discussions, or keywords mentioned within the AWG OSDR Space.
+4. **Sharing results and code:** The OSDR community forum allows researchers to discuss and collaborate on projects. Many users collect data, create new code, generate results and share it with the global community through online code repositories like [Github](https://github.com/home?ef\_id=\_k\_CjwKCAjwh4-wBhB3EiwAeJsppMHiLbFn6etYV1MhQ0SFkFleuabJ06j3WOdRDMXgm0lrHpvFeuqUFhoCgxAQAvD\_BwE\_k\_\&OCID=AIDcmmcwpj1e5v\_SEM\_\_k\_CjwKCAjwh4-wBhB3EiwAeJsppMHiLbFn6etYV1MhQ0SFkFleuabJ06j3WOdRDMXgm0lrHpvFeuqUFhoCgxAQAvD\_BwE\_k\_\&gad\_source=1\&gclid=CjwKCAjwh4-wBhB3EiwAeJsppMHiLbFn6etYV1MhQ0SFkFleuabJ06j3WOdRDMXgm0lrHpvFeuqUFhoCgxAQAvD\_BwE) and complete published data products through [Zenodo](https://zenodo.org/).&#x20;
+5. **Posting and Replies:** If you have a question, want to share your research findings, or participate in ongoing discussions, you can create a new topic or reply to existing posts. Be sure to choose the appropriate category for your topic.
+6. **Search Functionality:** Utilize the search bar to find specific topics, discussions, or keywords mentioned within the AWG OSDR Space.
 
 **Additional Tips:**
 
@@ -32,3 +33,6 @@ The AWG OSDR Space is an online community for space biology researchers using th
 
 By following these steps and tips, you can effectively navigate the AWG OSDR Space and connect with the space biology research community. Remember, this platform serves as a valuable tool for sharing knowledge, fostering collaboration, and staying updated on the latest advancements in the field.
 
+
+
+<figure><img src=".gitbook/assets/image (42).png" alt=""><figcaption><p>Transparent images of organisms and physical processes in microgravity alongside the DNA double helix and a bubble full of micro-bubbles overlayed on an image of an astronaut picking up lunar regolith with a space vehicle in the background. The Artemis logo is overlayed in the bottom right-hand corner. </p></figcaption></figure>

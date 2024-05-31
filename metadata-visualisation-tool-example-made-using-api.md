@@ -4,8 +4,6 @@ description: NASA Gene Lab MetaData Program Overview
 
 # Metadata visualisation tool example made using API
 
-##
-
 ### Introduction
 
 The NASA Gene Lab encompasses a cutting-edge initiative aimed at uniting the global scientific community with pioneering space-life science data. This program is primarily focused on delving into the extensive repository of data derived from various experiments conducted in low earth orbit (LEO) aboard the International Space Station, during space shuttle missions, and via additional spacecraft designed by the international consortium. The core mission of the NASA Gene Lab is to harness the vast array of data produced through space-based biological experiments. By leveraging this information, the program seeks to advance our understanding of how life adapts to the unique challenges presented by spaceflight and extraterrestrial environments. With these goals in mind we created an OSDR metadata visualisation tool using the Qlik software to pull data from the OSDR API and to provide a simple and interactive summary of the metadata. It can be used to identify related studies to build new statistical models.

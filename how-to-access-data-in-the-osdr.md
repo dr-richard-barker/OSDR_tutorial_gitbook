@@ -6,6 +6,8 @@ description: >-
 
 # Access data in the OSDR
 
+## Searching for data within the OSDR
+
 <figure><img src=".gitbook/assets/Slide3 (2).png" alt="image showing what the button for the Data Repository Explorer looks like" width="375"><figcaption><p><a href="https://osdr.nasa.gov/bio/repo/search?q=&#x26;data_source=cgene,alsda&#x26;data_type=study"><em>or click on the Data Repository Explore Image</em></a> </p></figcaption></figure>
 
 1.  If you are on the **NASA OSDR** [home page](https://osdr.nasa.gov/bio/index.html) click on the **"Data & Tools"** tab at the top of the page and then click on the [_Data Repository_](https://osdr.nasa.gov/bio/repo/search?q=\&data\_source=cgene,alsda\&data\_type=study) link. Or click on the _"_[_Data Repository Explore_](https://osdr.nasa.gov/bio/repo/search?q=\&data\_source=cgene,alsda\&data\_type=study)_" button._&#x20;
@@ -22,12 +24,12 @@ description: >-
 
 <figure><img src=".gitbook/assets/Slide6.png" alt="The input text describes two sections of a search interface. Section A, titled &#x22;General Search Filters,&#x22; provides options for filtering data sources (GeneLab, ALSDA, NIH GEO, EBI PRIDE, and ANL MG-RAST) and data types (Study, Experiment, Subject, Biospecimen, and Payload). It also includes a &#x22;Show more&#x22; button. Section B, titled &#x22;Study Search Filters,&#x22; offers project-type options for filtering studies, including Ground, Spaceflight, and High Altitude. The GeneLab, ASLSDA and Study data options have been selected and the boxes next to them are orange" width="176"><figcaption><p><em>Section A, titled "General Search Filters," provides options for filtering data sources (GeneLab, ALSDA, NIH GEO, EBI PRIDE, and ANL MG-RAST) and data types (Study, Experiment, Subject, Biospecimen, and Payload). It also includes a "Show more" button. Section B, titled "Study Search Filters," offers project-type options for filtering studies, including Ground, Spaceflight, and High Altitude. The GeneLab, ASLSDA and Study data options have been selected and the boxes next to them are orange.</em></p></figcaption></figure>
 
-**(A)“General Search Filters”**
+**(a)“General Search Filters”**
 
 1. Data Source such as GeneLab, ASLSDA, NHI, EBI PRIDE or MG-RAST
 2. Data Type such as Study, Experiment, Subject, Payload or Biospecimen.&#x20;
 
-**(B)“Study Search Filters”**
+**(b)“Study Search Filters”**
 
 1. Project Type such as spaceflight or ground
 2. Assay type such as RNAseq or Proteoimics.&#x20;
@@ -35,92 +37,9 @@ description: >-
 4. Tissue such as muscle or leaves
 5. Factor such as space flight or ionizing radiation.&#x20;
 
-**There is a lot of information available through the OSDR so it is important to read the description of each experiment carefully.**
-
-Study metadata are viewable through a tabbed user interface for each study (see below). Click on each tab to navigate through the different sections: Description, Protocols, Sample and Assay Tables, Publications, Study Files and for some processed studies transcriptional visualization.
-
-* The “Description” tab provides an overview of the study including a text description, contact information, experimental factors, organism(s), type of assay(s), project or mission details, funding information and citation information.
-  * **Description example:** The red box highlights the “Description tab” view that has selected an example dataset, OSD-37. Below is a series of buttons that allow the user to navigate through the data to find details of interest.
-
-<figure><img src=".gitbook/assets/Slide22 (1).png" alt=""><figcaption><p><em>The left-hand side of the webpage contains shortcut buttons that take you to additional information, such as a brief description of the experiment, the submission date of the experiment, the size of the data, the GeneLab ID associated with the data, the Digital Object Identifier (DOI), information about the source of the samples, and the assays, publications, files, and version history. The description box has been highlighted with a red dashed line. All the options on the menu on the left have been highlighted with red letters (A-K).</em></p></figcaption></figure>
-
-### Single study data visualization <a href="#id-882uty7gnw36" id="id-882uty7gnw36"></a>
-
-1. Go to a study you are interested in within the OSDR or use [this link](https://osdr.nasa.gov/bio/repo/data/studies/OSD-37) to observe an example such as OSD-37.
-
-**Note:** When examining the Uniform Resource Locator (URL) in your web browser, users can swiftly navigate between various studies by simply modifying the numeric value after the web link. This capability enables the user to transition between distinct studies swiftly.
-
-[https://osdr.nasa.gov/bio/repo/data/studies/OSD-37](https://osdr.nasa.gov/bio/repo/data/studies/OSD-37)
-
-[https://osdr.nasa.gov/bio/repo/data/studies/OSD-###](https://osdr.nasa.gov/bio/repo/data/studies/OSD-37)
-
-1. At the top of the page, you should be able to see an icon picture summarizing the model organism next to the study ID number and data release version #.
-2.  On the left of the screen, you’ll see a series of buttons that can quickly navigate you down to different sections.
-
-    (A). **Description** - An abstract summary of the experiment
-
-    (B). **Experiment(s)** - “No associated Experiments” is not uncommon
-
-    (C). **Payload(s)** - “No associated Payloads” is not uncommon
-
-    (D). **Mission(s)** - “No associated Mission” is not uncommon
-
-    (E). **Protocol(s)** - provides the names and detailed descriptions of the sample collection, library construction, assay, treatment and any other protocol(s).
-
-    (F). **Samples** - Table of metadata describing the sample's names including quantitive and qualitative metadata values describing how they were treated. Users can select which fields they wish to export and export them as .csv files for use as factors in new subsequent models.
-
-    (G).  **Assay(s)** - Table of metadata linking the samples to quantitive and qualitative metadata about how they were processed. Users can select which fields they wish to export as .csv files that can be used as factors in downstream statistical models.
-
-    (H).  **Publication(s) -** Title, Authors, PubMedID, DOI## and web link to papers associated with this study. These provide a first-hand account of the study from the researchers who conducted the primary study.
-
-    (I).  **File(s)** - A directory showing the OSD archive data folders that contain the study metadata, the raw or processed data provided by the research team and any extra processed data created by the GeneLab team.
-
-    (J). **Version History** - Date of the release of the current version and any associated files that were updated.
-
-    (K).  **Visualization** - Launches into a new tab in the browser and provides insights into the GeneLab studies with processed data. “No processed data” is not uncommon.
-3. Scrolling down will allow you to a description of the study, the factor(s), organism(s), assay(s), and descriptions of the related project metadata.
-4. There are a lot of different types of data that can be downloaded and used for further analysis and publication.
-
-### Selecting sample(s) data for export <a href="#fjmk1199na87" id="fjmk1199na87"></a>
-
-**The samples tab contains data that can be downloaded for new statistical analysis.**
-
-*   The “Samples” and “Assays” tabs provide sample and assay level details formatted in a navigatable table. These tabs include specific organism characteristics, study factors and treatments, sample and sample processing metadata, assay execution parameters, and data processing metadata. Use the bottom navigation bar to scroll through all the columns, and the right margin scroll bar to navigate the rows.
-
-    * **Sample example:** A OSD dataset, OSD-37, sample name tab and sort/filter functions. The select export column button in the top left corner allows the selection and download of the most important sample factors. Entries in the table with Blue text provide links to ontology databases to help define their meaning. In the bottom right corner the number of entries on the page is set to 25 as default, many studies have more samples, so you can either navigate through the samples with the arrow button(s) or increase the number of entries per page to 50 or >\~100.
-
-    <figure><img src=".gitbook/assets/Slide23 (1).png" alt="The image shows the “Samples” tab selection which includes the name of the samples. There are scroll bars on the right side and the bottom. The table contains multiple fields of data describing the characteristics of the samples and providing links to some ontology terms that can be used to define experimental factors. The Select Export Columns button has been highlighted with a red box and a red dotted arrow."><figcaption><p><em>The image shows the “Samples” tab selection which includes the name of the samples. The table contains data describing the characteristics of the samples and providing links to some ontology terms that can be used to define experimental factors. The Select Export Columns button has been highlighted with a red box and a red dotted arrow.</em></p></figcaption></figure>
-
-### Selecting assay data for export <a href="#glrbshh7awz9" id="glrbshh7awz9"></a>
-
-**The Assay(s) tab contains data that can be saved or used to develop new statistical tests.**
-
-* There are many fields of data, users can scroll left and right using the slider bar at the bottom of the table or by “holding shift” while scrolling with a “mouse wheel”.
-  * **Assays example:** A GeneLab dataset, OSD-37, assay name tab and sort/filter functions. Some studies have more than one assay type which can be accessed using the drop-down menu in the top right-hand corner. These columns can be selected for download using the export column button. Some fields are links to data files that can be downed directly from the webpage, “right-click” on the entries with blue text and select “download” from the options.
-
-<figure><img src=".gitbook/assets/Slide25.png" alt="The image shows the “Assays” tab selection which includes the name of the assay (which in some cases is a drop-down menu that presents the option of multi-assay that can be selected). There are scroll bars on the right side and the bottom. There is a table that contains multiple fields of data describing the characteristics of the assays and providing links to some of the data products. The scroll bar at the bottom of the page is highlighted with a red box and a yellow arrow shows where the grey bar can be moved to scroll the meta-data stable to the left or right. The “Select Export Columns” button has been highlighted with a red box and an orange dotted line."><figcaption><p>Please remember that you change between different types of assay and can scroll lef and right to observe more metadata information. </p></figcaption></figure>
-
-### Exporting tables to csv, txt, or .xls <a href="#f2351776owgq" id="f2351776owgq"></a>
-
-**Assay data tables can be exported from OSDR and saved or used on local or cloud-based computers.**
-
-* Users can download selected columns from the Samples and/or Assays table. Click on the Select Export Columns button. Select the desired columns and click Export CSV or desired format.
-  * **Assay example:** The OSDR dataset, OSD-37, the “select export columns” has been selected. The Export CSV can be seen at the center top of the table. The user can select which columns or “Fields” they’d like to download by selecting boxes next to the options. The button left corner has “select all”, “unselect all” and close buttons.
-
-### The File(s) tab provides raw and processed data <a href="#m4rj3iwtu9j" id="m4rj3iwtu9j"></a>
-
-**This resource allows you to access and download the raw and processed data.**
-
-* The Study Files tab provides metadata and raw or processed study data files. Each row includes information about the size, type, and description. Click on the file name to download. You can download multiple files by clicking the checkbox at the left of the file name to select and then clicking the “Download Selected Files” button. To select all files in a resource category, navigate to the desired folder by selecting the folder name and then click on the checkbox at the top of the table, next to the Files column name.
-  * **File example:** Study files view and sort/filter functions for OSDR dataset, OSD-37.
-
-<figure><img src=".gitbook/assets/Slide27.png" alt="The files tab has a “Search Files” entry field, then shows the folder structure of the selected OSD study and any subsequent folders which always include the Study Metadata Files, usually include the Raw Data files and occasionally include processed data files or GeneLab Processed data files."><figcaption></figcaption></figure>
-
 ### Search Bar <a href="#iu61uhqypy1m" id="iu61uhqypy1m"></a>
 
 **The search bar is a quick and easy way to filter through the data and can be used to create precise database queries.**
-
-
 
 **OSDR provides users with a full-text search capability of the metadata for all datasets.**
 
@@ -242,3 +161,134 @@ In addition, OSDR offers filters that facilitate the search process for related 
 
 <figure><img src=".gitbook/assets/Slide20.png" alt="The Image shows a series of Filters grouped by Assay type, Organism, Tissue and Factor. Spaceflight, RNAseq, Plant and Seedling were selected."><figcaption><p><em>The Image shows a series of Filters grouped by Assay type, Organism, Tissue and Factor. Spaceflight, RNAseq, Plant and Seedling were selected.</em></p></figcaption></figure>
 
+## **Searching OSDR metadata**&#x20;
+
+**Note:** When examining the Uniform Resource Locator (URL) in your web browser, users can swiftly navigate between various studies by simply modifying the numeric value after the web link. This capability enables the user to transition between distinct studies swiftly.&#x20;
+
+[https://osdr.nasa.gov/bio/repo/data/studies/OSD-37](https://osdr.nasa.gov/bio/repo/data/studies/OSD-37)
+
+[https://osdr.nasa.gov/bio/repo/data/studies/OSD-###](https://osdr.nasa.gov/bio/repo/data/studies/OSD-37)
+
+**Single study:** Navigate to a study of interest by searching through the study metadata you can launch the visualization menu using the tab on the left menu.  Click on each tab to navigate through the different sections: Description, Protocols, Sample and Assay Tables, Publications, Study Files and for some processed studies transcriptional visualization. After assessing the title, study descriptions and any related research paper you can use the data visualization application to learn more about some of the quantitative patterns within the biological data. Study metadata are viewable through a tabbed user interface for each study.
+
+<figure><img src=".gitbook/assets/image (40).png" alt=""><figcaption><p>Screenshot showing an example study from the OSDR.</p></figcaption></figure>
+
+### Single study data metadata page <a href="#id-882uty7gnw36" id="id-882uty7gnw36"></a>
+
+* The “Description” tab provides an overview of the study including a text description, contact information, experimental factors, organism(s), type of assay(s), project or mission details, funding information and citation information.
+  * **Description example:** The red box highlights the “Description tab” view that has selected an example dataset, OSD-37. Below is a series of buttons that allow the user to navigate through the data to find details of interest.
+
+<figure><img src=".gitbook/assets/image (43).png" alt=""><figcaption><p><em>The left-hand side of the webpage contains shortcut buttons that take you to additional information, such as a brief description of the experiment, the submission date of the experiment, the size of the data, the GeneLab ID associated with the data, the Digital Object Identifier (DOI), information about the source of the samples, and the assays, publications, files, and version history. The description box has been highlighted with a red dashed line. All the options on the menu on the left have been highlighted with red letters (A-K).</em></p></figcaption></figure>
+
+At the top of the page, you should be able to see an icon picture summarizing the model organism next to the study title, ID number and data release version #. Scrolling down will allow you to a description of the study, the factor(s), organism(s), assay(s), and descriptions of the related project metadata.  On the left of the screen, you’ll see a series of buttons that can quickly navigate you down to different sections.
+
+(A). **Description** - An abstract summary of the experiment
+
+(B). **Experiment(s)** - “No associated Experiments” is not uncommon
+
+(C). **Payload(s)** - “No associated Payloads” is not uncommon
+
+(D). **Mission(s)** - “No associated Mission” is not uncommon
+
+(E). **Protocol(s)** - provides the names and detailed descriptions of the sample collection, library construction, assay, treatment and any other protocol(s).
+
+(F). **Samples** - Table of metadata describing the sample's names including quantitive and qualitative metadata values describing how they were treated. Users can select which fields they wish to export and export them as .csv files for use as factors in new subsequent models.
+
+(G).  **Assay(s)** - Table of metadata linking the samples to quantitive and qualitative metadata about how they were processed. Users can select which fields they wish to export as .csv files that can be used as factors in downstream statistical models.
+
+(H).  **Publication(s) -** Title, Authors, PubMedID, DOI## and web link to papers associated with this study. These provide a first-hand account of the study from the researchers who conducted the primary study.
+
+(I).  **File(s)** - A directory showing the OSD archive data folders that contain the study metadata, the raw or processed data provided by the research team and any extra processed data created by the GeneLab team.
+
+(J). **Version History** - Date of the release of the current version and any associated files that were updated.
+
+(K).  **Visualization** - Launches into a new tab in the browser and provides insights into the GeneLab studies with processed data. “No processed data” is not uncommon.
+
+### Access the data and details about how the experiment   <a href="#fjmk1199na87" id="fjmk1199na87"></a>
+
+### **Navigation panel** <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
+
+To the left of the screen is the navigation panel, this allows users to assess all the different sections of the repository and then go directly to the information they are looking for.
+
+<figure><img src=".gitbook/assets/image (39).png" alt="" width="226"><figcaption><p>The navigation panel on the left a;llows you to move to sections of interst. </p></figcaption></figure>
+
+### Study Overview: Title, icon, GeneLab ID, ALDSA ID and DOI  <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
+
+The top of the page contains the title of the study, the unique GeneLab ID, and if applicable, an ALSDA ID for other non-omics data such as photography or microscopy. The DOI provides a unique identifier for the entire study.
+
+<figure><img src=".gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+
+### Description: Factors, organism, assay(s), project and contact information. <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
+
+This section provides a description of the experiment, a summary of the factors, organism used, assays performed and project information.
+
+<figure><img src=".gitbook/assets/image (27).png" alt=""><figcaption><p>Screenshot showing the project description infcluding the factors, organism, assay(s), project and contact information. </p></figcaption></figure>
+
+### Experiments <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
+
+Some studies provide descriptions of experiments, while others use the primary publication for this purpose. The OSDR now encourages all users to add a description of their experiment in the "Experiments" field.
+
+<figure><img src=".gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+
+### Payloads <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
+
+Flight mission are sent to space flight environments as payloads on vehicles. These payloads are reif given operation identifiers to assist with flight operations.&#x20;
+
+In this example the payload identifier is CARA, this comes from its mission name "Characterizing Arabidopsis Root Attractions (CARA)", along with a description of the experiment. &#x20;
+
+<figure><img src=".gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+
+### Missions <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
+
+Experimental payloads are loaded in specific space flight "Missions", these determine the launch vehicle, launch date and "end date". &#x20;
+
+
+
+In this example, SpaceX-3 was the launch vehicle and the dragon then facilitated transit to the ISS and then back to Earth.&#x20;
+
+<figure><img src=".gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+
+### Protocols <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
+
+The protocol section contains all the information related to how the samples were processed. This information variest depending on the study, but can include basic image acquisition protocols used by astronauts to more complex multi-stage sample processing and automated analysis that occurs with popular technology such as RNAseq.  &#x20;
+
+<figure><img src=".gitbook/assets/image (32).png" alt=""><figcaption><p>Screenshot showing the protocol section, this study contains example photography acquisition and analysis descriptions. </p></figcaption></figure>
+
+<figure><img src=".gitbook/assets/image (33).png" alt=""><figcaption><p>Screenshot showing the protocol section, this study contains examples of nucleic acid extraction and library construction for RNAseq analysis. </p></figcaption></figure>
+
+### Samples <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
+
+### Selecting sample(s) data for export <a href="#fjmk1199na87" id="fjmk1199na87"></a>
+
+**The samples tab contains data that can be downloaded for new statistical analysis.**
+
+*   The “Samples” and “Assays” tabs provide sample and assay level details formatted in a navigatable table. These tabs include specific organism characteristics, study factors and treatments, sample and sample processing metadata, assay execution parameters, and data processing metadata. Use the bottom navigation bar to scroll through all the columns, and the right margin scroll bar to navigate the rows.
+
+    * **Sample example:** A OSD dataset, OSD-37, sample name tab and sort/filter functions. The select export column button in the top left corner allows the selection and download of the most important sample factors. Entries in the table with Blue text provide links to ontology databases to help define their meaning. In the bottom right corner the number of entries on the page is set to 25 as default, many studies have more samples, so you can either navigate through the samples with the arrow button(s) or increase the number of entries per page to 50 or >\~100.
+
+    <figure><img src=".gitbook/assets/Slide23 (1).png" alt="The image shows the “Samples” tab selection which includes the name of the samples. There are scroll bars on the right side and the bottom. The table contains multiple fields of data describing the characteristics of the samples and providing links to some ontology terms that can be used to define experimental factors. The Select Export Columns button has been highlighted with a red box and a red dotted arrow."><figcaption><p><em>The image shows the “Samples” tab selection which includes the name of the samples. The table contains data describing the characteristics of the samples and providing links to some ontology terms that can be used to define experimental factors. The Select Export Columns button has been highlighted with a red box and a red dotted arrow.</em></p></figcaption></figure>
+
+### Selecting assay data for export <a href="#glrbshh7awz9" id="glrbshh7awz9"></a>
+
+**The Assay(s) tab contains data that can be saved or used to develop new statistical tests.**
+
+* There are many fields of data, users can scroll left and right using the slider bar at the bottom of the table or by “holding shift” while scrolling with a “mouse wheel”.
+  * **Assays example:** A GeneLab dataset, OSD-37, assay name tab and sort/filter functions. Some studies have more than one assay type which can be accessed using the drop-down menu in the top right-hand corner. These columns can be selected for download using the export column button. Some fields are links to data files that can be downed directly from the webpage, “right-click” on the entries with blue text and select “download” from the options.
+
+<figure><img src=".gitbook/assets/Slide25.png" alt="The image shows the “Assays” tab selection which includes the name of the assay (which in some cases is a drop-down menu that presents the option of multi-assay that can be selected). There are scroll bars on the right side and the bottom. There is a table that contains multiple fields of data describing the characteristics of the assays and providing links to some of the data products. The scroll bar at the bottom of the page is highlighted with a red box and a yellow arrow shows where the grey bar can be moved to scroll the meta-data stable to the left or right. The “Select Export Columns” button has been highlighted with a red box and an orange dotted line."><figcaption><p>Please remember that you change between different types of assay and can scroll lef and right to observe more metadata information. </p></figcaption></figure>
+
+### Exporting tables to csv, txt, or .xls <a href="#f2351776owgq" id="f2351776owgq"></a>
+
+**Assay data tables can be exported from OSDR and saved or used on local or cloud-based computers.**
+
+* Users can download selected columns from the Samples and/or Assays table. Click on the Select Export Columns button. Select the desired columns and click Export CSV or desired format.
+  * **Assay example:** The OSDR dataset, OSD-37, the “select export columns” has been selected. The Export CSV can be seen at the center top of the table. The user can select which columns or “Fields” they’d like to download by selecting boxes next to the options. The button left corner has “select all”, “unselect all” and close buttons.
+
+### The File(s) tab provides raw and processed data <a href="#m4rj3iwtu9j" id="m4rj3iwtu9j"></a>
+
+**This resource allows you to access and download the raw and processed data.**
+
+* The Study Files tab provides metadata and raw or processed study data files. Each row includes information about the size, type, and description. Click on the file name to download. You can download multiple files by clicking the checkbox at the left of the file name to select and then clicking the “Download Selected Files” button. To select all files in a resource category, navigate to the desired folder by selecting the folder name and then click on the checkbox at the top of the table, next to the Files column name.
+  * **File example:** Study files view and sort/filter functions for OSDR dataset, OSD-37.
+
+<figure><img src=".gitbook/assets/Slide27.png" alt="The files tab has a “Search Files” entry field, then shows the folder structure of the selected OSD study and any subsequent folders which always include the Study Metadata Files, usually include the Raw Data files and occasionally include processed data files or GeneLab Processed data files."><figcaption></figcaption></figure>
