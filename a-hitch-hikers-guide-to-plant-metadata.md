@@ -1,4 +1,6 @@
-# Plant metadata guide
+# A hitch hikers guide to Plant metadata
+
+**When preparing your data management plan or preparing to share your data in the OSDR there are many metadata concepts to record, so we have prepaired this guide to provide some plant related examples.**&#x20;
 
 **Age at launch** **(with unit column)** in whichever unit of time provided by submitter - \*Only include this characteristic if seeds germinated before launch. Most spaceflight studies maintain seed dormancy until after launch (in which case this column is not needed)
 
@@ -58,11 +60,9 @@ If there are multiple treatments with different durations modify this parameter 
 
 **Developmental stage at time of sample collection** (see definitions above) **(free text)**
 
-**duration** (with unit column)( _Exposure Duration_ is to be reserved for radiation metadata) This parameter name has an ontology. \*duration should only be added if there is a treatment time that is distinct from growth time. For example if seedlings were exposed to a unique light treatment for 12 hours but the total growth time was 3 days, then it would be informative to have both Duration and Growth Time columns.
+**Duration** (with unit column)( _Exposure Duration_ is to be reserved for radiation metadata): This parameter name has an ontology. \*duration should only be added if there is a treatment time that is distinct from growth time. For example if seedlings were exposed to a unique light treatment for 12 hours but the total growth time was 3 days, then it would be informative to have both Duration and Growth Time columns.
 
-**Genotype, variety, ecotype etc.-**&#x20;
-
-We describe the additional organism modifiers (variety, ecotype, strain, cultivar) any way the PI or data submitter wants us to. If the data is already in NCBI/GEO this preference will be noted on the sample page and if not it will be described in the associated publication. For example, if they want to call Arabidopsis thaliana "Wasselewskija" an ecotype they can, or if they want to call it a strain or a variety they can etc. Our protocol could just be to accept whatever language the data submitter uses. And if the data submitter does not provide a categorization we can refer to the definitions listed for each category in the ontology (posted below) and make a decision.
+**Genotype, variety, ecotype, cultivar etc:** We describe the additional organism modifiers (variety, ecotype, strain, cultivar) any way the PI or data submitter wants us to. If the data is already in NCBI/GEO this preference will be noted on the sample page and if not it will be described in the associated publication. For example, if they want to call Arabidopsis thaliana "Wasselewskija" an ecotype they can, or if they want to call it a strain or a variety they can etc. Our protocol could just be to accept whatever language the data submitter uses. And if the data submitter does not provide a categorization we can refer to the definitions listed for each category in the ontology (posted below) and make a decision.
 
 **Growth environment** **(has ontology)** (e.g. space shuttle, ISS-US Lab, Earth surface, shuttle simulator or ISSES] ) If the study was conducted on Earth but not in an environmental or shuttle simulator use "Earth surface". Most of these parameter names are linked to an ontology. If curating a radiation study this may be a duplicate column with 'vehicle' which is fine.
 
@@ -112,9 +112,9 @@ For algae this is sometimes just a plastic tub.
 
 **Mean Growth Temperature** (with unit column) -
 
-Maximum Temperature (Celsius): 24.195
+**Maximum Temperature** (Celsius): 24.195
 
-Mean % Relative humidity: 34.920
+**Mean % Relative humidity:** 34.920
 
 Most studies provide a range of temperatures or a sd. Then we have "-" or "+/-" in the column rather than a single number. Which makes the sample table a mess for processing and make it not "AI ready". So only report the mean growth temp in the sample table. This is definitely reductionist since a wide range of temperatures could definitely influence the interpretation of the data but we already have so many parameters I am hesitant to report Max and Mean temp in the table also.&#x20;
 
@@ -127,7 +127,7 @@ Most studies provide a range of temperatures or a sd. Then we have "-" or "+/-" 
 Options for taxonomy if not provided by submitter, these are all currently linked to an ontology.\
 **Strain** (default)
 
-EFO Definition: "A population of organisms that is geneticaly different from others of the same species and possessing a set of defined characteristics."EFO Definition: "A population of organisms that is genetically different from others of the same species and possessing a set of defined characteristics."
+**EFO Definition:** "A population of organisms that is geneticaly different from others of the same species and possessing a set of defined characteristics."EFO Definition: "A population of organisms that is genetically different from others of the same species and possessing a set of defined characteristics."
 
 **Ecotype** (linked as synonym to strain in search)- EFO Definition: "A biotype resulting from selection in a particular habitat, e.g. the A. thaliana Ecotype Ler" \* Unfortunately I can also show you publications that refer to _A. thaliana_ Landsberg _erecta_ (L_er_) as a genotype and as a strain.
 
@@ -135,11 +135,11 @@ EFO Definition: "A population of organisms that is geneticaly different from oth
 
 **Variety** (linked as synonym to strain in search)- NCIT Definition (EFO has not entry for variety): "In botanical nomenclature, a rank below subspecies but above forma."
 
-Accession (linked as synonym to strain in search)- EDAM Definition: A persistent (stable) and unique identifier, typically identifying an object (entry) from a database.
+**Accession** (linked as synonym to strain in search)- EDAM Definition: A persistent (stable) and unique identifier, typically identifying an object (entry) from a database.
 
 **Genotype** (linked as synonym to strain in search)- EFO Definition: "Information, making the distinction between the actual physical material (e.g. a cell) and the information about the genetic content (genotype). The total sum of the genetic information of an organism that is known and relevant to the experiment being performed, including chromosomal, plasmid, viral or other genetic material which has been introduced into the organism either prior to or during the experiment."
 
-NCIT Definition: "The genetic constitution of an organism or cell, as distinct from it's expressed features or phenotype."
+**NCIT Definition**: "The genetic constitution of an organism or cell, as distinct from it's expressed features or phenotype."
 
 **Organism** (genus and specific epithet) This parameter name has an ontology. All scientific names should be present in NCBI Taxon as well.&#x20;
 
@@ -181,7 +181,7 @@ A physical exposure (PECO:0007316) involving both low temperature and moist cond
 
 **VEGGIE - APEX04 SPACEFLIGHT**
 
-**watering schedule (free text)** Provide a brief free text description of how the plants received water. Ex. 'bottom watered for the duration of the growth time'. This is rarely used since most studies in our repo are agar-plated
+**Watering schedule (free text):** Provide a brief free text description of how the plants received water. Ex. 'bottom watered for the duration of the growth time'. This is rarely used since most studies in our repo are agar-plated but if other methods are used we encourage extensive descriptions of methods used.&#x20;
 
 **Options for taxonomy if not provided by submitter**
 

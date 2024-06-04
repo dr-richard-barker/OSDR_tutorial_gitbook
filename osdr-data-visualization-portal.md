@@ -9,24 +9,12 @@ description: >-
 
 <figure><img src=".gitbook/assets/Slide50 (2).png" alt="The image displays the NASA logo, which is a red, white, and blue meatball design. Below the logo is the text &#x22;Open Science for Life in Space&#x22;. To the right of the text is the website&#x27;s navigation menu the &#x22;Data Visualization” is highlighted with blue text, surrounded by a red box and has an red arrow pointing at it."><figcaption><p><em>The image displays the NASA logo, which is a red, white, and blue meatball design. Below the logo is the text "Open Science for Life in Space". To the right of the text is the website's navigation menu the "Data Visualization” is highlighted with blue text, surrounded by a red box and has an red arrow pointing at it.</em></p></figcaption></figure>
 
-[Link to Data Visualization Portal](https://visualization.genelab.nasa.gov/data/) ([https://visualization.genelab.nasa.gov/data/](https://visualization.genelab.nasa.gov/data/))
-
-{% embed url="https://visualization.genelab.nasa.gov/data/" %}
-The portal encompasses various visualization types, including Gene Expression query tables, Dendrograms, Heatmaps, Ideogram, Gene Set Enrichment Analysis (GSEA) and interactive plots including PCA, Pair, and Volcano plots. Each tool offers the flexibility to adjust parameters and explore specific aspects of the data.
-{% endembed %}
-
 * The OSDR has many data visualization tools suitable for multiple applications and stakeholders.&#x20;
   * **Data & Tools: Use the dropdown menu to access the** “[Data Visualization](https://visualization.genelab.nasa.gov/data/)” hyperlink to open the OSDR multi-study data visualization application.
-
-[Link to detailed Multi-study visualization tutorial](https://genelab.nasa.gov/sites/default/files/2024-03/Data%20Visualization%20Portal%20JT\_AU.pdf)
-
-{% embed url="https://genelab.nasa.gov/sites/default/files/2024-03/Data%20Visualization%20Portal%20JT_AU.pdf" %}
 
 ### **Metadata Dashboard** <a href="#id-18i9g98tw37j" id="id-18i9g98tw37j"></a>
 
 [Link to Metadata Dashboard](https://visualization.genelab.nasa.gov/data/)
-
-{% embed url="https://visualization.genelab.nasa.gov/data/" %}
 
 **The metadata dashboard is designed to help users narrow search results for experimental data. It provides various tools for filtering and displaying results.**
 
@@ -38,16 +26,12 @@ The portal encompasses various visualization types, including Gene Expression qu
 
 <figure><img src=".gitbook/assets/image (3) (1).png" alt="Image showing 4 pie chart divided into multiple colored sections. The text in the center above the pie chart says 438 studies are currently selected. The pie charts summarize the OSDR metadata values for Factors, Assay technology type, Organism and tissue. Below the pie charts is a time providing more details and the capacity to select individual or multiple studies for further analysis. To the left of the screen is a series of filter options that allow the users drill down into the datasets and find related studies."><figcaption><p><em>Image showing the OSDR data visualisation home page. 4 pie chart are divided into multiple colored sections. The text in the center above the pie chart says 438 studies are currently selected. The pie charts summarize the OSDR metadata values for Factors, Assay technology type, Organism and tissue. Below the pie charts is a time providing more details and the capacity to select individual or multiple studies for further analysis. To the left of the screen is a series of filter options that allow the users drill down into the datasets and find related studies.</em></p></figcaption></figure>
 
-### &#x20;<a href="#uk50q5k2hiyu" id="uk50q5k2hiyu"></a>
-
 ### Selecting “processed studies” to find higher-order data. <a href="#uk50q5k2hiyu" id="uk50q5k2hiyu"></a>
 
 * Users can select factors as filters on the Pie charts or the left side of the dashboard, both sections will be updated to show the selected filters and the studies table will be updated to show the relevant studies.
   * At the top of the filter panel on the left of the screen, you can see the “Show only studies with processed data tab”, selecting this option and then pressing the “Apply” filter button that excludes studies without processed data.
 
 <figure><img src=".gitbook/assets/Slide51.png" alt="Image showing 2 screenshots of the metadata pie charts. The top row shows 438 studies and a red dotted box highlights the Factors, Assay technology types, Organism and Tissue titles on the pie charts to highlight they can be used as filters. The second row of pie charts is annotated with a red dashed arrow connecting the “Show only studies with processed data” option has been engaged and as a result the number of studies currently being selected has been reduced to 170."><figcaption><p><em>Image showing 2 screenshots of the metadata pie charts. The top row shows 438 studies and a red dotted box highlights the Factors, Assay technology types, Organism and Tissue titles on the pie charts to highlight they can be used as filters. The second row of pie charts is annotated with a red dashed arrow connecting the “Show only studies with processed data” option has been engaged and as a result the number of studies currently being selected has been reduced to 170.</em></p></figcaption></figure>
-
-### &#x20;<a href="#e5g8py1a7trn" id="e5g8py1a7trn"></a>
 
 ### Bar charts of factors <a href="#e5g8py1a7trn" id="e5g8py1a7trn"></a>
 
@@ -58,8 +42,6 @@ The portal encompasses various visualization types, including Gene Expression qu
 
 <figure><img src=".gitbook/assets/Slide52.png" alt="2 screenshots showing the “Tissue” metadata presented as bar charts. The red dashed line shows all the &#x22;tissue&#x22; options and highlights that in this example the “root” term is selected. In the bottom screenshot shows the 2 sub-terms that are combined in the “Root” term and an orange arrow pointing at the “Apply filter” button."><figcaption><p><em>2 screenshots showing the “Tissue” metadata presented as bar charts. The red dashed line shows all the "tissue" options and highlights that in this example the “root” term is selected. In the bottom screenshot shows the 2 sub-terms that are combined in the “Root” term and an orange arrow pointing at the “Apply filter” button.</em></p></figcaption></figure>
 
-### &#x20;<a href="#baeehoyiz78k" id="baeehoyiz78k"></a>
-
 ### Selecting a study or group of studies for visualization <a href="#baeehoyiz78k" id="baeehoyiz78k"></a>
 
 **Once a user has selected a study or multiple studies they can press the "Visualize Study" button to be directed to the data visualization tools.**
@@ -68,8 +50,6 @@ The portal encompasses various visualization types, including Gene Expression qu
   * **Filtered down to one study example:** A series of filters applied narrowed the selection to 1 study that fulfils all the user's parameters. The red dashed lines highlight the box that allows the user to select a study, the screen image also shows how a selected study appears when it is highlighted and also identifies where the blue “Visualize Study” button can be found.
 
 <figure><img src=".gitbook/assets/Slide53 (1).png" alt="Image showing Four pie charts illustrates the metadata results determined by applying a series of filters to identify studies with similar organisms and tissues. Red arrows indicate where users can select studies of interest and highlight how the blue visualization study button can be utilized to activate the data visualization graphical user interface."><figcaption><p><em>Image showing Four pie charts illustrate the metadata results determined by applying a series of filters to identify studies with similar organisms and tissues. Red arrows indicate where users can select studies of interest and highlight how the blue visualization study button can be utilized to activate the data visualization graphical user interface.</em></p></figcaption></figure>
-
-### &#x20;<a href="#s7aljci4w0hb" id="s7aljci4w0hb"></a>
 
 ### Studies Metadata Menu as a Table <a href="#s7aljci4w0hb" id="s7aljci4w0hb"></a>
 
@@ -96,8 +76,6 @@ The multi-study page is used to initialize the parameters for data visualization
 
 <figure><img src=".gitbook/assets/image (10).png" alt="Screenshot showing the graphical user interface of the Multi-study visualization application showing data for OSD-49 &#x26; OSD-100."><figcaption><p><em>Screenshot showing the graphical user interface of the Multi-study visualization application showing data for OSD-49 &#x26; OSD-100.</em></p></figcaption></figure>
 
-### &#x20;<a href="#n1ennvxv3ysp" id="n1ennvxv3ysp"></a>
-
 ### Multi-study Data Normalization: <a href="#n1ennvxv3ysp" id="n1ennvxv3ysp"></a>
 
 **A dialogue box will appear to prompt you for data normalization options.** The default selection is often "DESeq2" for normalization, but you can also choose "No Normalization."
@@ -110,8 +88,6 @@ The multi-study page is used to initialize the parameters for data visualization
 * **Sample Selection for Gene Expression Analysis:** Select specific samples by clicking the "Select labelled, expand table" button. Choose samples based on factors added during factor selection.
 * **Visualizing and Downloading Results:** Click "Visualize Studies" to proceed to visualization plots or download the accounts table. Depending on your selection, enter your email address for a notification upon completion.
 * **Exploring Visualization Plots:** Upon completion, the page will direct you to a range of visualization plots and graphs for your data analysis.
-
-### &#x20;<a href="#oek6t1v60xxg" id="oek6t1v60xxg"></a>
 
 ### Multi-study Sidebar Functions <a href="#oek6t1v60xxg" id="oek6t1v60xxg"></a>
 
@@ -141,8 +117,6 @@ When a user accesses the multi-study visualization the DGE table will have sever
 <figure><img src=".gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (7) (1).png" alt="Screenshot showing an example scatter plot made of red and blue dots. The % difference threshold is used to determine the relative proportions of red and bue. Above it is an enlarged version of the plotly panel of graph optimization options with the &#x22;Pan&#x22; button selected. The panel also has a button for copying a screenshot, minimising the screen, and maximising the screen, along with the lasso and square box selection tools."><figcaption><p><em>Screenshot showing an example scatter plot made of red and blue dots. The % difference threshold is used to determine the relative proportions of red and bue. Above it is an enlarged version of the plotly panel of graph optimization options with the "Pan" button selected. The panel also has a button for copying a screenshot, minimising the screen, and maximising the screen, along with the lasso and square box selection tools.</em></p></figcaption></figure>
-
-#### &#x20;<a href="#pf6ggq2bhe0b" id="pf6ggq2bhe0b"></a>
 
 ### PCA Plots <a href="#zgf6azkbfb8w" id="zgf6azkbfb8w"></a>
 
@@ -175,7 +149,7 @@ Pair plots are used for Exploratory Data Analysis, where the plot visualizes the
 
 <figure><img src=".gitbook/assets/Slide55.png" alt="2 scatter plots, the graph on the right has had the % difference color threshold increase to 37. The red dashed line highlights the change in coloring caused by updating the graph after the threshold has been adjusted."><figcaption><p><em>2 scatter plots, the graph on the right has had the % difference color threshold increase to 37. The red dashed line highlights the change in coloring caused by updating the graph after the threshold has been adjusted.</em></p></figcaption></figure>
 
-**Refining Pair plot correlation visualization**
+### **Refining Pair plot correlation visualization**
 
 Upon selecting the green "Samples" button located on the plot, one is presented with the opportunity to adjust several correlation coefficient values. These values serve to quantify both the strength and direction of the correlation that exists between data points.
 
@@ -195,7 +169,7 @@ Upon selecting the green "Samples" button located on the plot, one is presented 
 
 <figure><img src=".gitbook/assets/image (9).png" alt="Screenshot of a volcano plot presenting RNAseq data from OSD-120. Loci going up in abundance are red and loci going down in abundance are blue. A tab is highlighted allowing the user to change the values defined by the Y axis. The option -Log10(P-Value) is highlighted in blue and the results are presented on 2 adjacent volcano plots."><figcaption><p><em>Screenshot of a volcano plot presenting RNAseq data from OSD-120. Loci going up in abundance are red and loci going down in abundance are blue. A tab is highlighted allowing the user to change the values defined by the Y axis. The option -Log10(P-Value) is highlighted in blue and the results are presented on 2 adjacent volcano plots.</em></p></figcaption></figure>
 
-#### Customizing volcano plots <a href="#xqfjx7fvgehs" id="xqfjx7fvgehs"></a>
+### Customizing volcano plots <a href="#xqfjx7fvgehs" id="xqfjx7fvgehs"></a>
 
 **Adjusting the cutoff threshold for coloring the volcano plot and adjusting the distribution of data can increase the ease of data integration.**
 
@@ -218,7 +192,7 @@ Heatmaps allow researchers to quickly and easily identify patterns of gene expre
 
 <figure><img src=".gitbook/assets/Slide60 (1).png" alt="Screenshot a heatmap using data from OSD-120 using the default settings. An orange dashed box highlights the setting tab at the top of the screen. To left there is a figure legend showing the samples and the colors used to define them in the bar at the top heatmap X-axis. The text on the X axis is the names of the samples. To the right of the heatmap a dendrogram shows the connectivity of the sample’s gene expression. To the right of the dendrogram is a red to blue scale bar showing loci expression variation from 1 to 0."><figcaption><p><em>Screenshot a heatmap using data from OSD-120 using the default settings. An orange dashed box highlights the setting tab at the top of the screen. To left there is a figure legend showing the samples and the colors used to define them in the bar at the top heatmap X-axis. The text on the X axis is the names of the samples. To the right of the heatmap a dendrogram shows the connectivity of the sample’s gene expression. To the right of the dendrogram is a red to blue scale bar showing loci expression variation from 1 to 0.</em></p></figcaption></figure>
 
-**Filtering Heatmaps**
+### **Filtering Heatmaps**
 
 Users can filter the genes displayed on the heatmap based on their significance or fold change.
 
@@ -252,8 +226,6 @@ Users can select a clustering method to display results.
 
 <figure><img src=".gitbook/assets/Slide123 (1).png" alt="Screenshot showing 4 different types of Ideogram created using data from OSD-120. Each of the grey bars represents a chromosome and red lines or arroves depict where genes that are significantly differentially expressed genes can be found."><figcaption><p><em>Screenshot showing 4 different types of Ideogram created using data from OSD-120. Each of the grey bars represents a chromosome and red lines or arroves depict where genes that are significantly differentially expressed genes can be found.</em></p></figcaption></figure>
 
-### &#x20;<a href="#id-4ngxvslairnl" id="id-4ngxvslairnl"></a>
-
 ### DGE Table <a href="#id-2ub25g3cd45c" id="id-2ub25g3cd45c"></a>
 
 **Each study will have an associated Differential Gene Expression (DGE) table available that includes information on each sample from the study.**
@@ -274,9 +246,7 @@ To export a Differential Gene Expression (DGE) table from the study visualizatio
 
 <figure><img src=".gitbook/assets/Slide64 (1).png" alt="Table showing 10 significantly differentially expressed mouse loci in the OSD-4. The table shows the Ensemble ID, Symbol, Log2FC, P-value and adjusted P-value."><figcaption><p><em>Table showing 10 significantly differentially expressed mouse loci in the OSD-4. The table shows the Ensemble ID, Symbol, Log2FC, P-value and adjusted P-value. There are button in the top right hand corner that allow the user to down load these data.</em></p></figcaption></figure>
 
-#### &#x20;<a href="#id-8vsniiswkqfg" id="id-8vsniiswkqfg"></a>
-
-#### Multiple study GSEA <a href="#d7vfdcantbds" id="d7vfdcantbds"></a>
+### Multiple study GSEA <a href="#d7vfdcantbds" id="d7vfdcantbds"></a>
 
 **GSEA stands for gene set enrichment analysis, a method to identify gene groups that are overrepresented in a large gene set. It uses statistics to pinpoint significantly enriched or depleted gene classes.**
 
@@ -300,7 +270,3 @@ To update the plot with your changes, simply click "Update." A range of plot typ
 * **GSEA Info:** For in-depth details about GSEA creation, statistics, and plot documentation.
 
 With these steps, you can effectively navigate and utilize the GSEA section, gaining insights into gene set enrichment analysis for your study. A more detailed explanation can be found in the earlier section on the OSDR single study data visualization application.
-
-### &#x20; <a href="#l8m8wfdlxlsd" id="l8m8wfdlxlsd"></a>
-
-### &#x20;<a href="#id-9fsa75cgexjv" id="id-9fsa75cgexjv"></a>

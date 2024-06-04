@@ -6,11 +6,7 @@ description: >-
 
 # NASA OSDR home page
 
-{% embed url="https://osdr.nasa.gov/bio/" %}
-Home page: [https://osdr.nasa.gov/bio/](https://osdr.nasa.gov/bio/)
-{% endembed %}
-
-## Explore the OSDR home page
+## [Explore the OSDR home page](https://osdr.nasa.gov/bio/).
 
 Welcome to our homepage! Here's what you'll find:
 
@@ -49,7 +45,7 @@ Welcome to our homepage! Here's what you'll find:
 
 [**GeneLab**](https://genelab.nasa.gov/about): GeneLab is a NASA project that aims to facilitate information sharing, foster innovation, and increase the pace of scientific discovery from rare and valuable space biology experiments. It provides a comprehensive database that hosts a growing collection of omics data generated from spaceflight and spaceflight analog experiments, enabling scientists to upload, download, store, search, share, transfer, and analyze this data. GeneLab's primary goal is to maximize the utilization of the valuable biological research conducted in space by generating and publishing omics data, and it includes a state-of-the-art sample processing and high-throughput sequencing laboratory to process samples and raw data in a consistent manner.
 
-[**BPS**](https://nlsp.nasa.gov/explore/lsdahome/datarequest): NASA Biological and Physical Sciences (BPS) aims to enhance research efficiency and transparency, and improve handling of science data by promoting an "Open Science" framework. This transformation will facilitate the easy access and clear communication of research information. The Science Mission Directorate (SMD) has issued new policies outlined in the _Scientific Information Policy for the Science Mission Directorate_ Policy Documents.
+[**BSP**](https://nlsp.nasa.gov/explore/lsdahome/datarequest): NASA Biological  Biospecifimen sharing program aims to enhance research efficiency and transparency, and improve handling of scientific samples and data. The BSP team develops and adheres to a process flow consisting of planning and coordinating activities, dissection of the biospecimens, and distribution of tissues.
 
 [**NBISC**](https://osdr.nasa.gov/bio/about/nbisc.html): [NASA Biological Institutional Scientific Collection ](https://osdr.nasa.gov/bio/about/nbisc.html)(NBISC), is a biorepository contains tens of thousands of unused non-human samples collected from NASA-funded spaceflight investigations and correlative ground/analogue studies. The purpose of NBISC is to receive, store, document, preserve, and make the collection available to the scientific community. This program facilitates the sharing of biological samples collected during spaceflight experiments. Gain insights into the importance of biospecimen sharing for advancing space biology research and understanding the effects of space flight-related environments and stimuli on living organisms.&#x20;
 
@@ -97,9 +93,7 @@ The "HBISS Seminar Series" link leads to the Horizons in Biosciences & Informati
 
 **Open Science:** The "Open Science" drop-down menu contains a link to the "Data Management Policies for BPS" page. This page summarizes the data management policies for the Biological and Physical Sciences (BPS) division of NASA's Science Mission Directorate (SMD). It outlines the requirements for data management and sharing for BPS-funded research projects.
 
-{% embed url="https://nasa.github.io/Transform-to-Open-Science/take-os101/" %}
-
-[**TOPS**](https://osdr.nasa.gov/bio/data/tops.html)**:** The "TOPS" (Transform to Open Science) page provides an overview of the US White House's Transform to Open Science initiative. This initiative aims to make publicly funded research more accessible and reproducible by requiring federal agencies to develop plans for transitioning to open science practices. The page also includes a link to enrol in the OS101 curriculum, which provides training on open science principles and best practices.
+[**TOPS**](https://osdr.nasa.gov/bio/data/tops.html)**:** The "TOPS" (Transform to Open Science) page provides an overview of the US White House's Transform to Open Science initiative. This initiative aims to make publicly funded research more accessible and reproducible by requiring federal agencies to develop plans for transitioning to open science practices. The page also includes a[ link to enrole in the OS101 curriculum, ](https://nasa.github.io/Transform-to-Open-Science/take-os101/)which provides training on open science principles and best practices.
 
 [**Data**](https://osdr.nasa.gov/bio/data/data-management-bps.html)[ **management policies:**](https://osdr.nasa.gov/bio/data/data-management-bps.html) NASA seeks to transform science data management to increase research throughput and transparency. The Science Mission Directorate (SMD) has issued new policies, including the Scientific Information Policy for the Science Mission Directorate (SMD Policy Document SPD-41a). The Biological and Physical Sciences (BPS) division of SMD has further specified these policies in the BPS Scientific Data Management Policy (BPS-021). Guidance and aids on implementing these data management policies are available at various locations, including the Space Biology Open Science-Data Management Plan (OS-DMP) Template and Guidance, the ROSES Open Science and Data Management Plan, and the NASA Science Mission Directorate: Open-Source Science Guidance.
 

@@ -6,23 +6,15 @@ description: >-
 
 # OSDR Public API
 
-{% embed url="https://api.nasa.gov/" %}
-
 The API provides a choice of standard web output formats, either JavaScript Object Notation (JSON) or Hyper Text Markup Language (HTML), of query results. The Data File API returns metadata on data files associated with dataset(s), including the location of these files for download via https. The Metadata API returns entire sets of metadata for input study dataset accession numbers. The Search API can be used to search dataset metadata by keywords and/or metadata. It can also be used to provide search of three other omics databases: the National Institutes of Health (NIH) / National Center for Biotechnology Information's (NCBI) Gene Expression Omnibus (GEO); the European Bioinformatics Institute's (EBI) Proteomics Identification (PRIDE); the Argonne National Laboratory's (ANL) Metagenomics Rapid Annotations using Subsystems Technology (MG-RAST).
 
-In addition to study datasets, NASA OSDR also hosts metadata for 7 other data types: experiments, payloads, subjects, biospecimens, missions, vehicles, and hardware. The API for these data types is listed separately and uniform throughout, to make for easy metadata exploration.
+In addition to study datasets, NASA OSDR also hosts metadata for 7 other data types: experiments, payloads, subjects, biospecimens, missions, vehicles, and hardware. The API for these data types is listed separately and uniform throughout, to make for easy metadata exploration.&#x20;
 
-**Resources:** For more information on making API requests with python, try this [python API tutorial](https://www.dataquest.io/blog/python-api-tutorial/).
-
-Alternatively for more advanced information on the OSDR Public API visit [https://api.nasa.gov/](https://api.nasa.gov/).
-
-### &#x20;<a href="#id-22paw416qpf8" id="id-22paw416qpf8"></a>
+**Resources:** For more information on making API requests with python, try this [python API tutorial](https://www.dataquest.io/blog/python-api-tutorial/) and for information NASA's public API visit [https://api.nasa.gov/](https://api.nasa.gov/).
 
 ### [OSDR API](https://genelab.nasa.gov/genelabAPIs)
 
 [Find out more about the OSDR Automatic programmatic interaction (API) here.](https://genelab.nasa.gov/genelabAPIs)
-
-{% embed url="https://genelab.nasa.gov/genelabAPIs" %}
 
 ### **Making API Requests with Python**
 
@@ -47,8 +39,6 @@ The go-to library for making API requests in Python is called requests. It provi
 `# Replace API_ENDPOINT_HERE with the actual API endpoint URL`
 
 `response = requests.get("API_ENDPOINT_HERE").json()`
-
-`# Process the data in the response object`
 
 ` ``` `
 
@@ -90,7 +80,7 @@ By replacing API\_ENDPOINT\_HERE with the actual URL of the API endpoint you wan
 
 Single Study Metadata Request:
 
-**Example:** [https://osdr.nasa.gov/osdr/data/osd/meta/137](https://osdr.nasa.gov/osdr/data/osd/meta/137)
+**Example:** [`https://osdr.nasa.gov/osdr/data/osd/meta/137`](https://osdr.nasa.gov/osdr/data/osd/meta/137)
 
 **Returns:** JSON-formatted response
 
@@ -108,7 +98,7 @@ Before diving in, let's clarify the term "syntax." In computer science, syntax r
 
 The OSDR Study Metadata API uses the following endpoint URL structure:
 
-### https://osdr.nasa.gov/osdr/data/osd/meta/{OSD\_STUDY\_ID} <a href="#y1ghpc1dn4ak" id="y1ghpc1dn4ak"></a>
+`https://osdr.nasa.gov/osdr/data/osd/meta/{OSD_STUDY_ID}`
 
 This endpoint acts like a doorway to a specific study's metadata.&#x20;
 
@@ -126,10 +116,6 @@ Let's say you're interested in exploring the metadata for a particular OSDR stud
 
 By using this URL through the API, you'll receive a response containing all the metadata associated with study 137. This metadata serves as a treasure trove of information, revealing details about the study design, samples involved, data types collected, and much more. [This Google CoLab Notebook ](https://github.com/dr-richard-barker/Space\_Biology\_and\_AstroBotany.io/blob/main/OSDR\_API\_demo\_GLDS-37.ipynb)demonstrates what this API looks like and is available for users to edit and evolve.
 
-{% @github-files/github-code-block url="https://github.com/dr-richard-barker/Space_Biology_Education.io/blob/main/OSDR_API_demo_GLDS-37.ipynb" %}
-
-#### The Power of the Response: Unveiling Study Secrets
-
 The response from the API will be delivered in JSON format, a common and easily readable format for data exchange. This JSON response will essentially be a digital document containing all the metadata associated with the requested study. Imagine it as a detailed report outlining the study's purpose, methods, and collected data.
 
 By parsing through this response using Python or other programming languages, you can extract valuable insights into the study and its associated data. This information can be crucial for understanding the context and design of the research, ultimately enabling more informed analysis and interpretation of the data itself.
@@ -146,7 +132,7 @@ Always refer to the official OSDR documentation for the latest information on th
 
 Syntax 1:
 
-https://osdr.nasa.gov/osdr/data/osd/files/{**OSD\_STUDY\_IDs**}/?page={CURRENT\_PAGE\_NUMBER}\&size={RESULTS\_PER\_PAGE}?all\_files={ALL\_FILES}
+`https://osdr.nasa.gov/osdr/data/osd/files/{`**`OSD_STUDY_IDs`**`}/?page={CURRENT_PAGE_NUMBER}&size={RESULTS_PER_PAGE}?all_files={ALL_FILES}`
 
 | Parameters              | Data Type          | Notes                                                                                                                                                                              | Values                  | Required |
 | ----------------------- | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- | -------- |
@@ -154,22 +140,6 @@ https://osdr.nasa.gov/osdr/data/osd/files/{**OSD\_STUDY\_IDs**}/?page={CURRENT\_
 | {CURRENT\_PAGE\_NUMBER} | Integer            | Current page number in pagination                                                                                                                                                  | Starts from 0           | No       |
 | {RESULTS\_PER\_PAGE}    | Integer            | Number of results returned per page in pagination                                                                                                                                  | Max 25 results per page | No       |
 | {ALL\_FILES}            | Boolean            | Include hidden files. true to include invisible files; false to exclude. Default value is false.                                                                                   | true or false           | No       |
-
-#### Example requests: <a href="#rxafhhfdshrl" id="rxafhhfdshrl"></a>
-
-* Single study request using study accession number
-
-**Example:** [https://osdr.nasa.gov/osdr/data/osd/files/87](https://osdr.nasa.gov/osdr/data/osd/files/87)
-
-* Multiple studies request using combination of range and comma-separated list
-
-**Example:** [https://osdr.nasa.gov/osdr/data/osd/files/137,87-95,13,20-50](https://osdr.nasa.gov/osdr/data/osd/files/137,87-95,13,20-50)
-
-**Returns:** The JSON-formatted response includes the study\_files element, and the remote\_url attribute will obtained from that element. Which can be used to obtain the specific download URL for the file by prefacing with the OSDR data server address, [https://osdr.nasa.gov](https://osdr.nasa.gov/) .
-
-In the example query/response below, the first study file for OSD-87 (version 1) study in the response below can be downloaded from [https://osdr.nasa.gov/geode-py/ws/studies/OSD-87/download?source=datamanager\&file=GLDS-87\_metadata\_Zanello\_STS135-ISA.zip](https://osdr.nasa.gov/geode-py/ws/studies/OSD-87/download?source=datamanager\&file=GLDS-87\_metadata\_Zanello\_STS135-ISA.zip)
-
-
 
 ### **Explanation of the OSDR Study Data File API** <a href="#ivh1s0qlv61f" id="ivh1s0qlv61f"></a>
 
@@ -179,7 +149,7 @@ Alright class, buckle up! Today we're diving into the OSDR Study Data File API, 
 
 The API uses a specific syntax to define your request. Here's how it works:
 
-**Base URL:** https://osdr.nasa.gov/osdr/data/osd/files/
+**Base URL:** `https://osdr.nasa.gov/osdr/data/osd/files/`
 
 This is the foundation of your API request URL.
 
@@ -200,13 +170,13 @@ Let's explore some real-world examples:
 
 Want to download data files for the study with accession number 87? Use this URL:
 
-#### https://osdr.nasa.gov/osdr/data/osd/files/87 <a href="#w1xkxlkruyfu" id="w1xkxlkruyfu"></a>
+#### `https://osdr.nasa.gov/osdr/data/osd/files/87` <a href="#w1xkxlkruyfu" id="w1xkxlkruyfu"></a>
 
 1. **Multiple Studies Request:**
 
 Need data from multiple studies? This URL grabs data from studies 137, 87-95 (accession numbers 87 to 95), study 13, and studies 20 to 50:
 
-#### https://osdr.nasa.gov/osdr/data/osd/files/137,87-95,13,20-50 <a href="#wr2nxymxrizr" id="wr2nxymxrizr"></a>
+#### `https://osdr.nasa.gov/osdr/data/osd/files/137,87-95,13,20-50` <a href="#wr2nxymxrizr" id="wr2nxymxrizr"></a>
 
 **Decoding the Response: Your Downloading Roadmap**
 
@@ -214,9 +184,7 @@ The response from the API will be delivered in JSON format. Within the response,
 
 The remote\_url provides the download link for the specific data file. To get the complete download URL, simply prepend the OSDR data server address (https://osdr.nasa.gov) to the remote\_url provided in the response.
 
-For example, if the remote\_url for the first data file in study OSD-87 (version 1) is geode-py/ws/studies/OSD-87/download?source=datamanager\&file=GLDS-87\_metadata\_Zanello\_STS135-ISA.zip, the complete download URL would be:
-
-https://osdr.nasa.gov/geode-py/ws/studies/OSD-87/download?source=datamanager\&file=GLDS-87\_metadata\_Zanello\_STS135-ISA.zip
+`https://osdr.nasa.gov/geode-py/ws/studies/OSD-87/download?source=datamanager&file=GLDS-87_metadata_Zanello_STS135-ISA.zip`
 
 **Remember:**
 
@@ -224,13 +192,11 @@ https://osdr.nasa.gov/geode-py/ws/studies/OSD-87/download?source=datamanager\&fi
 * Pagination is your friend for large datasets. Play around with the {CURRENT\_PAGE\_NUMBER} and {RESULTS\_PER\_PAGE} parameters to navigate through extensive data collections.
 * Always refer to the official OSDR documentation for the latest information on the API and its functionalities.
 
-#### &#x20;<a href="#fkzsxq1uj01p" id="fkzsxq1uj01p"></a>
-
 #### Study Dataset Search API <a href="#fkzsxq1uj01p" id="fkzsxq1uj01p"></a>
 
 Syntax 1 (returns JSON response)
 
-https://osdr.nasa.gov/osdr/data/search?\<PARAMETER-LIST>
+`https://osdr.nasa.gov/osdr/data/search?<PARAMETER-LIST>`
 
 | parameters | definition                  | values                                                                                                                                                                                            |
 | ---------- | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -247,7 +213,7 @@ https://osdr.nasa.gov/osdr/data/search?\<PARAMETER-LIST>
 
 The API uses a specific syntax to understand your search criteria. Here's how it breaks down:
 
-**Base URL:** [https://osdr.nasa.gov/osdr/data/**search**](https://osdr.nasa.gov/osdr/data/search)**?**
+**Base URL:** [`https://osdr.nasa.gov/osdr/data/`**`search`**](https://osdr.nasa.gov/osdr/data/search)**?**
 
 This is the foundation of your API request URL.
 
@@ -272,19 +238,19 @@ Let's explore some real-world examples to solidify your understanding:
 
 Looking for datasets containing the term "microbiome"? Use this URL:
 
-[https://osdr.nasa.gov/osdr/data/search?term=microbiome](https://osdr.nasa.gov/osdr/data/search?term=microbiome)
+[`https://osdr.nasa.gov/osdr/data/search?term=microbiome`](https://osdr.nasa.gov/osdr/data/search?term=microbiome)
 
 1. **Paginated Search with Filtering:**
 
 Want to see datasets related to "RNA-seq" starting from page 2, displaying 10 results per page, and filtered by data source "nih\_geo"? This URL achieves that:
 
-[https://osdr.nasa.gov/osdr/data/search?term=RNA-seq\&from=1\&size=10\&type=nih\_geo](https://osdr.nasa.gov/osdr/data/search?term=RNA-seq\&from=1\&size=10\&type=nih\_geo)
+[`https://osdr.nasa.gov/osdr/data/search?term=RNA-seq&from=1&size=10&type=nih_geo`](https://osdr.nasa.gov/osdr/data/search?term=RNA-seq\&from=1\&size=10\&type=nih\_geo)
 
 1. **Exact Match Filtering:**
 
 Need datasets with the exact title "A Study of Microbial Communities in Space"? This URL leverages the .raw extension for exact matching:
 
-[https://osdr.nasa.gov/osdr/data/search?term=\&ffield=title.raw\&fvalue=A%20Study%20of%20Microbial%20Communities%20in%20Space](https://osdr.nasa.gov/osdr/data/search?term=\&ffield=title.raw\&fvalue=A%20Study%20of%20Microbial%20Communities%20in%20Space)
+[`https://osdr.nasa.gov/osdr/data/search?term=&ffield=title.raw&fvalue=A%20Study%20of%20Microbial%20Communities%20in%20Space`](https://osdr.nasa.gov/osdr/data/search?term=\&ffield=title.raw\&fvalue=A%20Study%20of%20Microbial%20Communities%20in%20Space)
 
 **Remember:**
 
@@ -292,7 +258,7 @@ Need datasets with the exact title "A Study of Microbial Communities in Space"? 
 * Pagination and filtering are your allies for efficient searching, especially with large datasets.
 * Always refer to the official OSDR documentation for the latest list of available filter fields and for more advanced search functionalities.
 
-#### POST and GET requests accept the URL encoded name/value pairs for submission <a href="#id-9lfixb1g42vf" id="id-9lfixb1g42vf"></a>
+#### POST and GET requests accept the URL-encoded name/value pairs for submission <a href="#id-9lfixb1g42vf" id="id-9lfixb1g42vf"></a>
 
 | **Filter Field (Case Sensitive)** | **Example Filter Value**                                                                        |
 | --------------------------------- | ----------------------------------------------------------------------------------------------- |
@@ -328,9 +294,9 @@ Need datasets with the exact title "A Study of Microbial Communities in Space"? 
 | Study Publication Title           | spaceflown murine thymus tissue                                                                 |
 | Study Title                       | Space-flown Murine Thymus Tissue                                                                |
 
-**Example(s):** [https://osdr.nasa.gov/osdr/data/search?term=space\&from=0\&type=cgene,nih\_geo\_gse\&ffield=links\&fvalue=GPL16417\&ffield=Data%20Source%20Accession.raw\&fvalue=GSE82255](https://osdr.nasa.gov/osdr/data/search?term=space\&from=0\&type=cgene,nih\_geo\_gse\&ffield=links\&fvalue=GPL16417\&ffield=Data%20Source%20Accession.raw\&fvalue=GSE82255)
+**Example(s):** [`https://osdr.nasa.gov/osdr/data/search?term=space&from=0&type=cgene,nih_geo_gse&ffield=links&fvalue=GPL16417&ffield=Data%20Source%20Accession.raw&fvalue=GSE82255`](https://osdr.nasa.gov/osdr/data/search?term=space\&from=0\&type=cgene,nih\_geo\_gse\&ffield=links\&fvalue=GPL16417\&ffield=Data%20Source%20Accession.raw\&fvalue=GSE82255)
 
-[https://osdr.nasa.gov/osdr/data/search?ffield=organism\&fvalue=Homo%20sapiens\&ffield=Study%20Assay%20Technology%20Type\&fvalue=RNA%20Sequencing](https://osdr.nasa.gov/osdr/data/search?ffield=organism\&fvalue=Homo%20sapiens\&ffield=Study%20Assay%20Technology%20Type\&fvalue=RNA%20Sequencing)
+[`https://osdr.nasa.gov/osdr/data/search?ffield=organism&fvalue=Homo%20sapiens&ffield=Study%20Assay%20Technology%20Type&fvalue=RNA%20Sequencing`](https://osdr.nasa.gov/osdr/data/search?ffield=organism\&fvalue=Homo%20sapiens\&ffield=Study%20Assay%20Technology%20Type\&fvalue=RNA%20Sequencing)
 
 #### Understanding POST and GET Filter Field Options <a href="#cpl54pj0ww3a" id="cpl54pj0ww3a"></a>
 
@@ -339,7 +305,7 @@ The API provides a comprehensive list of filter fields that you can leverage to 
 Here are some noteworthy filter fields along with example filter values to illustrate their functionality:
 
 * **Accession (OSD-4):** This field allows you to search for datasets based on their unique accession number within OSDR.
-* **Acknowledgments (NASA JPL):** Want to find datasets that acknowledge a specific entity (e.g., funding agency, collaborator)? Use this field.
+* **Acknowledgements (NASA JPL):** Want to find datasets that acknowledge a specific entity (e.g., funding agency, collaborator)? Use this field.
 * **Authoritative Source URL (OSD-4):** This filter helps you identify datasets with a specific authoritative source URL.
 * **Data Source Accession (GSE18388):** If you know the accession number of the dataset in the original data source (e.g., Gene Expression Omnibus), you can use this filter to locate it within OSDR.
 * **Data Source Type (cgene):** Refine your search by specifying the data source type (e.g., cgene for Gene Expression Omnibus, nih\_geo for Gene Expression Omnibus by NIH).
@@ -360,26 +326,24 @@ By strategically combining search terms with filter fields, you can formulate hi
 
 **Syntax 2 (returns HTML response):**
 
-Example Format: [https://osdr.nasa.gov/bio/repo/search?q=](https://osdr.nasa.gov/bio/repo/search?q=)<**SEARCH-TERMS**>\&data\_source=<**DATA-SOURCE**>
+Example Format: [https://osdr.nasa.gov/bio/repo/search?q=](https://osdr.nasa.gov/bio/repo/search?q=)`<`**`SEARCH-TERMS`**`>&data_source=<`**`DATA-SOURCE`**`>`
 
 **Example(s):**
 
-[https://osdr.nasa.gov/bio/repo/search?q=**cancer**\&data\_source=**cgene**](https://osdr.nasa.gov/bio/repo/search?q=cancer\&data\_source=cgene)
+[`https://osdr.nasa.gov/bio/repo/search?q=`**`cancer`**`&data_source=`**`cgene`**](https://osdr.nasa.gov/bio/repo/search?q=cancer\&data\_source=cgene)
 
-[https://osdr.nasa.gov/osdr/bio/repo/search?q=**mouse%20AND%20liver**\&data\_source=**cgene**](https://osdr.nasa.gov/bio/repo/search?q=mouse%20AND%20liver\&data\_source=cgene)
+[`https://osdr.nasa.gov/osdr/bio/repo/search?q=`**`mouse%20AND%20liver`**`&data_source=`**`cgene`**](https://osdr.nasa.gov/bio/repo/search?q=mouse%20AND%20liver\&data\_source=cgene)
 
 | Parameters   | Values                                     | Usage                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | ------------ | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | SEARCH-TERMS | text                                       | <p>Any text to search for, can be augmented by the keywords:</p><ul><li>AND - ALL search terms must be present (default boolean search)</li><li>OR - ANY of your search terms can be present</li><li>NOT - exclude words from your search</li></ul><p>If no conjunctive or disjunctive operator specified, the default is "AND"</p>                                                                                                                                                                                                  |
 | DATA-SOURCE  | cgene, nih\_geo\_gse, ebi\_pride, mg\_rast | <ul><li><strong>cgene</strong> - Search authoritative data records in NASA Open Science Data Repository</li><li><strong>nih_geo_gse</strong> - Search authoritative data records in NIH Gene Expression Omnibus database</li><li><strong>ebi_pride</strong> - Search authoritative data records in the European Bioinformatics Institute Proteomics Identification database</li><li><strong>mg_rast</strong> - Search authoritative data records in the Metagenomic Rapid Annotations using Subsystems Technology database</li></ul> |
 
-### &#x20;<a href="#id-67jejmnznql6" id="id-67jejmnznql6"></a>
-
-#### Alternative Search Interface: Syntax Breakdown
+### Alternative Search Interface: Syntax Breakdown
 
 This alternative search syntax offers a user-friendly interface for exploring datasets within OSDR:
 
-### **Base URL:** [https://osdr.nasa.gov/bio/repo/search](https://osdr.nasa.gov/bio/repo/search)?
+#### **Base URL:** [https://osdr.nasa.gov/bio/repo/search](https://osdr.nasa.gov/bio/repo/search)?
 
 ### **Parameters:**
 
@@ -394,13 +358,13 @@ This alternative search syntax offers a user-friendly interface for exploring da
 
 1. **Basic Search**: Looking for datasets related to "cancer" within the Gene Expression Omnibus database?
 
-**Use this URL:** [https://osdr.nasa.gov/bio/repo/search?q=cancer\&data\_source=nih\_geo\_gse](https://osdr.nasa.gov/bio/repo/search?q=cancer\&data\_source=nih\_geo\_gse)
+**Use this URL:** [`https://osdr.nasa.gov/bio/repo/search?q=cancer&data_source=nih_geo_gse`](https://osdr.nasa.gov/bio/repo/search?q=cancer\&data\_source=nih\_geo\_gse)
 
 1. **Advanced Search with Operators:** Want to find datasets that contain "mouse" AND "liver" within the Gene Expression Omnibus database?
 
 **This URL achieves that:**
 
-[https://osdr.nasa.gov/bio/repo/search?q=mouse%20AND%20liver\&data\_source=nih\_geo\_gse](https://osdr.nasa.gov/bio/repo/search?q=mouse%20AND%20liver\&data\_source=nih\_geo\_gse)
+[`https://osdr.nasa.gov/bio/repo/search?q=mouse%20AND%20liver&data_source=nih_geo_gse`](https://osdr.nasa.gov/bio/repo/search?q=mouse%20AND%20liver\&data\_source=nih\_geo\_gse)
 
 ### **Key Points to Remember:** <a href="#l1um6r5i21tp" id="l1um6r5i21tp"></a>
 
@@ -457,17 +421,15 @@ Important Considerations:
   * All: [https://osdr.nasa.gov/geode-py/ws/api/biospecimens](https://osdr.nasa.gov/geode-py/ws/api/biospecimens) (lists all biospecimens)
   * Single: [https://osdr.nasa.gov/geode-py/ws/api/biospecimen/](https://osdr.nasa.gov/geode-py/ws/api/biospecimen/) + {identifier} (detailed information about a specific biospecimen)
 
-**Examples in Action:**
-
-**Single Mission Example:** Want to know everything about the SpaceX-12 mission? Use this URL: [https://osdr.nasa.gov/geode-py/ws/api/mission/SpaceX-12](https://osdr.nasa.gov/geode-py/ws/api/mission/SpaceX-12)
-
-**Single Vehicle Example:** Curious about the details of the Dragon spacecraft? This URL provides the answer: [https://osdr.nasa.gov/geode-py/ws/api/vehicle/Dragon](https://osdr.nasa.gov/geode-py/ws/api/vehicle/Dragon)
-
-### &#x20;<a href="#g4dbf6ytvc9o" id="g4dbf6ytvc9o"></a>
-
 ### **Tutorial using R Code for Bioinformatics Analysis with NASA OSDR** <a href="#id-69hdujge0cpk" id="id-69hdujge0cpk"></a>
 
-### This tutorial guides you through leveraging R code to access, analyze, and visualize data from the NASA Open Science Data Repository (OSDR) for differential expression and pathway enrichment analysis. <a href="#id-8nsftjty6wh" id="id-8nsftjty6wh"></a>
+**Examples in Action:**
+
+**Single Mission Example:** Want to know everything about the SpaceX-12 mission? Use this URL: [`https://osdr.nasa.gov/geode-py/ws/api/mission/SpaceX-12`](https://osdr.nasa.gov/geode-py/ws/api/mission/SpaceX-12)
+
+**Single Vehicle Example:** Curious about the details of the Dragon spacecraft? This URL provides the answer: [`https://osdr.nasa.gov/geode-py/ws/api/vehicle/Dragon`](https://osdr.nasa.gov/geode-py/ws/api/vehicle/Dragon)
+
+This tutorial guides you through leveraging R code to access, analyze, and visualize data from the NASA Open Science Data Repository (OSDR) for differential expression and pathway enrichment analysis.
 
 #### **Step 1: Accessing Metadata and Data** <a href="#id-2cp6z3lz7neo" id="id-2cp6z3lz7neo"></a>
 
@@ -626,17 +588,15 @@ Before you can start working with OSDR data using the AWS CLI, you need to insta
 
 aws s3 ls**:** This command allows you to list the contents of an S3 bucket. For instance, to list the datasets within the OSDR S3 bucket, you could use:
 
-aws s3 ls s3://nasa-osdr/
+`aws s3 ls s3://nasa-osdr/`
 
 aws s3 cp**:** This command enables you to copy data from the S3 bucket to your local machine. For example, to download a specific data file named experiment.csv from the OSDR bucket, you could use:
 
-aws s3 cp s3://nasa-osdr/experiment.csv ./experiment.csv
+`aws s3 cp s3://nasa-osdr/experiment.csv ./experiment.csv`
 
 aws s3 head**:** Use this command to get information about a specific S3 object (file or folder) within the bucket. This can be helpful to determine the size and creation date of a dataset before downloading.
 
 These are just a few foundational commands. The AWS CLI offers a comprehensive set of functionalities for managing and interacting with data stored in S3 buckets. Refer to the official AWS CLI documentation[ https://docs.aws.amazon.com/cli/](https://docs.aws.amazon.com/cli/) for a complete list of commands and detailed explanations.
-
-#### &#x20;<a href="#lpahhb6lzyrc" id="lpahhb6lzyrc"></a>
 
 #### Navigating the OSDR Data Landscape <a href="#qtcs4a9vt67d" id="qtcs4a9vt67d"></a>
 
@@ -644,9 +604,9 @@ The OSDR S3 bucket is meticulously organized. Data is typically stored within fo
 
 **For instance, the command:**
 
-\`\`\`bash
+` ```bash `
 
-aws s3 ls -r s3://nasa-osdr/SpaceX-12/
+`aws s3 ls -r s3://nasa-osdr/SpaceX-12/`
 
 ` ``` `
 
@@ -684,19 +644,19 @@ To copy specific files from the OSDR S3 bucket to your local machine, you can us
 
 * To copy a specific file to your local directory:
 
-\`\`\`bash
+` ```bash `
 
-aws s3 cp --no-sign-request s3://nasa-osdr/OSD-96/version-6/rna\_seq/GLDS-96\_rna\_seq\_Dmel\_Can-S\_wo\_GC\_5th-gen-GC-der\_1.5hr\_GSM2350418\_R2\_raw.fastq.gz\_trimming\_report.txt
+`aws s3 cp --no-sign-request s3://nasa-osdr/OSD-96/version-6/rna_seq/GLDS-96_rna_seq_Dmel_Can-S_wo_GC_5th-gen-GC-der_1.5hr_GSM2350418_R2_raw.fastq.gz_trimming_report.txt`
 
-\`\`\`
+` ``` `
 
 * To copy all files within a specific dataset to your local directory:
 
-\`\`\`bash
+` ```bash `
 
-aws s3 cp --no-sign-request s3://nasa-osdr/OSD-96/ --recursive
+`aws s3 cp --no-sign-request s3://nasa-osdr/OSD-96/ --recursive`
 
-\`\`\`
+` ``` `
 
 ### Additional Resources <a href="#o603fbfwinv0" id="o603fbfwinv0"></a>
 
@@ -758,36 +718,19 @@ This is the foundation of your API request URL.
 
 **Key-value pair syntax; data fields**
 
-| Key               | Type                                              | Description                                | Unit        | Value format                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Examples                                                                                                                                                                                   |
-| ----------------- | ------------------------------------------------- | ------------------------------------------ | ----------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| source            | string                                            | name of source (data provider)             |             | <ul><li>empty: Request the field without applying filters to its values</li><li>=value: Match value</li><li>=value1|value2: Match value1 or value2</li></ul>                                                                                                                                                                                                                                                                                                                  | <p>source</p><p>source=DORELI</p><p>source=DORELI|BAS</p>                                                                                                                                  |
-| spacecraft        | string                                            | name of spacecraft                         |             | <p>spacecraft</p><p>spacecraft=ISS</p>                                                                                                                                                                                                                                                                                                                                                                                                                                        |                                                                                                                                                                                            |
-| instrument        | string                                            | name of instrument                         |             | <p>instrument</p><p>instrument=Liulin-5-1D</p><p>instrument=Lidal|REM</p>                                                                                                                                                                                                                                                                                                                                                                                                     |                                                                                                                                                                                            |
-| timestamp         | <p>ISO-formatted string</p><p>(or Unix epoch)</p> | timestamp of recorded value(s)             |             | <ul><li>empty: Request the field without applying filters to its values</li><li>&#x3C;value: Match any less than value</li><li>&#x3C;=value: Match any less or equal to value</li><li>=value: Match value</li><li>>=value: Match any greater or equal to value</li><li>>value: Match any greater than value</li></ul><p>Note: can be used more than once in a single query.</p><p>Note: special characters (&#x3C;, >, :) may need to be URL-encoded (see "Notes" below).</p> | <p>timestamp</p><p>timestamp=2021-01-01T15:25</p><p>timestamp&#x3C;=2021-01-01T15:25</p><p>timestamp>=2022-01-01T00:00&#x26;timestamp&#x3C;2023-01-01T00:00</p><p>timestamp>1683786900</p> |
-| dose\_rate\_total | number                                            | total radiation dose rate                  | μGy/hour    | <p>dose_rate_total</p><p>dose_rate_total>=2</p>                                                                                                                                                                                                                                                                                                                                                                                                                               |                                                                                                                                                                                            |
-| flux\_total       | number                                            | total particle flux                        | cm-2sr-1s-1 | <p>flux_total</p><p>flux_total&#x3C;1</p>                                                                                                                                                                                                                                                                                                                                                                                                                                     |                                                                                                                                                                                            |
-| latitude          | number                                            | latitude of spacecraft at given timestamp  | deg         | <p>latitude</p><p>latitude&#x3C;-10</p>                                                                                                                                                                                                                                                                                                                                                                                                                                       |                                                                                                                                                                                            |
-| longitude         | number                                            | longitude of spacecraft at given timestamp | deg         | <p>longitude</p><p>longitude>30</p>                                                                                                                                                                                                                                                                                                                                                                                                                                           |                                                                                                                                                                                            |
-| altitude          | number                                            | altitude of spacecraft at given timestamp  | km          | <p>altitude</p><p>altitude>=420</p>                                                                                                                                                                                                                                                                                                                                                                                                                                           |                                                                                                                                                                                            |
-| B                 | number                                            | B value                                    | nT          | <p>B</p><p>B&#x3C;=50000</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                            |
-| L                 | number                                            | L value                                    |             | <p>L</p><p>L>3</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                            |                                                                                                                                                                                            |
+<table data-header-hidden><thead><tr><th width="129"></th><th></th><th></th><th></th><th width="194"></th><th></th></tr></thead><tbody><tr><td>Key</td><td>Type</td><td>Description</td><td>Unit</td><td>Value format</td><td>Examples</td></tr><tr><td>source</td><td>string</td><td>name of source (data provider)</td><td></td><td><ul><li>empty: Request the field without applying filters to its values</li><li>=value: Match value</li><li>=value1|value2: Match value1 or value2</li></ul></td><td><p>source</p><p>source=DORELI</p><p>source=DORELI|BAS</p></td></tr><tr><td>spacecraft</td><td>string</td><td>name of spacecraft</td><td></td><td><p>spacecraft</p><p>spacecraft=ISS</p></td><td></td></tr><tr><td>instrument</td><td>string</td><td>name of instrument</td><td></td><td><p>instrument</p><p>instrument=Liulin-5-1D</p><p>instrument=Lidal|REM</p></td><td></td></tr><tr><td>timestamp</td><td><p>ISO-formatted string</p><p>(or Unix epoch)</p></td><td>timestamp of recorded value(s)</td><td></td><td><ul><li>empty: Request the field without applying filters to its values</li><li>&#x3C;value: Match any less than value</li><li>&#x3C;=value: Match any less or equal to value</li><li>=value: Match value</li><li>>=value: Match any greater or equal to value</li><li>>value: Match any greater than value</li></ul><p>Note: can be used more than once in a single query.</p><p>Note: special characters (&#x3C;, >, :) may need to be URL-encoded (see "Notes" below).</p></td><td><p>timestamp</p><p>timestamp=2021-01-01T15:25</p><p>timestamp&#x3C;=2021-01-01T15:25</p><p>timestamp>=2022-01-01T00:00&#x26;timestamp&#x3C;2023-01-01T00:00</p><p>timestamp>1683786900</p></td></tr><tr><td>dose_rate_total</td><td>number</td><td>total radiation dose rate</td><td>μGy/hour</td><td><p>dose_rate_total</p><p>dose_rate_total>=2</p></td><td></td></tr><tr><td>flux_total</td><td>number</td><td>total particle flux</td><td>cm-2sr-1s-1</td><td><p>flux_total</p><p>flux_total&#x3C;1</p></td><td></td></tr><tr><td>latitude</td><td>number</td><td>latitude of spacecraft at given timestamp</td><td>deg</td><td><p>latitude</p><p>latitude&#x3C;-10</p></td><td></td></tr><tr><td>longitude</td><td>number</td><td>longitude of spacecraft at given timestamp</td><td>deg</td><td><p>longitude</p><p>longitude>30</p></td><td></td></tr><tr><td>altitude</td><td>number</td><td>altitude of spacecraft at given timestamp</td><td>km</td><td><p>altitude</p><p>altitude>=420</p></td><td></td></tr><tr><td>B</td><td>number</td><td>B value</td><td>nT</td><td><p>B</p><p>B&#x3C;=50000</p></td><td></td></tr><tr><td>L</td><td>number</td><td>L value</td><td></td><td><p>L</p><p>L>3</p></td><td></td></tr></tbody></table>
 
 
 
 **Boolean expression syntax**
 
-| **Key** | **Aliases**                                | **Type** | **Description**                                                                                                                                       | **Examples**                                                                                                                                                                                                                                                                                           |
-| ------- | ------------------------------------------ | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| query   |                                            | string   | a boolean query referencing fields described in the "data fields" table above, and using AND, OR, NOT, =, !=, <=, >= operators and parentheses ((, )) | <p>query=(timestamp>=2023-05-16)AND((instrument=REM)OR(spacecraft=LND))</p><p>Note: spaces inside the query string are allowed (e.g. spacecraft = LND); the query can be optionally encased in single or double quotes. However, spaces and quotes may need to be URL-encoded (see "Notes" below).</p> |
-| fields+ | <p>fields</p><p>columns</p><p>columns+</p> | string   | a comma-separated list of additional fields to retrieve (i.e. fields not already implicated in the boolean query)                                     | fields+=dose\_rate\_total,flux\_total                                                                                                                                                                                                                                                                  |
+<table data-header-hidden><thead><tr><th width="100"></th><th width="114"></th><th width="90"></th><th width="199"></th><th></th></tr></thead><tbody><tr><td><strong>Key</strong></td><td><strong>Aliases</strong></td><td><strong>Type</strong></td><td><strong>Description</strong></td><td><strong>Examples</strong></td></tr><tr><td>query</td><td></td><td>string</td><td>a boolean query referencing fields described in the "data fields" table above, and using AND, OR, NOT, =, !=, &#x3C;=, >= operators and parentheses ((, ))</td><td><p>query=(timestamp>=2023-05-16)AND((instrument=REM)OR(spacecraft=LND))</p><p>Note: spaces inside the query string are allowed (e.g. spacecraft = LND); the query can be optionally encased in single or double quotes. However, spaces and quotes may need to be URL-encoded (see "Notes" below).</p></td></tr><tr><td>fields+</td><td><p>fields</p><p>columns</p><p>columns+</p></td><td>string</td><td>a comma-separated list of additional fields to retrieve (i.e. fields not already implicated in the boolean query)</td><td>fields+=dose_rate_total,flux_total</td></tr></tbody></table>
 
 **Auxiliary keys (used with both syntaxes)**
 
-| **Key** | **Type** | **Description** | **Unit** | **Value format**                                                                                                          | **Examples**                        |
-| ------- | -------- | --------------- | -------- | ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- |
-| format  | string   | output format   |          | <ul><li>(not speficied): Use the default format (csv)</li><li>=value: Use "value" (one of csv, tsv, json, html)</li></ul> | <p>format=tsv</p><p>format=json</p> |
+<table data-header-hidden><thead><tr><th width="114"></th><th width="80"></th><th width="148"></th><th width="67"></th><th width="184"></th><th></th></tr></thead><tbody><tr><td><strong>Key</strong></td><td><strong>Type</strong></td><td><strong>Description</strong></td><td><strong>Unit</strong></td><td><strong>Value format</strong></td><td><strong>Examples</strong></td></tr><tr><td>format</td><td>string</td><td>output format</td><td></td><td><ul><li>(not speficied): Use the default format (csv)</li><li>=value: Use "value" (one of csv, tsv, json, html)</li></ul></td><td><p>format=tsv</p><p>format=json</p></td></tr></tbody></table>
 
-Notes
+**Notes**
 
 * Special characters (spaces, |, <, >, :, ', ") may need to be URL-encoded _(although_ e.g. _Python will only complain if spaces are not encoded and will accept all other characters as-is; therefore, this depends on the use case):_
   * → %20 (space)
@@ -803,41 +746,41 @@ Notes
 
 **Examples**
 
-* Key-value pair syntax
+* **Key-value pair syntax**
   * Dose rate and flux readings from DOSTEL1 and DOSTEL2 on the ISS between 11 PM on 01 Apr 2022, inclusive, and 1:05 AM on 02 Apr 2022, non-inclusive, only where the dose rate is above 2 μGy/hour, together with the spatial and magnetic coordinates of the ISS and the data provider name, formatted as HTML:
     * Conceptually:\
-      https://visualization.osdr.nasa.gov/radlab/api/\
-      ?spacecraft=ISS\
-      \&instrument=DOSTEL1|DOSTEL2\
-      \&source\
-      \&timestamp>=2022-04-01T23:00\
-      \&timestamp<2022-04-02T01:05\
-      \&dose\_rate\_total>2\
-      \&flux\_total\
-      \&latitude\
-      \&longitude\
-      \&altitude\
-      \&b\
-      \&l\
-      \&format=html
+      `https://visualization.osdr.nasa.gov/radlab/api/`\
+      `?spacecraft=ISS`\
+      `&instrument=DOSTEL1|DOSTEL2`\
+      `&source`\
+      `&timestamp>=2022-04-01T23:00`\
+      `&timestamp<2022-04-02T01:05`\
+      `&dose_rate_total>2`\
+      `&flux_total`\
+      `&latitude`\
+      `&longitude`\
+      `&altitude`\
+      `&b`\
+      `&l`\
+      `&format=html`
     * URL-encoded _(may not be necessary)_:\
-      https://visualization.osdr.nasa.gov/radlab/api/\
-      ?spacecraft=ISS\
-      \&instrument=DOSTEL1%7CDOSTEL2\
-      \&source\
-      \&timestamp%3E=2022-04-01T23%3A00\
-      \&timestamp%3C2022-04-02T01%3A05\
-      \&dose\_rate\_total%3E2\
-      \&flux\_total\
-      \&latitude\
-      \&longitude\
-      \&altitude\
-      \&b\
-      \&l\
-      \&format=html
-    * Full URL: [https://visualization.osdr.nasa.gov/radlab/api/?spacecraft=ISS\&instrument=DOSTEL1%7CDOSTEL2\&source\&timestamp%3E=2022-04-01T23%3A00\&timestamp%3C2022-04-02T01%3A05\&dose\_rate\_total%3E2\&flux\_total\&latitude\&longitude\&altitude\&b\&l\&format=html](https://visualization.osdr.nasa.gov/radlab/api/?instrument=DOSTEL1%7CDOSTEL2\&spacecraft=ISS\&source\&timestamp%3E=2022-04-01T23%3A00\&timestamp%3C2022-04-02T01%3A05\&dose\_rate\_total%3E2\&flux\_total\&latitude\&longitude\&altitude\&b\&l\&format=html)
-    * Full URL without encoding (should work in most browsers, Python, ...): [https://visualization.osdr.nasa.gov/radlab/api/?spacecraft=ISS\&instrument=DOSTEL1|DOSTEL2\&source\&timestamp>=2022-04-01T23:00\&timestamp<2022-04-02T01:05\&dose\_rate\_total>2\&flux\_total\&latitude\&longitude\&altitude\&b\&l\&format=html](https://visualization.osdr.nasa.gov/radlab/api/?instrument=DOSTEL1%7CDOSTEL2\&spacecraft=ISS\&source\&timestamp%3E=2022-04-01T23:00\&timestamp%3C2022-04-02T01:05\&dose\_rate\_total%3E2\&flux\_total\&latitude\&longitude\&altitude\&b\&l\&format=html)
-* Boolean expression syntax
+      `https://visualization.osdr.nasa.gov/radlab/api/`\
+      `?spacecraft=ISS`\
+      `&instrument=DOSTEL1%7CDOSTEL2`\
+      `&source`\
+      `&timestamp%3E=2022-04-01T23%3A00`\
+      `&timestamp%3C2022-04-02T01%3A05`\
+      `&dose_rate_total%3E2`\
+      `&flux_total`\
+      `&latitude`\
+      `&longitude`\
+      `&altitude`\
+      `&b`\
+      `&l`\
+      `&format=html`
+    * Full URL: [`https://visualization.osdr.nasa.gov/radlab/api/?spacecraft=ISS&instrument=DOSTEL1%7CDOSTEL2&source&timestamp%3E=2022-04-01T23%3A00&timestamp%3C2022-04-02T01%3A05&dose_rate_total%3E2&flux_total&latitude&longitude&altitude&b&l&format=html`](https://visualization.osdr.nasa.gov/radlab/api/?instrument=DOSTEL1%7CDOSTEL2\&spacecraft=ISS\&source\&timestamp%3E=2022-04-01T23%3A00\&timestamp%3C2022-04-02T01%3A05\&dose\_rate\_total%3E2\&flux\_total\&latitude\&longitude\&altitude\&b\&l\&format=html)
+    * Full URL without encoding (should work in most browsers, Python, ...): [`https://visualization.osdr.nasa.gov/radlab/api/?spacecraft=ISS&instrument=DOSTEL1|DOSTEL2&source&timestamp>=2022-04-01T23:00&timestamp<2022-04-02T01:05&dose_rate_total>2&flux_total&latitude&longitude&altitude&b&l&format=html`](https://visualization.osdr.nasa.gov/radlab/api/?instrument=DOSTEL1%7CDOSTEL2\&spacecraft=ISS\&source\&timestamp%3E=2022-04-01T23:00\&timestamp%3C2022-04-02T01:05\&dose\_rate\_total%3E2\&flux\_total\&latitude\&longitude\&altitude\&b\&l\&format=html)
+* **Boolean expression syntax**
   * Dose rate readings from all detectors _not_ on the ISS between 15 Jul 2020 inclusive and 23 Jul 2020, non-inclusive; also retrieve the name of the instrument for each reading, and format the output as TSV:
     * Conceptually:\
       query: timestamp >= 2020-07-15 AND timestamp < 2020-07-23 AND NOT spacecraft = ISS\

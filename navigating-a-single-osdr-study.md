@@ -1,10 +1,8 @@
-# Navigating a Single Study In the OSDR
+# Navigating a single OSDR study
 
-Alternatively, if you’ve identified a study of interest in the OSDA and it has processed data available then you can view it with the OSDR single study data Visualization either by launching it from the OSDR accession’s ”Visualization” button or by replacing the \* wildcards in this website URL ([https://visualization.genelab.nasa.gov/data/OSD-\*\*\*](https://visualization.genelab.nasa.gov/data/OSD-\*\*\*)) with the accession number of interest.
+Identified a study of interest in the OSDR, after assessing the title, study descriptions and any related research paper you can use the data visualization application to learn more about some of the quantitative patterns within the data.
 
-*   After assessing the title, study descriptions and any related research paper you can use the data visualization application to learn more about some of the quantitative patterns within the data.
-
-    * **Single study:** Navigate to a study of interest by searching through the study metadata you can launch the visualization menu using the visualization tab on the left menu.&#x20;
+* **Single study:** Navigate to a study of interest by searching through the study metadata you can launch the visualization menu using the visualization tab on the left menu.&#x20;
 
 
 
@@ -36,7 +34,7 @@ Some studies provide descriptions of experiments, while others use the primary p
 
 ### Payloads <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
 
-Flight mission are sent to space flight environments as payloads on vehicles. These payloads are reif given operation identifiers to assist with flight operations.&#x20;
+Flight mission(s) are sent to space flight environments as payloads on vehicles. These payloads are reif given operation identifiers to assist with flight operations.&#x20;
 
 In this example the payload identifier is CARA, this comes from its mission name "Characterizing Arabidopsis Root Attractions (CARA)", along with a description of the experiment. &#x20;
 
@@ -44,7 +42,7 @@ In this example the payload identifier is CARA, this comes from its mission name
 
 ### Missions <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
 
-Experimental payloads are loaded in specific space flight "Missions", these determine the launch vehicle, launch date and "end date". &#x20;
+Experimental payload(s) are loaded in specific space flight "Missions", these determine the launch vehicle, launch date and "end date". &#x20;
 
 
 
@@ -62,7 +60,7 @@ The protocol section contains all the information related to how the samples wer
 
 ### Samples <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
 
-Each experiment includes a samples table detailing metadata about the experimental replicates. Information provided includes species, tissue type, genetic background, age at experiment completion, and treatment group (e.g., Flight or Ground). The bottom right-hand corner displays the total number of samples and the number currently being shown.
+Each experiment includes a sample(s) table detailing metadata about the experimental replicates. Information provided includes species, tissue type, genetic background, age at experiment completion, and treatment group (e.g., Flight or Ground). The bottom right-hand corner displays the total number of samples and the number currently being shown.
 
 <figure><img src=".gitbook/assets/Slide21 (1).png" alt=""><figcaption><p>Screenshot with highlighted samples data and a organe dotted arroce highlight the "select export columns" button</p></figcaption></figure>
 
@@ -74,7 +72,7 @@ Clicking on the "Select export columns" button open a menu that allows users tog
 
 ### Assays <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
 
-Several studies contain multiple assays. At the top right corner of the assay section, a toggle switch allows users to switch between assays. A scroll bar at the bottom of the screen facilitates navigation across the assay table. Many table entries are data products available for direct download and further inspection. There is a "select export columns" that opens the download menu.&#x20;
+Several studies contain multiple assays which can be viewed separately. At the top right corner of the assay section, a toggle switch allows users to switch between assays. A scroll bar at the bottom of the screen facilitates navigation across the assay table. Many table entries are data products available for direct download and further inspection. There is a "select export columns" that opens the download menu.&#x20;
 
 <figure><img src=".gitbook/assets/Slide23 (2).png" alt=""><figcaption></figcaption></figure>
 
@@ -108,7 +106,7 @@ The OSDR keeps a record of all previous analysis, users are advised to record th
 
 <figure><img src=".gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
 
-### Visualisation <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
+### [Visualisation](https://visualization.genelab.nasa.gov/data/) <a href="#bltxtycjg7o9" id="bltxtycjg7o9"></a>
 
 Most RNAseq and microarray data processed by the OSDR team can be viewed via the data visualization portal, accessible from the navigation on the studies repository page.
 
@@ -120,11 +118,14 @@ Most RNAseq and microarray data processed by the OSDR team can be viewed via the
 
 * After launching the OSDR visualization application on the lefthand side of the screen you’ll see a navigation window that will allow you to select to go to the "Home," "PCA," "Volcano,", “Pair plots”, “Heat maps”, “DGE”, “GSEA”, and Group Selection.
   * [**Single study navigation example**](https://visualization.genelab.nasa.gov/data/OSD-37)**:** In this example, we see Group 1 of Col-0\&FLT ( FLT is the flight group) and Group 2 is Col-0\&GC (GC is the ground control group). [https://visualization.genelab.nasa.gov/data/OSD-37](https://visualization.genelab.nasa.gov/data/OSD-37)
+  * If a study has processed transcriptional data available then you can view it by launching it from the OSDR accession’s ”Visualization” button or by replacing the \* wildcards in this website URL ([https://visualization.genelab.nasa.gov/data/OSD-\*\*\*](https://visualization.genelab.nasa.gov/data/OSD-\*\*\*)) with the accession number of interest.
   * Clicking on these visualisation names allows the user to jump straight to the visualization of most interest.
 
-<figure><img src=".gitbook/assets/Slide33.png" alt="The OSDR Visualization interface includes the text &#x22;OSDR Visualization&#x22; and &#x22;OSD-37,&#x22; and a “Study details” search bar. Below is a horizontal navigation menu with various options like &#x22;Home,&#x22; &#x22;PCA,&#x22; &#x22;Volcano,&#x22;, “Pair plots”, “Heat maps”, “DGE”, “GSEA”, and “Group Selection”. In this example, it shows that Group 1 of Col-0&#x26;FLT (which is the flight group) and Group 2 is Col-0&#x26;GC (which is the ground control group). There is a “Modify groups” button in the bottom left corner that can be used to change the groups of samples used to generate the data in the plots" width="140"><figcaption><p><em>The OSDR Visualization interface includes the text "GeneLab Visualization" and "OSD-37," and a “Study details” search bar. Below is a horizontal navigation menu with various options like "Home," "PCA," "Volcano,", “Pair plots”, “Heat maps”, “DGE”, “GSEA”, and “Group Selection”. In this example, it shows that Group 1 of Col-0&#x26;FLT (which is the flight group) and Group 2 is Col-0&#x26;GC (which is the ground control group). There is a “Modify groups” button in the bottom left corner that can be used to change the groups of samples used to generate the data in the plots</em></p></figcaption></figure>
+<figure><img src=".gitbook/assets/Slide33.png" alt="The OSDR Visualization interface includes the text &#x22;OSDR Visualization&#x22; and &#x22;OSD-37,&#x22; and a “Study details” search bar. Below is a horizontal navigation menu with various options like &#x22;Home,&#x22; &#x22;PCA,&#x22; &#x22;Volcano,&#x22;, “Pair plots”, “Heat maps”, “DGE”, “GSEA”, and “Group Selection”. In this example, it shows that Group 1 of Col-0&#x26;FLT (which is the flight group) and Group 2 is Col-0&#x26;GC (which is the ground control group). There is a “Modify groups” button in the bottom left corner that can be used to change the groups of samples used to generate the data in the plots" width="140"><figcaption><p><em>The OSDR Visualization interface includes the text "GeneLab Visualization" and "OSD-37," and a “Study details” search bar. Below is a verticle navigation menu with various options like "Home," "PCA," "Volcano,", “Pair plots”, “Heat maps”, “DGE”, “GSEA”, and “Group Selection”. In this example, it shows that Group 1 of Col-0&#x26;FLT (which is the flight group) and Group 2 is Col-0&#x26;GC (which is the ground control group). There is a “Modify groups” button in the bottom left corner that can be used to change the groups of samples used to generate the data in the plots</em></p></figcaption></figure>
 
 ### For more information go to the [multi-study data visualization page](osdr-data-visualization-portal.md).  <a href="#hmtojdhstykw" id="hmtojdhstykw"></a>
+
+
 
 ### Select Group(s) <a href="#hmtojdhstykw" id="hmtojdhstykw"></a>
 
@@ -189,7 +190,7 @@ Most RNAseq and microarray data processed by the OSDR team can be viewed via the
 **Selecting different databases for statistical analysis can identify different responses and provide alternative perspectives and insights from the results.**
 
 * Numerous ontology databases and statistical methodologies are available for application to the processed DESeq2 results.
-  * **Ontology database example description:** A menu of pop-up menu databases can be opened and one selected based on your model organism and question of choice. 5 different statical methods can be used by GSEA, signal to noise, T test, Fold change, Difference of class and Log2 Fold change.
+  * **Ontology database example description:** A menu of pop-up menu databases can be opened, and one can be selected based on your model organism and question of choice. 5 different statical methods can be used by GSEA, signal to noise, T test, Fold change, Difference of class and Log2 Fold change.
 
 <figure><img src=".gitbook/assets/Slide40.png" alt="Image of half of the OSDR visualization page, the “Gene Set” menu has KEGG_2019 selected and a red dotted line links the list of accessible databases that can be selected from the connected drop-down menu that is highlighted by a yellow dotted line. The image also shows a red dashed line listing the different analysis “Methods” that can be used and the “Fold change” option is highlighted in blue to show it is selected." width="563"><figcaption><p><em>Image of half of the OSDR visualization page, the “Gene Set” menu has KEGG_2019 selected and a red dotted line links the list of accessible databases that can be selected from the connected drop-down menu that is highlighted by a yellow dotted line. The image also shows a red dashed line listing the different analysis “Methods” that can be used and the “Fold change” option is highlighted in blue to show it is selected.</em></p></figcaption></figure>
 
@@ -211,7 +212,7 @@ The OSDR facilitates the visualization of the normalized enrichment score, false
 The OSDR facilitates the visualization of the false discovery rate (FDR), and Foldchange values of all differentially expressed pathways on a single graph for user evaluation. This visualization aids in determining whether genes are predominantly upregulated, downregulated, or exhibit minimal change. The smooth, ridge-like form reveals trends, and the plot is compatible with log-transformed data, a common feature in fold-change analysis. Overlaying plots for various groups allows researchers to compare fold-change distributions.
 
 * Ridge plots are effective tools for present GSEA analysis.
-  * **Example Ridge plot:** This example ridge-plot was made with a “Fold Change” of loci from the KEGG\_2019 GSEA analysis data from OSD-37. The Minimum size and maximum size values were left to the default 15 and 500 loci as standard. The number of ““geneset”s” and maximum false discovery rate (FDR) are set to their default values 6 and 0.25 respectively.
+  * **Example Ridge plot:** This example ridge-plot was made with a “Fold Change” of loci from the KEGG\_2019 GSEA analysis data from OSD-37. The Minimum size and maximum size values were left to the default 15 and 500 loci as standard. The number of “geneset”s” and maximum false discovery rate (FDR) are set to their default values 6 and 0.25 respectively.
 
 <figure><img src=".gitbook/assets/Slide42.png" alt="A screenshot of an Open Science Data Repository (OSDR) ridge plot page displays a ridge plot entitled &#x22;OSD-37 GSEA”. The Y-axis label shows the names of the terms detected by enrichment analysis of the selected gene sets eg Endocytosis and Cell cycle. The x-axis label is &#x22;Gene Fold Change”. Red dotted line highlights where the “Ridge Plot&#x22; option was engaged."><figcaption><p><em>A screenshot of an Open Science Data Repository (OSDR) ridge plot page displays a ridge plot entitled "OSD-37 GSEA”. The Y-axis label shows the names of the terms detected by enrichment analysis of the selected gene sets eg Endocytosis and Cell cycle. The x-axis label is "Gene Fold Change”. Red dotted line highlights where the “Ridge Plot" option was engaged.</em></p></figcaption></figure>
 
@@ -237,7 +238,7 @@ The OSDR facilitates the visualization of the false discovery rate (FDR), and Fo
 **NES (Normalized Enrichment Score) plot offers a visual representation of the normalized enrichment score for gene sets identified by the user based on their parameters.**
 
 * NES plots are an effect tool for viewing pathways that are identified by GSEA.
-  * **Example NES plot:** The data from OSD-37 provides the normalized enrichment score adjacent to terms that possess enrichment in the selected database. KEGG\_2019 was used as the “geneset” for enrichment analysis. However, in this instance, we show it is possible to change the database analyzed. The bar plot then displays GO terms identified during the analysis when the GO\_cellular\_Componet\_AutoRIF gene set database was queried.
+  * **Example NES plot:** The data from OSD-37 provides the normalized enrichment score adjacent to terms that possess enrichment in the selected database. KEGG\_2019 was used as the “geneset” for enrichment analysis. However, in this instance, we show that it is possible to change the analyzed database. The bar plot then displays GO terms identified during the analysis when the GO\_cellular\_Componet\_AutoRIF gene set database was queried.
 
 <figure><img src=".gitbook/assets/Slide45 (1).png" alt=""><figcaption><p><em>This image shows a NES plot and the options used to generate it. Situated at the top of the webpage is a search bar that facilitates the exploration of specific terms within the datasets and other “geneset" for analysis. Immediately beneath the search mechanism is a tabular structure providing alternative plot types and graph parameters. The bar plot structure summarizes distinct gene groups that are known to function in a similar location based on the GO-Cellular_Component_AutoRIF enrichment analysis. The Red dotted lines highlight the “number of “geneset”s” and the method values have been adjusted from their default values.</em></p></figcaption></figure>
 
@@ -247,7 +248,7 @@ The OSDR facilitates the visualization of the false discovery rate (FDR), and Fo
 
 **Adjusting the parameters to influence the quantity and sequence of pathways detected.**
 
-* NES plots have a numerical constant that can be adjusted to modify the appearance pathways that are identified by GSEA
+* NES plots have a numerical constant that can be adjusted to modify the appearance pathways that GSEA identifies
   * **Numerical method example:** In this OSD-37 example we’ve changed the “Method” value to 0 (classic), which changes the normalized enrichment score and graph layout.
 
 <figure><img src=".gitbook/assets/Slide46.png" alt="This image shows a screenshot from the OSDR Visualization software showing an NES plot graph and the options used to generate it. The bar plot structure summarizes distinct gene groups that are known to function in a similar location based on the GO-Cellular_Component_AutoRF enrichment analysis. The red dotted line highlights that the “Method” is currently set to 0 (classic mode) but was set to 1 in the previous figure."><figcaption><p><em>This image shows a NES plot and the options used to generate it. The bar plot structure summarizes distinct gene groups that are known to function in a similar location based on the GO-Cellular_Component_AutoRF enrichment analysis. The red dotted line highlights that the “Method” is currently set to 0 (classic mode) but was set to 1 in the previous figure.</em></p></figcaption></figure>

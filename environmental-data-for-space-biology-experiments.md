@@ -7,9 +7,7 @@ description: >-
 
 # Environmental Data for Space Biology Rodent Research
 
-### The Environmental Data Application (EDA App) <a href="#fu5jvh1nxmbu" id="fu5jvh1nxmbu"></a>
-
-{% embed url="https://visualization.osdr.nasa.gov/eda/" %}
+### The [Environmental Data Application ](https://visualization.osdr.nasa.gov/eda/)(EDA App) <a href="#fu5jvh1nxmbu" id="fu5jvh1nxmbu"></a>
 
 The Environmental Data Application (EDA) provides users with convenient access to valuable data collected during the Rodent research missions. The application facilitates the exploration and analysis of this scientific data, offering a comprehensive view of the mission details, telemetry information, and relevant radiation-related metadata.
 
@@ -19,7 +17,7 @@ The Environmental Data Application (EDA) provides users with convenient access t
 4. **User-Friendly Interface:** The EDA application is designed with a user-friendly interface, making it accessible to researchers and the public alike. Users can easily navigate the application, search for specific data, and visualize the information through interactive plots and graphs. The application also provides documentation and tutorials to assist users in making the most of the available data.
 5. **Data Export and Sharing:** The EDA application allows users to export the data they need for further analysis or sharing with collaborators. Data can be exported in various formats, including CSV, JSON, and NetCDF, ensuring compatibility with a wide range of scientific software and tools. Additionally, users can share their work with others by publishing their results or creating custom visualizations within the application.
 
-#### Key elements of the EDA application: <a href="#p7htf4mxj9gz" id="p7htf4mxj9gz"></a>
+### Key elements of the EDA application: <a href="#p7htf4mxj9gz" id="p7htf4mxj9gz"></a>
 
 The EDA application promotes scientific exploration by providing access to Rodent research mission data. The application provides interactive access to the environmental data and enables a comprehensive understanding of the environmental factors associated with space exploration.
 
@@ -33,7 +31,7 @@ The EDA application promotes scientific exploration by providing access to Roden
 
 
 
-#### Radiation meta-data <a href="#ndmn2aynb6if" id="ndmn2aynb6if"></a>
+### Radiation meta-data <a href="#ndmn2aynb6if" id="ndmn2aynb6if"></a>
 
 In this tutorial, we will explore how to access the data presented in the line graphs related to radiation dose. These graphs provide valuable information on accumulated radiation dose, total radiation dose, South Atlantic anomaly, and galactic cosmic rays. By following the steps below, you can easily access and interpret the data from these graphs.
 
@@ -44,7 +42,7 @@ In this tutorial, we will explore how to access the data presented in the line g
 
 <figure><img src=".gitbook/assets/image (15).png" alt="Screenshot showing 4 lines graphs depicting the radiation environmental metadata collected. Three-line graphs are displayed on a screen, depicting environmental data collected during rodent research mission 1. Line graphs are employed to illustrate “Galactic Cosmic Ray” trends over time. The second graph is also a line graph, presenting data related to the “South Atlantic Anomaly”. The third graph is a line graph that displays the “Accumulated Radiation Dose” data gathered throughout the duration of the experiment. The fourth graph is the “Total Radiation Dose” measure during their Mission. All graphs displayed mission miles stones."><figcaption><p><em>Screenshot showing 4 lines graphs depicting the radiation environmental metadata collected.</em> <em>Three-line graphs are displayed on a screen, depicting environmental data collected during rodent research mission 1. Line graphs are employed to illustrate “Galactic Cosmic Ray” trends over time. The second graph is also a line graph, presenting data related to the “South Atlantic Anomaly”. The third graph is a line graph that displays the “Accumulated Radiation Dose” data gathered throughout the duration of the experiment. The fourth graph is the “Total Radiation Dose” measure during their Mission. All graphs displayed mission miles stones.</em></p></figcaption></figure>
 
-#### Select 1 or more Rodent Research (RR) missions. <a href="#slg932o9gcgx" id="slg932o9gcgx"></a>
+### Select 1 or more Rodent Research (RR) missions. <a href="#slg932o9gcgx" id="slg932o9gcgx"></a>
 
 To compare different RR mission environment data please select the RR mission # of interest from the provided options. Upon selection, the corresponding data will be displayed on the line graph.
 
@@ -53,7 +51,7 @@ To compare different RR mission environment data please select the RR mission # 
 
 <figure><img src=".gitbook/assets/Slide111.png" alt="A screenshot showing a line graph comprising of 3 lines depicting environmental data collected during RR1, RR9 and RR9. Line graphs are employed to illustrate temperature data gathered throughout the duration of the experiment. There is a table below that allows the user download the raw data in a variety of different formats including .CSV, .PDF, .excel, Copy or Print."><figcaption><p><em>A screenshot showing a line graph comprising of 3 lines depicting environmental data collected during RR1, RR9 and RR9. Line graphs are employed to illustrate temperature data gathered throughout the duration of the experiment. There is a table below that allows the user download the raw data in a variety of different formats including .CSV, .PDF, .excel, Copy or Print.</em></p></figcaption></figure>
 
-#### Scroll down and download tables of radiation metadata <a href="#nkh0fclqgyf" id="nkh0fclqgyf"></a>
+### Scroll down and download tables of radiation metadata <a href="#nkh0fclqgyf" id="nkh0fclqgyf"></a>
 
 After selecting the RR missions of interest the user can then scroll up and down in the main window to analyse the corresponding data displayed on the line graph(s). The line graphs provide a visual representation of the data, making it easier to identify trends, outliers, and relationships between different variables.
 
@@ -64,7 +62,7 @@ After selecting the RR missions of interest the user can then scroll up and down
 
 
 
-#### Comparison of the environmental measurements on the ISS and Ground. <a href="#v5ikgn3ddnhg" id="v5ikgn3ddnhg"></a>
+### Comparison of the environmental measurements on the ISS and Ground. <a href="#v5ikgn3ddnhg" id="v5ikgn3ddnhg"></a>
 
 The user can interact with the graph to access specific environmental data and zoom in or out of specific time periods. The comparison of CO2 levels between the ISS and the ground control offers insights into the challenges of maintaining a habitable environment in space. The left side of the interface allows the user to customize the graph by changing the environmental measurements being plotted from temperature to CO2 to relative humidity to radiation.
 
@@ -73,7 +71,7 @@ The user can interact with the graph to access specific environmental data and z
 
 <figure><img src=".gitbook/assets/Slide113.png" alt="A screenshot showing a line graph comprising of atmospheric CO2 data collected during RR1, RR9 and RR9. One graph displays the data from the ISS and the other displays the data from the “Ground” controls. There is a table below that allows the user download the raw data in a variety of different formats including .CSV, .PDF, .excel, Copy or Print."><figcaption><p><em>A screenshot showing a line graph comprising of atmospheric CO2 data collected during RR1, RR9 and RR9. One graph displays the data from the ISS and the other displays the data from the “Ground” controls. There is a table below that allows the user download the raw data in a variety of different formats including .CSV, .PDF, .excel, Copy or Print.</em></p></figcaption></figure>
 
-#### Tables of environmental meta-data with download option. <a href="#id-8w47c2b7crhc" id="id-8w47c2b7crhc"></a>
+### Tables of environmental meta-data with download option. <a href="#id-8w47c2b7crhc" id="id-8w47c2b7crhc"></a>
 
 **The environmental data app allows users to access the underlying data tables for export.**
 
@@ -84,7 +82,7 @@ The user can interact with the graph to access specific environmental data and z
 
 
 
-Radiation meta-data come from many different sources
+### Radiation meta-data come from many different sources
 
 These data include environmental data from the space vehicles or payloads (hardware). Currently, OSDR has gathered radiation dosimetry data from spaceflight experiments and provides a complete table for several spacecraft under the ‘Environmental Data’ menu option.
 
