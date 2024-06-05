@@ -1,12 +1,12 @@
 # A hitch hikers guide to Plant metadata
 
-**When preparing your data management plan or preparing to share your data in the OSDR there are many metadata concepts to record, so we have prepaired this guide to provide some plant related examples.**&#x20;
+When preparing your data management plan or preparing to share your data in the OSDR there are many metadata concepts to record, so we have prepared this guide to provide some plant-related examples.&#x20;
+
+### **Characteristics**
 
 **Age at launch** **(with unit column)** in whichever unit of time provided by submitter - \*Only include this characteristic if seeds germinated before launch. Most spaceflight studies maintain seed dormancy until after launch (in which case this column is not needed)
 
 **Age at sample harvest (with unit column)** **(free text)**
-
-**Characteristics**
 
 **Container**: This is for cases where a smaller container is used within a larger hardware
 
@@ -14,7 +14,7 @@
 
 **Culture Media** (same as growth medium but for algae). This parameter name has an ontology. In some alga studies there is a culture medium and a distinct growth medium. If both are described enter both columns.
 
-**Development stage -**
+### **Development stage -**
 
 Older datasets contain only one column, labeled "Developmental stage," which indicates the developmental stage at the time of sample collection. During the normalization process, the column name will be changed to "Developmental stage at time of sample collection," and an additional column will be introduced for "Developmental stage at onset of treatment," provided the following conditions are met.t:
 
@@ -32,7 +32,7 @@ If there are multiple treatments with different durations modify this parameter 
 1. Developmental stage at onset of treatment
 2. Developmental stage at time of sample collection
 
-**Angiosperms**
+### **Angiosperms**
 
 **Developmental Stages using a compilation of existing ontology classes:**
 
@@ -58,7 +58,7 @@ If there are multiple treatments with different durations modify this parameter 
 10. If the plant is senescent (in an annual plant this will occur not long after the last fruit has ripened and fallen off/been removed from the plant) use '**sporophyte senescent stage**' ([http://purl.obolibrary.org/obo/PO\_0007017](http://purl.obolibrary.org/obo/PO\_0007017))
 11. Developmental stage ontologies for specific groups of plants: Cereal Plant Development Ontology: [https://bioportal.bioontology.org/ontologies/GRO-CPD?p=classes\&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGRO\_0007002](https://bioportal.bioontology.org/ontologies/GRO-CPD?p=classes\&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGRO\_0007002)
 
-**Developmental stage at time of sample collection** (see definitions above) **(free text)**
+### **Developmental stage at time of sample collection** (see definitions above) **(free text)**
 
 **Duration** (with unit column)( _Exposure Duration_ is to be reserved for radiation metadata): This parameter name has an ontology. \*duration should only be added if there is a treatment time that is distinct from growth time. For example if seedlings were exposed to a unique light treatment for 12 hours but the total growth time was 3 days, then it would be informative to have both Duration and Growth Time columns.
 
@@ -145,7 +145,7 @@ Options for taxonomy if not provided by submitter, these are all currently linke
 
 **Organism Part** (has ontology). **USE THIS TERM FOR TISSUE/MATERIAL TYPE**.  If you are ingesting data and the PI uses really unique parts like: "1mm root tip", "3mm root tip" or something just write exactly what they do. We don't need to shoehorn all values into those with ontologies at the risk of losing specificity. Use the "leaf" ontology if it was just one leaf and use "plant leaves" if it was multiple. . If the dataset says cotyledons (or "seed leaves" were collected please write cotyledon instead of leaf. This parameter name has an ontology.
 
-**PARAMETERS FOR GROWTH PROTOCOL**
+### **PARAMETERS FOR GROWTH PROTOCOL**
 
 **Sample collection protocol**
 
@@ -153,13 +153,13 @@ Options for taxonomy if not provided by submitter, these are all currently linke
 
 PARAMETERS FOR SAMPLE COLLECTION PROTOCOL
 
-**Sample name**
+### **Sample name**
 
 **Sample Preservation Method** (ex. RNAlater) **(free text).** All common inputs has ontologies even if column name does not.&#x20;
 
 **Sample Storage Temperature** (with unit column) **(free text)**
 
-**Source Name**
+### **Source Name**
 
 **Seed Source (analogous to Animal Source)** - ex. Arabidopsis Biological Resource Center #C3210. If the seeds are the result of breeding studies within a lab list the PI here (ex. "internal lab stock maintained by Dr. Jane Smith, University of Vermont")
 
