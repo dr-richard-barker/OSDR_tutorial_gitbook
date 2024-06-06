@@ -2,7 +2,7 @@
 
 Identified a study of interest in the OSDR, after assessing the title, study descriptions and any related research paper you can use the data visualization application to learn more about some of the quantitative patterns within the data.
 
-* **Single study:** Navigate to a study of interest by searching through the study metadata you can launch the visualization menu using the visualization tab on the left menu.&#x20;
+**Single study:** Navigate to a study of interest by searching through the study metadata you can launch the visualization menu using the visualization tab on the left menu.&#x20;
 
 
 
