@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GeneLab metadata summary tool made using API &mdash; OSDR Tutorial  documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> OSDR Tutorial
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">GeneLab metadata summary tool  made using API</a><ul>
+<li><a class="reference internal" href="#introduction">Introduction</a></li>
+<li><a class="reference internal" href="#data-coordination-and-collection">Data Coordination and Collection</a></li>
+<li><a class="reference internal" href="#conclusion">Conclusion</a></li>
+</ul>
+</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">OSDR Tutorial</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>GeneLab metadata summary tool  made using API</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/genelab-metadata-summary-tool-made-using-api.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="genelab-metadata-summary-tool-made-using-api">
+<h1>GeneLab metadata summary tool  made using API<a class="headerlink" href="#genelab-metadata-summary-tool-made-using-api" title="Permalink to this heading"></a></h1>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this heading"></a></h2>
+<p>The NASA Gene Lab encompasses a cutting-edge initiative aimed at uniting the global scientific community with pioneering space-life science data. This program is primarily focused on delving into the extensive repository of data derived from various experiments conducted in low earth orbit (LEO) aboard the International Space Station, during space shuttle missions, and via additional spacecraft designed by the international consortium. The core mission of the NASA Gene Lab is to harness the vast array of data produced through space-based biological experiments. By leveraging this information, the program seeks to advance our understanding of how life adapts to the unique challenges presented by spaceflight and extraterrestrial environments. With these goals in mind we created an OSDR metadata visualisation tool using the Qlik software to pull data from the OSDR API and to provide a simple and interactive summary of the metadata. It can be used to identify related studies to build new statistical models.</p>
+</section>
+<section id="data-coordination-and-collection">
+<h2>Data Coordination and Collection<a class="headerlink" href="#data-coordination-and-collection" title="Permalink to this heading"></a></h2>
+<p>The NASA Gene Lab plays a pivotal role in orchestrating the aggregation of data and biological samples from an array of NASA research facilities. This collection encompasses data related to significant model organisms and employs state-of-the-art Omics technologies to investigate the biological responses to spaceflight-induced stressors. Furthermore, the program is dedicated to the meticulous curation of metadata. This effort facilitates the identification of connections across experiments focusing on similar variables, such as environmental factors, types of organisms, and assay methodologies.</p>
+<figure><img src=".gitbook/assets/image (24).png" alt=""><figcaption><p>Screen shot of dash board on April 4th 2024. The link below can take to the interactive version.</p></figcaption></figure>
+<p>{% embed url=”https://gilroy-qlik.botany.wisc.edu/a/sense/app/2f5102bc-6120-44c8-b0dd-d5168fa4eee1/sheet/e4b5743b-897e-44ee-866b-d448259a32f7/state/analysis” %}
+Launch the AstroBotany meta-data summary application
+{% endembed %}</p>
+</section>
+<section id="conclusion">
+<h2>Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this heading"></a></h2>
+<p>The NASA Gene Lab stands at the forefront of space-life science research, providing invaluable resources and data to the global scientific community. Through its comprehensive data coordination and meticulous research efforts, the program aims to uncover the intricate dynamics of life in space, contributing to the advancement of space exploration and our understanding of life’s adaptability in the cosmos.</p>
+<p>{% embed url=”https://docs.google.com/presentation/d/1dOyVXHo70EkfIqAl3VlXxJL2kv42U4bWrlM_WZ5EviU/edit?usp=sharing” %}
+Example filtering from 2022 showing connections between studies based on the meta-data
+{% endembed %}</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, creative commons 1.0.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

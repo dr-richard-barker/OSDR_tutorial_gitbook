@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A hitch hikers guide to Plant metadata &mdash; OSDR Tutorial  documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> OSDR Tutorial
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">A hitch hikers guide to Plant metadata</a><ul>
+<li><a class="reference internal" href="#characteristics"><strong>Characteristics</strong></a></li>
+<li><a class="reference internal" href="#development-stage"><strong>Development stage -</strong></a></li>
+<li><a class="reference internal" href="#angiosperms"><strong>Angiosperms</strong></a></li>
+<li><a class="reference internal" href="#developmental-stage-at-time-of-sample-collection-see-definitions-above-free-text"><strong>Developmental stage at time of sample collection</strong> (see definitions above) <strong>(free text)</strong></a></li>
+<li><a class="reference internal" href="#parameters-for-growth-protocol"><strong>PARAMETERS FOR GROWTH PROTOCOL</strong></a></li>
+<li><a class="reference internal" href="#sample-name"><strong>Sample name</strong></a></li>
+<li><a class="reference internal" href="#source-name"><strong>Source Name</strong></a></li>
+</ul>
+</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">OSDR Tutorial</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>A hitch hikers guide to Plant metadata</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/a-hitch-hikers-guide-to-plant-metadata.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="a-hitch-hikers-guide-to-plant-metadata">
+<h1>A hitch hikers guide to Plant metadata<a class="headerlink" href="#a-hitch-hikers-guide-to-plant-metadata" title="Permalink to this heading"></a></h1>
+<p>When preparing your data management plan or preparing to share your data in the OSDR there are many metadata concepts to record, so we have prepared this guide to provide some plant-related examples. </p>
+<section id="characteristics">
+<h2><strong>Characteristics</strong><a class="headerlink" href="#characteristics" title="Permalink to this heading"></a></h2>
+<p><strong>Age at launch</strong> <strong>(with unit column)</strong> in whichever unit of time provided by submitter - *Only include this characteristic if seeds germinated before launch. Most spaceflight studies maintain seed dormancy until after launch (in which case this column is not needed)</p>
+<p><strong>Age at sample harvest (with unit column)</strong> <strong>(free text)</strong></p>
+<p><strong>Container</strong>: This is for cases where a smaller container is used within a larger hardware</p>
+<p><strong>For algae -</strong> This is the type of culture bag used (ex PermaLife tissue culture bag) Richard says these are important and at least one study (GLDS-265) has the bag inside the VEGGIE hardware so I needed to create a new column for the growth container inside the hardware</p>
+<p><strong>Culture Media</strong> (same as growth medium but for algae). This parameter name has an ontology. In some alga studies there is a culture medium and a distinct growth medium. If both are described enter both columns.</p>
+</section>
+<section id="development-stage">
+<h2><strong>Development stage -</strong><a class="headerlink" href="#development-stage" title="Permalink to this heading"></a></h2>
+<p>Older datasets contain only one column, labeled “Developmental stage,” which indicates the developmental stage at the time of sample collection. During the normalization process, the column name will be changed to “Developmental stage at time of sample collection,” and an additional column will be introduced for “Developmental stage at onset of treatment,” provided the following conditions are met.t:</p>
+<p>Before using the TAIR guidelines (<a class="reference external" href="https://www.arabidopsis.org/portals/education/growth.jsp">https://www.arabidopsis.org/portals/education/growth.jsp</a>) to calculate developmental stage for <em>Arabidopsis thaliana</em> Col-0 or any strain derived from Col-0 baseline you need to double check the documented phenotype of the strain/genotype of <em>A. thaliana</em> used in the study. Even if the strain is not specifically created to have a different developmental timeline than the baseline (ex. starchless mutant) you need to check TAIR (ex. See phenotype field <a class="reference external" href="https://www.arabidopsis.org/servlets/TairObject?type=germplasm&amp;amp;id=1005161198">https://www.arabidopsis.org/servlets/TairObject?type=germplasm&amp;id=1005161198</a>) or the primary literature to make sure it does not have accelerated or delayed development from “hitch hiker selection”. If that is not possible do not include developmental stage columns.</p>
+<p>Check the study light cycle before proceeding. TAIR uses 16:8 light:dark to make predictions about developmental stage based on age. If the growth light cycle is 24 hours of light you cannot make a guess about developmental stage without checking with the PI. Similarly, developmental stage transitions in Arabidopsis are promoted by blue light and delayed by red light. For studies that use anything other than “white” or “red and blue” light during the growth stage we need to confirm the developmental stages with the PI. If that is not possible do not include developmental stage columns.</p>
+<p>No developmental stage column needed for algae studies unless the dataset specifies one. Microalgae growth is most commonly described in “phases” (lag phase, exponential phase, declining relative growth phase, stationary phase, and death phase) rather than developmental stages. I don’t see this as a parameter in other repos with algae datasets but I can ask the plant AWG about it.</p>
+<p>If there are multiple treatments with different durations modify this parameter name to be more descriptive and have one per treatment (ex. GLDS-314 has two parameters for onset ‘Developmental stage at onset of light treatment’ and ‘Developmental stage at onset of gravity treatment’)\</p>
+<p><strong>New datasets (or any dataset being revised) should have two columns (if possible):</strong></p>
+<ol class="arabic simple">
+<li><p>Developmental stage at onset of treatment</p></li>
+<li><p>Developmental stage at time of sample collection</p></li>
+</ol>
+</section>
+<section id="angiosperms">
+<h2><strong>Angiosperms</strong><a class="headerlink" href="#angiosperms" title="Permalink to this heading"></a></h2>
+<p><strong>Developmental Stages using a compilation of existing ontology classes:</strong></p>
+<ol class="arabic">
+<li><p>If seeds are kept in the cold/dark to prevent germination use this developmental stage ‘<strong>plant embryo dormant stage</strong>’ (<a class="reference external" href="http://purl.obolibrary.org/obo/PO_0025377">http://purl.obolibrary.org/obo/PO_0025377</a>). This will be a common input for “Developmental stage at onset of treatment” since most petri-dish based studies used cold-stratified seeds</p></li>
+<li><p>For plants that have germinated but have no adult leaves yet use: ‘seedling development stage’ (<a class="reference external" href="http://purl.obolibrary.org/obo/PO_0007131">http://purl.obolibrary.org/obo/PO_0007131</a>, A sporophyte vegetative stage (PO:0007134) that succeeds the seed germination stage (PO:0007057) and terminates with the development of the first adult vascular leaf (PO:0006340).) or any of its subclasses<br />
+Many studies do not go beyond this stage. Only after 10 days (with LIGHT) do Arabidopsis seedlings have at least 1 set of fully formed true leaves.</p></li>
+<li><p>Use one of the ‘<strong>leaf production stage</strong>’ subclasses by navigating to this link and expanding the options by clicking the + button next to ‘<strong>leaf production stage</strong>’ <a class="reference external" href="https://bioportal.bioontology.org/ontologies/PO?p=classes&amp;amp;conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FPO_0007133">https://bioportal.bioontology.org/ontologies/PO?p=classes&amp;conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FPO_0007133</a></p>
+<ol class="arabic simple">
+<li><p>Also add a “Number of leaves at onset of treatment” column and a “Number of leaves at time of sample collection” and allow for any inputs. In the future I think this could be a good use of the drop down feature. We could use this prompt and have a drop down of categories to populate it: How many leaves are present? Less than 3; 3 to 10; 11 to 100; 101 to 1,000; 1,001 to 10,000; More than 10,000;</p></li>
+<li><p>If the number of leaves is not noted and you are not confident making an estimate based on the literature just use the ‘<strong>leaf production stage</strong>’ class itself (rather than a subclass)</p></li>
+</ol>
+</li>
+<li><p>If the leaf arrangement is a basal rosette (ex. Arabidopsis) do not use the ‘<strong>rosette growth stage</strong>’ classes. They are less informative than the leaf production stage classes. IF you have reason to use this family for Arabidopsis, see this link <a class="reference external" href="https://www.arabidopsis.org/portals/education/growth.jsp">https://www.arabidopsis.org/portals/education/growth.jsp</a> to determine what percentage of total rosette leaves are present based on number of leaves and days since germination</p>
+<ol class="arabic simple">
+<li><p>Add a “Number of leaves at onset of treatment” and a “Number of leaves at time of sample collection” column and allow for any inputs. In the future I think this could be a good use of the drop down feature. We could use this prompt and have a drop down of categories to populate it: How many leaves are present? Less than 3; 3 to 10; 11 to 100; 101 to 1,000; 1,001 to 10,000; More than 10,000;</p></li>
+<li><p>If the number of leaves is not noted and you are not confident making an estimate based on the literature just use the ‘<strong>rosette growth stage</strong>’ class itself (rather than a subclass)</p></li>
+</ol>
+</li>
+<li><p>If there are unopened flower buds on the plant use ‘<strong>bud development stage</strong>’ (<a class="reference external" href="http://purl.obolibrary.org/obo/PO_0025528">http://purl.obolibrary.org/obo/PO_0025528</a>) Add a “Number of buds at onset of treatment” and a “Number of buds at time of sample collection” column and allow for any inputs. How many flower buds are present? Same recommendation for drop-down menu.</p></li>
+<li><p>If the number of open flowers is noted use one of the ‘<strong>whole plant flowering stage</strong>’ classes by navigating to this link and expanding the options by clicking the + button next to ‘whole plant flowering stage’ (<a class="reference external" href="https://bioportal.bioontology.org/ontologies/PO/?p=classes&amp;amp;conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FPO_0007016">https://bioportal.bioontology.org/ontologies/PO/?p=classes&amp;conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FPO_0007016</a>) Add a “Number of open flowers at onset of treatment” column and a “Number of open flowers at time of sample collection”. How many flowers are present? For species in which individual flowers are clustered in flower heads, spikes or catkins (inflorescences), skip to 7. Same recommendation for drop down menu.</p></li>
+<li><p>If the number of open flowers is NOT noted but the publication/data description indicates the plant is flowering enter the ‘<strong>whole plant flowering stage</strong>’ class itself (not any of the subclasses). Add a “Number of open flowers at onset of treatment” column and a “Number of open flowers at time of sample collection”. Write “Not Available”.</p></li>
+<li><p>If the study species produces groups of flowers (inflorescences) rather than single flowers, use the classes within ‘<strong>whole plant inflorescence detectable stage</strong>’ (<a class="reference external" href="https://bioportal.bioontology.org/ontologies/PO/?p=classes&amp;amp;conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FPO_0007047">https://bioportal.bioontology.org/ontologies/PO/?p=classes&amp;conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FPO_0007047</a>).<br />
+Add a “Number of open inflorescences” column. How many inflorescences are present? For these species, in which individual flowers are clustered in flower heads,<br />
+spikes or catkins (inflorescences), simply estimate the number of flower heads, spikes or catkins and not the number<br />
+of individual flowers. Same recommendation for drop-down menu.</p></li>
+<li><p>If fruits are present on the plant use the classes within ‘<strong>whole plant fruit development stage</strong>’ (<a class="reference external" href="https://bioportal.bioontology.org/ontologies/PO/?p=classes&amp;amp;conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FPO_0025500">https://bioportal.bioontology.org/ontologies/PO/?p=classes&amp;conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FPO_0025500</a>).</p>
+<p>Add a “Number of fruits” column. How many fruits are present? Same recommendation for drop-down menu.</p>
+</li>
+<li><p>If the plant is senescent (in an annual plant this will occur not long after the last fruit has ripened and fallen off/been removed from the plant) use ‘<strong>sporophyte senescent stage</strong>’ (<a class="reference external" href="http://purl.obolibrary.org/obo/PO_0007017">http://purl.obolibrary.org/obo/PO_0007017</a>)</p></li>
+<li><p>Developmental stage ontologies for specific groups of plants: Cereal Plant Development Ontology: <a class="reference external" href="https://bioportal.bioontology.org/ontologies/GRO-CPD?p=classes&amp;amp;conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGRO_0007002">https://bioportal.bioontology.org/ontologies/GRO-CPD?p=classes&amp;conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGRO_0007002</a></p></li>
+</ol>
+</section>
+<section id="developmental-stage-at-time-of-sample-collection-see-definitions-above-free-text">
+<h2><strong>Developmental stage at time of sample collection</strong> (see definitions above) <strong>(free text)</strong><a class="headerlink" href="#developmental-stage-at-time-of-sample-collection-see-definitions-above-free-text" title="Permalink to this heading"></a></h2>
+<p><strong>Duration</strong> (with unit column)( <em>Exposure Duration</em> is to be reserved for radiation metadata): This parameter name has an ontology. *duration should only be added if there is a treatment time that is distinct from growth time. For example if seedlings were exposed to a unique light treatment for 12 hours but the total growth time was 3 days, then it would be informative to have both Duration and Growth Time columns.</p>
+<p><strong>Genotype, variety, ecotype, cultivar etc:</strong> We describe the additional organism modifiers (variety, ecotype, strain, cultivar) any way the PI or data submitter wants us to. If the data is already in NCBI/GEO this preference will be noted on the sample page and if not it will be described in the associated publication. For example, if they want to call Arabidopsis thaliana “Wasselewskija” an ecotype they can, or if they want to call it a strain or a variety they can etc. Our protocol could just be to accept whatever language the data submitter uses. And if the data submitter does not provide a categorization we can refer to the definitions listed for each category in the ontology (posted below) and make a decision.</p>
+<p><strong>Growth environment</strong> <strong>(has ontology)</strong> (e.g. space shuttle, ISS-US Lab, Earth surface, shuttle simulator or ISSES] ) If the study was conducted on Earth but not in an environmental or shuttle simulator use “Earth surface”. Most of these parameter names are linked to an ontology. If curating a radiation study this may be a duplicate column with ‘vehicle’ which is fine.</p>
+<p>International Space Station (RBO) (if module unknown)</p>
+<p>ISS-US Laboratory</p>
+<p>ISS-Colombus</p>
+<p>International Space Station Environmental Simulator (ISSES) (free text)</p>
+<p>Earth’s surface (has ontology) *use for ground samples where ISSES or other simulator was not specified</p>
+<p><strong>growth medium</strong> (substrate, soil mixture description etc.) This parameter name has an ontology. *Watch out for special characters here if copying and pasting from publication. If there are any non-alphanumeric characters just delete them and retype them. “MS Media” or “MS” means Murashige and Skoog medium. It is common enough some paper’s don’t even write out the full name but we should.</p>
+<p><strong>Growth Time</strong> (with unit column) Some authors want to include the cold stratification period as part of the growth time but I strongly disagree with that. Arabidopsis thaliana seeds specifically cannot germinate at 4C/dark and I think we need to consider the onset of growth as the time of germination. If they try to include the cold stratification period in the growth time create two columns ‘stratification exposure’ and ‘growth time’</p>
+<p><strong>Hardware</strong> (e.g. VEGGIE, BRIC, SIMBOX, ABRS)(free text)</p>
+<p><strong>Possible values:</strong></p>
+<p>Enter <strong>Vegetable Production System (Veggie)</strong> (exactly as written) if the hardware is listed as VEGGIE, Vegetable Production System (Veggie) or Vegetable Production System (VPS)</p>
+<p>Enter <strong>BRIC-PDFU (Petri Dish Fixation Unit)</strong> (exactly as written) if the hardware is BRIC-PFU</p>
+<p>Enter <strong>European Modular Cultivation System (EMCS)</strong> (exactly as written)</p>
+<p>Enter <strong>Kennedy Fixation Tube (KFT)</strong> (exactly as written)</p>
+<p>There are several different <a class="reference external" href="https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=697">subcategories of BRIC hardware with notable differences</a>.</p>
+<p>For algae this is sometimes just a plastic tub.</p>
+<p><strong>Light Color</strong> (eg. red and blue)<strong>(free text)</strong> qualitative description of light quality **See note above about light parameters as factors</p>
+<p><strong>Light Cycle</strong> (e.g. Light/Dark 24/0 or 12/12) (with unit column)<strong>(has ontology)</strong> refers to the amount of light vs. dark plants are exposed to in a 24hr period. This parameter name has an ontology. This looks different across studies but there is not a great way to homogenize it without it being excessively tedious for the data submitter. BUT if the growth hardware is a traditional BRIC-PDFU (not a BRIC-LED) then light cycle should be “dark 24” and the units column should be “hours”. BRIC-PDFUs allow no light in. **If the study uses light cycle as a treatment/factor such that the light cycle of the growth period is different from the light cycle of the treatment you should create two columns for light cycle: ‘Growth Light Cycle’ (with units column, under growth protocol) and ‘Treatment Light Cycle’ (with units column, under treatment protocol). If light cycle is part of the treatment remember to add ‘light cycle’ as a study design descriptor.</p>
+<p><strong>Light Intensity</strong> (e.g. 200umol-2) (with unit column) <strong>(free text)</strong> The units for this column are routinely a mess. The cells do not allow supescripts or special characters so this: µmol m-2 s-1 gets turned into some version of this umol m-2 s-1. There is currently no ontology class for it so I have asked UO to create one <a class="reference external" href="https://github.com/bio-ontology-research-group/unit-ontology/issues/58">here</a>.  Just write it out (micromole per square meter per second). PAR is photosynthetically active radiation (400-700 nm) and PPFD is photosynthetic photon flux density (µmol/m2/s). Common mistake in literature: “plants were grown at 200 µmol/m2/s of PAR”. PAR is not a unit. </p>
+<p>**If the study uses light intensity as a treatment/factor such that the light intensity of the growth period is different from the light intensity of the treatment you should create two columns for light intensity: ‘Growth Light Intensity’ (with units column, under growth protocol) and ‘Treatment Light Intensity’ (with units column, under treatment protocol). If light intensity is part of the treatment remember to add ‘light intensity’ as a study design descriptor.</p>
+<p><strong>Light Quality</strong> (e.g. X-Xnm) <strong>(free text)</strong> (with unit column) nm (nanometer) has an ontology **See note above about light parameters as factors</p>
+<p><strong>light regimen</strong> <strong>(has ontology)</strong> Add this column if the study has a continuous light regimen or continuous dark regimen. Both terms have ontologies but you have to scroll down a bit to find them</p>
+<p><strong>light source</strong> (ex. light-emitting diode). **(has ontology)**This parameter name has an ontology. Don’t use BAO ontology until were sure it works (currently links are broken)</p>
+<p><strong>Mean Growth Temperature</strong> (with unit column) -</p>
+<p><strong>Maximum Temperature</strong> (Celsius): 24.195</p>
+<p><strong>Mean % Relative humidity:</strong> 34.920</p>
+<p>Most studies provide a range of temperatures or a sd. Then we have “-” or “+/-” in the column rather than a single number. Which makes the sample table a mess for processing and make it not “AI ready”. So only report the mean growth temp in the sample table. This is definitely reductionist since a wide range of temperatures could definitely influence the interpretation of the data but we already have so many parameters I am hesitant to report Max and Mean temp in the table also. </p>
+<p><strong>Mean Light Intensity,</strong> Lux (lux is the unit measuring light intensity equal to one lumen per square meter): 610.673</p>
+<p><strong>Mission- and Hardware-specific growth environment info</strong> (retrieved from data loggers inside hardware)</p>
+<p><strong>Number of seeds per container (free text)</strong>. This should not be considered critical or minimal/required metadata but it will really help users interpret the data and should be relatively easy information for the PI’s to provide</p>
+<p>Options for taxonomy if not provided by submitter, these are all currently linked to an ontology.<br />
+<strong>Strain</strong> (default)</p>
+<p><strong>EFO Definition:</strong> “A population of organisms that is geneticaly different from others of the same species and possessing a set of defined characteristics.”EFO Definition: “A population of organisms that is genetically different from others of the same species and possessing a set of defined characteristics.”</p>
+<p><strong>Ecotype</strong> (linked as synonym to strain in search)- EFO Definition: “A biotype resulting from selection in a particular habitat, e.g. the A. thaliana Ecotype Ler” * Unfortunately I can also show you publications that refer to <em>A. thaliana</em> Landsberg <em>erecta</em> (L_er_) as a genotype and as a strain.</p>
+<p><strong>Cultivar</strong> (linked as synonym to strain in search)- EFO Definition: “A cultivated plant variety selected and given a name because it has desirable characteristics that distinguish it from otherwise similar plants of the same species.”</p>
+<p><strong>Variety</strong> (linked as synonym to strain in search)- NCIT Definition (EFO has not entry for variety): “In botanical nomenclature, a rank below subspecies but above forma.”</p>
+<p><strong>Accession</strong> (linked as synonym to strain in search)- EDAM Definition: A persistent (stable) and unique identifier, typically identifying an object (entry) from a database.</p>
+<p><strong>Genotype</strong> (linked as synonym to strain in search)- EFO Definition: “Information, making the distinction between the actual physical material (e.g. a cell) and the information about the genetic content (genotype). The total sum of the genetic information of an organism that is known and relevant to the experiment being performed, including chromosomal, plasmid, viral or other genetic material which has been introduced into the organism either prior to or during the experiment.”</p>
+<p><strong>NCIT Definition</strong>: “The genetic constitution of an organism or cell, as distinct from it’s expressed features or phenotype.”</p>
+<p><strong>Organism</strong> (genus and specific epithet) This parameter name has an ontology. All scientific names should be present in NCBI Taxon as well. </p>
+<p><strong>Organism Part</strong> (has ontology). <strong>USE THIS TERM FOR TISSUE/MATERIAL TYPE</strong>.  If you are ingesting data and the PI uses really unique parts like: “1mm root tip”, “3mm root tip” or something just write exactly what they do. We don’t need to shoehorn all values into those with ontologies at the risk of losing specificity. Use the “leaf” ontology if it was just one leaf and use “plant leaves” if it was multiple. . If the dataset says cotyledons (or “seed leaves” were collected please write cotyledon instead of leaf. This parameter name has an ontology.</p>
+</section>
+<section id="parameters-for-growth-protocol">
+<h2><strong>PARAMETERS FOR GROWTH PROTOCOL</strong><a class="headerlink" href="#parameters-for-growth-protocol" title="Permalink to this heading"></a></h2>
+<p><strong>Sample collection protocol</strong></p>
+<p><strong>Quantity of growth medium</strong> (with units column) - usually measured in mL. Only include if you are sure and if it is already reported publicly (not worth emailing the PI for). Careful with this column for algae. The quantity often changes multiple times. If this is the case skip this column</p>
+<p>PARAMETERS FOR SAMPLE COLLECTION PROTOCOL</p>
+</section>
+<section id="sample-name">
+<h2><strong>Sample name</strong><a class="headerlink" href="#sample-name" title="Permalink to this heading"></a></h2>
+<p><strong>Sample Preservation Method</strong> (ex. RNAlater) <strong>(free text).</strong> All common inputs has ontologies even if column name does not. </p>
+<p><strong>Sample Storage Temperature</strong> (with unit column) <strong>(free text)</strong></p>
+</section>
+<section id="source-name">
+<h2><strong>Source Name</strong><a class="headerlink" href="#source-name" title="Permalink to this heading"></a></h2>
+<p><strong>Seed Source (analogous to Animal Source)</strong> - ex. Arabidopsis Biological Resource Center #C3210. If the seeds are the result of breeding studies within a lab list the PI here (ex. “internal lab stock maintained by Dr. Jane Smith, University of Vermont”)</p>
+<p><strong>soil environment exposure</strong> (<a class="reference external" href="http://purl.obolibrary.org/obo/PECO_0007049">http://purl.obolibrary.org/obo/PECO_0007049</a>)    An exposure involving growing plants in soil growth media with varying contents. Use as factor for lunar or martian regolith studies. </p>
+<p><strong>stratification exposure (with unit column)</strong>     <br />
+A physical exposure (PECO:0007316) involving both low temperature and moist conditions to overcome seed dormancy. A stratification process is used to pretreat seeds to simulate natural winter conditions in order to overcome dormancy and allow germination. If a paper says the seeds were (for example) kept at 4C for 3 days before exposure to light but do not mention the moisture conditions it is safe to assume they are still talking about stratification exposure.</p>
+<p>*Asked PECO ontology maintainers for a more general definition for their ‘stratification exposure’ class or  a more specific subclass of ‘physical plant exposure’ (such as ‘dormant seed exposure’?) that includes conditions to overcome seed dormancy other than cold and wet conditions. <a class="reference external" href="https://github.com/Planteome/plant-experimental-conditions-ontology/issues/132">https://github.com/Planteome/plant-experimental-conditions-ontology/issues/132</a></p>
+<p><strong>Stratification exposure -</strong>   <br />
+A physical exposure (PECO:0007316) involving both low temperature and moist conditions to overcome seed dormancy. A stratification process is used to pretreat seeds to simulate natural winter conditions in order to overcome dormancy and allow germination. Arabidopsis thaliana cannot germinate at 4C ( I don’t know of a plant that can) so any amount of time the seeds are at 4C should not be considered a part of the growth time. If the description says the seeds were kept at 4C but does not specify the moisture conditions (that would be unusual but possible) we can ask. But if they are plated on agar or phytagel or something that is moist we don’t have to ask. If you add stratification exposure to a dataset but had to dig a little to find the information add a sentence to the growth protocol that says: “Stratification exposure (A physical exposure involving both low temperature and moist conditions to overcome seed dormancy) was calculated by GeneLab based on how long seeds were in 4C, moist conditions before the onset of growth conditions.” </p>
+<p><strong>VEGGIE - APEX03 GROUND CONTROL 01/10/2015-02/11/2015</strong></p>
+<p><strong>VEGGIE - APEX03 SPACEFLIGHT 01/10/2015-02/11/2015</strong></p>
+<p><strong>VEGGIE - APEX04 GROUND CONTROL</strong></p>
+<p><strong>VEGGIE - APEX04 SPACEFLIGHT</strong></p>
+<p><strong>Watering schedule (free text):</strong> Provide a brief free text description of how the plants received water. Ex. ‘bottom watered for the duration of the growth time’. This is rarely used since most studies in our repo are agar-plated but if other methods are used we encourage extensive descriptions of methods used. </p>
+<p><strong>Options for taxonomy if not provided by submitter</strong></p>
+<p><strong>Strain (default) EFO Definition:</strong> “A population of organisms that is geneticaly different from others of the same species and possessing a set of defined characteristics.”EFO Definition: “A population of organisms that is genetically different from others of the same species and possessing a set of defined characteristics.”</p>
+<p><strong>Ecotype (linked as synonym to strain in search)- EFO Definition:</strong> “A biotype resulting from selection in a particular habitat, e.g. th_e A. thaliana_ Ecotype Ler” * Unfortunately I can also show you publications that refer to <em>A. thaliana</em> Landsberg <em>erecta</em> (L_er_) as a genotype and as a strain.</p>
+<p><strong>Cultivar (linked as synonym to strain in search)- EFO Definition:</strong> “A cultivated plant variety selected and given a name because it has desirable characteristics that distinguish it from otherwise similar plants of the same species.”</p>
+<p><strong>Variety (linked as synonym to strain in search)- NCIT Definition (EFO has not entry for variety):</strong> “In botanical nomenclature, a rank below subspecies but above forma.”</p>
+<p><strong>Accession (linked as synonym to strain in search)- EDAM Definition:</strong> A persistent (stable) and unique identifier, typically identifying an object (entry) from a database.</p>
+<p><strong>Genotype (linked as synonym to strain in search)- EFO Definition:</strong> “Information, making the distinction between the actual physical material (e.g. a cell) and the information about the genetic content (genotype). The total sum of the genetic information of an organism that is known and relevant to the experiment being performed, including chromosomal, plasmid, viral or other genetic material which has been introduced into the organism either prior to or during the experiment.”</p>
+<p><strong>NCIT Definition:</strong> “The genetic constitution of an organism or cell, as distinct from it’s expressed features or phenotype.”</p>
+<p><strong>Number of seeds per container (free text)</strong>. This should not be considered critical or minimal/required metadata but it will really help users interpret the data and should be relatively easy information for the PI’s to provide.</p>
+<p><strong>light source</strong> (ex. light-emitting diode). **(has ontology)**This parameter name has an ontology. Don’t use BAO ontology until were sure it works (currently links are broken)</p>
+<p><strong>light regimen</strong> <strong>(has ontology)</strong> Add this column if the study has a continuous light regimen or continuous dark regimen. Both terms have ontologies but you have to scroll down a bit to find them</p>
+<p><strong>Light Quality</strong> (e.g. X-Xnm) <strong>(free text)</strong> (with unit column) nm (nanometer) has an ontology **See note above about light parameters as factors</p>
+<p><strong>Light Intensity</strong> (e.g. 200umol-2) (with unit column) <strong>(free text)</strong> The units for this column are routinely a mess. The cells do not allow supescripts or special characters so this: µmol m-2 s-1 gets turned into some version of this umol m-2 s-1. There is currently no ontology class for it so I have asked UO to create one <a class="reference external" href="https://github.com/bio-ontology-research-group/unit-ontology/issues/58">here</a>.  Just write it out (micromole per square meter per second). PAR is photosynthetically active radiation (400-700 nm) and PPFD is photosynthetic photon flux density (µmol/m2/s). Common mistake in literature: “plants were grown at 200 µmol/m2/s of PAR”. PAR is not a unit. </p>
+<p>**If the study uses light intensity as a treatment/factor such that the light intensity of the growth period is different from the light intensity of the treatment you should create two columns for light intensity: ‘Growth Light Intensity’ (with units column, under growth protocol) and ‘Treatment Light Intensity’ (with units column, under treatment protocol). If light intensity is part of the treatment remember to add ‘light intensity’ as a study design descriptor.</p>
+<p><strong>Light Cycle</strong> (e.g. Light/Dark 24/0 or 12/12) (with unit column)<strong>(has ontology)</strong> refers to the amount of light vs. dark plants are exposed to in a 24hr period. This parameter name has an ontology. This looks different across studies but there is not a great way to homogenize it without it being excessively tedious for the data submitter. BUT if the growth hardware is a traditional BRIC-PDFU (not a BRIC-LED) then light cycle should be “dark 24” and the units column should be “hours”. BRIC-PDFUs allow no light in. **If the study uses light cycle as a treatment/factor such that the light cycle of the growth period is different from the light cycle of the treatment you should create two columns for light cycle: ‘Growth Light Cycle’ (with units column, under growth protocol) and ‘Treatment Light Cycle’ (with units column, under treatment protocol). If light cycle is part of the treatment remember to add ‘light cycle’ as a study design descriptor.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, creative commons 1.0.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
