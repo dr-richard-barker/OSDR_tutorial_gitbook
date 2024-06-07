@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Multi-study Page Overview &mdash; OSDR Tutorial  documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> OSDR Tutorial
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Multi-study Page Overview</a></li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">OSDR Tutorial</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Multi-study Page Overview</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/multi-study-page-overview.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="multi-study-page-overview">
+<h1>Multi-study Page Overview<a class="headerlink" href="#multi-study-page-overview" title="Permalink to this heading"></a></h1>
+<p>‌Selecting studies for Multi-study analysis:</p>
+<ul class="simple">
+<li><p>The multi-study page is used to initialize the parameters for data visualization of the multiple studies. Researchers can uncover intricate patterns of gene expression associated with specific conditions or treatments across a variety of experiments. Below are detailed instructions on how to effectively navigate and utilize the Multi-Study Page.</p>
+<ul>
+<li><p>For your initial test, let’s use rodent studies as an example.</p></li>
+<li><p>Start by selecting “rodent” as the organism of interest. Since combining DNA microarray assays is not supported, ensure to filter by both “rodent” and “RNA sequencing” in the assay technology type.</p></li>
+<li><p>Choose two different rodent studies that encompass various tissue types. For instance, select “OSD-49” and “OSD-100.”</p></li>
+<li><p>Mark the checkboxes beside the selected studies in the studies table.</p></li>
+<li><p>Click the “Visualize Study” button to proceed.</p></li>
+<li><p>In this example OSD-49 &amp; OSD100 have been selected, normlized with DESeq2 and their first 2 principle components plotted in a 2D scatter plot. To the right the is a factor slectino tab where you can add new factors that will appear as columns beside the OSD-###. Clicking on the “Expand table” button reveals table showing all the replicates and the metadata the user loads.</p></li>
+</ul>
+</li>
+</ul>
+<figure><img src=".gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<p><strong>Alt text:</strong> Screenshot showing the graphical user interface of the Multi-study visualization application showing data for OSD-49 &amp; OSD-100.</p>
+<p><strong>‌Multi-study Data Normalization:</strong></p>
+<p>A dialog box will appear to prompt you for data normalization options. The default selection is often “DESeq2” for normalization, but you can also choose “No Normalization.”</p>
+<ul>
+<li><p>E-mail notification: If desired, you can enter your email address to receive a notification when the studies have been combined and normalized. Alternatively, proceed without entering an email address.</p></li>
+<li><p>Normalization and PCA Insights: Understand normalization details by clicking the Information button next to the normalization method. View the PCA chart, which provides insights into data distribution after normalization.</p></li>
+<li><p>Factor Selection and Differential Gene Analysis: Under “Factor Selection,” choose variables to generate a factors table for differential gene analysis. Select parameters, characteristics, or factors from the dropdown list to add to the table.</p></li>
+<li><p>Exploring the Multi-Study Page: A PCA chart for data visualization will be included on the multi-study page. Utilize the PCA chart options to tailor your visualization based on specific criteria.</p></li>
+<li><p>Modifying Normalization Method: If you wish to change the normalization method (e.g., from “DESeq2” to “No Normalization”), click “Change Normalization Method.”</p></li>
+<li><p>Sample Selection for Gene Expression Analysis: Select specific samples by clicking the “Select labeled, expand table” button. Choose samples based on factors added during factor selection.</p></li>
+<li><p>Visualizing and Downloading Results: Click “Visualize Studies” to proceed to visualization plots or download the accounts table. Depending on your selection, enter your email address for a notification upon completion.</p></li>
+<li><p>Exploring Visualization Plots: Upon completion, the page will direct you to a range of visualization plots and graphs for your data analysis.</p>
+<p>\</p>
+<p>With these summarizes more comprehensive instructions, you are well-equipped to navigate the Multi-Study Page efficiently. This tool empowers you to analyze multiple RNA sequencing studies simultaneously, uncovering complex gene expression patterns and gaining valuable insights into your experimental data.</p>
+</li>
+</ul>
+<p>\</p>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, creative commons 1.0.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
