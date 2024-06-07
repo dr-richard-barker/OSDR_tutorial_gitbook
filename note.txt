@@ -19,6 +19,8 @@ pip install -r requirements.txt
 
 sphinx-build -M html . _build_01/
 
+sphinx-build -M html . _build_04/
+
 
 Add .md files ? 
 
