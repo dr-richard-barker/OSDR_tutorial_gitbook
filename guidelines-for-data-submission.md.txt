@@ -4,15 +4,15 @@ If your study is funded by NASA and you haven't completed a Research Data Submis
 
 **Below you will find guidelines for submitting space biology data.**
 
-**Step 1: Review a Dataset**;
+**Step 1: Review a Dataset**
 
 **Step 2:** [**Create an Account** ](https://guest.nasa.gov/)
 
-**Step 3: Review Submission Tutorial**&#x20;
+**Step 3: Review Submission Tutorial**
 
 **Step 4: Log into** [BDME ](https://osdr.nasa.gov/bio/submission/console) **and create study**
 
-**Step 5: Upload Data Files and Enter Metadata to describe the experimental design.**&#x20;
+**Step 5: Upload Data Files and Enter Metadata to describe the experimental design.
 
 OSDR organizes metadata into sample-level information and assay-level information. Data files are uploaded into the workspace and can be associated with each study.
 
