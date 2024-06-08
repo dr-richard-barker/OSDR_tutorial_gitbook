@@ -3,7 +3,7 @@
 * [README](README.md)
 * [Open Science Data Repository (OSDR) Tutorial Introduction](open-science-data-repository-osdr-tutorial-introduction.md)
 * [NASA OSDR home page](nasa-osdr-home-page.md)
-* [Access data in the OSDR](access-data-in-the-osdr.md)
+* [How to access data in the OSDR](how-to-access-data-in-the-osdr.md)
 * [Navigating a single OSDR study](navigating-a-single-osdr-study.md)
 * [Data Submission Guide](data-submission-guide.md)
 * [OSDR metadata configuration examples](osdr-metadata-configuration-examples.md)
