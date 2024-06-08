@@ -4,8 +4,6 @@ description: NBISC at Ames Research Center
 
 # NASA Biological Institutional Scientific Collection (NBISC)
 
-##
-
 ## What Biospecimens and Materials are available?
 
 Since 1995, NBISC has fostered gravitational biology research by providing access to these rare and unique samples to maximize the scientific return. Samples not utilized by primary investigations are preserved and made available through an open-science approach. Historically, these samples have been used in a wide range of analyses, including histology, genomics, and transcriptomics.
@@ -25,8 +23,6 @@ Collections will be housed in controlled environments that are routinely audited
 SMCC has set up ultra-low temperature storage and will keep stocks of isolates in chest freezers on backup power. Locally, lyophilized samples will be maintained in environmentally controlled vaults that are easily moved and responsive in the event of changing external conditions.
 
 To find out more about submitting a gravitational or space-associated microorganismal collection to the NASA SMCC or requesting isolates please contact [mo.kaze@nasa.gov](mailto:mo.kaze@nasa.gov) for more information.
-
-
 
 ## Who can request Biospecimens and Materials?
 
@@ -52,13 +48,9 @@ In 2011, the National Research Council published the most recent 'Decadal Survey
 
 Ongoing studies carried out by NASA's Human Research Program (HRP) generate a constant stream of exciting new data, findings, and breakthroughs. Periodically, HRP [Evidence Reports ](https://humanresearchroadmap.nasa.gov/Evidence/)are published as evidence-based reviews of the current state of knowledge from research and operations for each of the identified human health and performance risks.
 
-
-
 Search for specific types of biospecimen
 
 {% embed url="https://nlsp.nasa.gov/search/" %}
-
-
 
 Explore biospecimens options
 
@@ -66,19 +58,14 @@ Explore biospecimens options
 [https://nlsp.nasa.gov/explore/mtable/lsda\_biospecimen/lsda\_biospecimen](https://nlsp.nasa.gov/explore/mtable/lsda\_biospecimen/lsda\_biospecimen)
 {% endembed %}
 
-
-
 Search for information on specific flight hardware
 
 {% embed url="https://nlsp.nasa.gov/explore/mtable/lsda_hardware/lsda_hardware" %}
 
-
-
-Search for information on specific missions&#x20;
+Search for information on specific missions
 
 {% embed url="https://nlsp.nasa.gov/explore/mtable/lsda_mission/lsda_mission" %}
 
 ### Contact
 
 Contact the NBISC at [ARC-DL-NBISC@mail.nasa.gov](mailto:ARC-DL-NBISC@mail.nasa.gov)
-
